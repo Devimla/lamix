@@ -139,8 +139,9 @@
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {{- product.compare_at_price | money -}}
               </span>
+              <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
             {%- endif -%}
-            <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
+            
           {%- elsif product.price_varies -%}
             {%- capture price_min -%}<span>{{ product.price_min | money }}</span>{%- endcapture -%}
             {%- capture price_max -%}<span>{{ product.price_max | money }}</span>{%- endcapture -%}
@@ -257,7 +258,6 @@
       {%- endif -%}
 
       {%- if settings.show_reviews_badge -%}
-        <div class="AirReviews-Widget AirReviews-Widget--Stars"></div>
       {%- endif -%}
 
       {%- if settings.show_inventory_quantity and product.template_suffix != 'pre-order' -%}
