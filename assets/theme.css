@@ -2741,9 +2741,8 @@ img.lazyload[data-sizes=auto] {
 
 @media screen and (min-width: 641px) {
   .card {
-    margin-bottom: 30px;
-    border-radius: 3px;
-    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    box-shadow: 0 0 15px -6px #000000c4;
   }
 
   .card__header {
