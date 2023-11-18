@@ -117,8 +117,8 @@
           "footer-2": {
             "type": "newsletter",
             "settings": {
-              "title": "Newsletter",
-              "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              "title": "Boletin informativo",
+              "subheading": "<p>Regístrate y consigue un cupón del 20%<\/p>"
             }
           }
         },
