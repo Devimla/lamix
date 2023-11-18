@@ -4119,7 +4119,6 @@ img.lazyload[data-sizes=auto] {
     height: calc(100% + 0px); /* This solves an issue on Safari, where 100% does not always work - likely a pixel rounding issue - */
     z-index: 1;
     pointer-events: none;
-    border-radius: 3px;
   }
 
   .product-list--scrollable::after {
