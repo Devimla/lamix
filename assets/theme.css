@@ -4511,7 +4511,7 @@ img.lazyload[data-sizes=auto] {
 .form__field {
   display: block;
   padding: 12px 12px;
-  border-radius: 2px;
+  border-radius: 50px;
   border: 1px solid var(--form-border-color);
   width: 100%;
   line-height: normal;
