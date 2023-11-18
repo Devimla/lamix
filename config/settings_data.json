@@ -340,8 +340,8 @@
             "type": "item",
             "settings": {
               "icon": "bi-delivery",
-              "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "Envío gratuito a todo el país",
+              "content": "<p>Reciba su pedido en la comodidad de su hogar con entrega garantizada y segurada por Correos.<\/p>"
             }
           },
           "text-with-icons-1": {
