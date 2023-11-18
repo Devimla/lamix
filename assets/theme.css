@@ -4112,7 +4112,16 @@ img.lazyload[data-sizes=auto] {
 
 @media screen and (min-width: 1000px) {
   /* This needs to be done instead of applying a border to the product-list to fix a z-index issue with the product labels */
-}
+  .product-list::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: calc(100% + 0px); /* This solves an issue on Safari, where 100% does not always work - likely a pixel rounding issue - */
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 3px;
+  }
+
   .product-list--scrollable::after {
     content: "flickity";
     display: none;
@@ -9261,6 +9270,18 @@ select::-ms-expand {
   border-radius: 20px!important;
   box-shadow: 0 0 10px -4px #000000c4;
   }
+
+.product-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 1px 0 var(--border-color), 0 1px var(--border-color);
+  z-index: 2; /* needed to overlap the labels (if any) */
+  pointer-events: none;
+}
 
 .product-item__image-wrapper {
   display: block;
