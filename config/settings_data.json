@@ -81,7 +81,7 @@
         "type": "header",
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/1.webp",
+          "logo": "{{ shop.brand.logo }}",
           "logo_max_width": 140,
           "mobile_logo_max_width": 110,
           "show_locale_selector": false,
