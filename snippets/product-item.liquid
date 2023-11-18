@@ -140,7 +140,7 @@
                 {{- product.compare_at_price | money -}}
               </span>
             {%- endif -%}
-            <div class="AirReviews-Widget AirReviews-Widget--Stars"data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
+            
           {%- elsif product.price_varies -%}
             {%- capture price_min -%}<span>{{ product.price_min | money }}</span>{%- endcapture -%}
             {%- capture price_max -%}<span>{{ product.price_max | money }}</span>{%- endcapture -%}
@@ -170,6 +170,7 @@
 
               <span class="unit-price-measurement__reference-unit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
             </div>
+            <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
           </div>
         {%- endif -%}
       {%- endcapture -%}
