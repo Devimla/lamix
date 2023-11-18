@@ -364,8 +364,8 @@
             "type": "item",
             "settings": {
               "icon": "bi-secure-payment",
-              "title": "Secure payments",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "Compra segura",
+              "content": "<p>Utilizamos la misma seguridad de datos que los principales bancos nacionales e internacionales (SSL).<\/p>"
             }
           }
         },
