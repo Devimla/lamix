@@ -163,16 +163,14 @@
             <div class="unit-price-measurement">
               <span class="unit-price-measurement__price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
               <span class="unit-price-measurement__separator">/ </span>
-
+<div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
               {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
                 <span class="unit-price-measurement__reference-value">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}</span>
               {%- endif -%}
 
               <span class="unit-price-measurement__reference-unit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
             </div>
-            
           </div>
-          <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
         {%- endif -%}
       {%- endcapture -%}
 
