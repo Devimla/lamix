@@ -9260,14 +9260,17 @@ select::-ms-expand {
  * --------------------------------------------------------------------
  */
 
-.product-item {
+ .product-item {
   position: relative;
   padding: 20px;
   min-width: 0;
   flex-shrink: 0;
   background: var(--secondary-background);
   white-space: normal;
-}
+  transform: scale(.95);
+  border-radius: 20px!important;
+  box-shadow: 0 0 10px -4px #000000c4;
+  }
 
 .product-item::after {
   content: "";
