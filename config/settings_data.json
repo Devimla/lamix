@@ -467,7 +467,7 @@
           "link_title": "View all",
           "link": "shopify:\/\/collections",
           "round_images": true,
-          "show_collection_title": false
+          "show_collection_title": true
         }
       }
     },
