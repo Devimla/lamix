@@ -4128,6 +4128,7 @@ img.lazyload[data-sizes=auto] {
 
   .product-list--scrollable .product-item {
     min-height: 100%;
+    margin: 10px;
   }
 
   .product-list--stackable {
