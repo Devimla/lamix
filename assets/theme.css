@@ -13514,3 +13514,14 @@ select::-ms-expand {
     min-width: 0;
   }
 }
+/* Estilos para dispositivos desktop */
+.desktop-only {
+  display: block; /* Exibe o elemento normalmente em dispositivos desktop */
+}
+
+/* Estilos para dispositivos mobile */
+@media only screen and (max-width: 600px) {
+  .desktop-only {
+    display: none; /* Oculta o elemento em dispositivos com largura de tela menor que 600 pixels (ajuste conforme necessário) */
+  }
+}
