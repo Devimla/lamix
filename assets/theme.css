@@ -2481,6 +2481,7 @@ img.lazyload[data-sizes=auto] {
 .button--secondary {
   background: var(--secondary-button-background);
   color: var(--secondary-button-text-color);
+  border-radius: 50px;
 }
 
 .button--secondary:hover {
