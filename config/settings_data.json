@@ -347,7 +347,7 @@
           "text-with-icons-1": {
             "type": "item",
             "settings": {
-              "icon": "bi-returns",
+              "icon": "bi-delivery",
               "title": "Pedido monitoreado",
               "content": "<p>Todas nuestras entregas incluyen un código de seguimiento y usted recibirá todas las actualizaciones por correo electrónico.<\/p>"
             }
