@@ -43,7 +43,7 @@
     "show_color_swatch": false,
     "show_inventory_quantity": false,
     "low_inventory_threshold": 0,
-    "show_reviews_badge": false,
+    "show_reviews_badge": true,
     "cart_type": "drawer",
     "cart_empty_button_link": "shopify:\/\/collections\/all",
     "cart_show_checkout_button": true,
