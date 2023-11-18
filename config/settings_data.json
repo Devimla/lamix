@@ -348,16 +348,16 @@
             "type": "item",
             "settings": {
               "icon": "bi-returns",
-              "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "Pedido monitoreado",
+              "content": "<p>Todas nuestras entregas incluyen un código de seguimiento y usted recibirá todas las actualizaciones por correo electrónico.<\/p>"
             }
           },
           "text-with-icons-2": {
             "type": "item",
             "settings": {
               "icon": "bi-customer-support",
-              "title": "Top-notch support",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "¿Necesita atención?",
+              "content": "<p>Contamos con un equipo de expertos para atenderle las 24 horas al día, los 7 días a la semana, <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Entrar en contacto\">Haga clic aquí para ponerse en contacto con nosotros.<\/a><\/p>"
             }
           },
           "text-with-icons-3": {
