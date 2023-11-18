@@ -339,7 +339,7 @@
           "text-with-icons-0": {
             "type": "item",
             "settings": {
-              "icon": "bi-delivery",
+              "icon": "bi-fast-delivery",
               "title": "Envío gratuito a todo el país",
               "content": "<p>Reciba su pedido en la comodidad de su hogar con entrega garantizada y segurada por Correos.<\/p>"
             }
