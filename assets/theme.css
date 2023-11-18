@@ -8684,7 +8684,7 @@ select::-ms-expand {
   display: inline-block;
   padding: 0 30px !important;
   line-height: 48px !important;
-  border-radius: 2px !important;
+  border-radius: 50px !important;
   text-align: center;
   background: var(--secondary-button-background) !important;
   color: var(--secondary-button-text-color) !important;
@@ -8692,6 +8692,7 @@ select::-ms-expand {
   font-size: var(--base-text-font-size) !important;
   cursor: pointer;
   transition: background 0.25s ease-in-out, color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+  
 }
 
 .shopify-payment-button__button--unbranded:hover {
