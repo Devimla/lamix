@@ -8278,7 +8278,7 @@ select::-ms-expand {
 
 .product-gallery__carousel--zoomable ~ .product-gallery__zoom-notice {
   display: block;
-  margin: 12px 0 6px 0;
+  margin: 12px 0 -20px 0;
   width: 100%;
   text-align: center;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
