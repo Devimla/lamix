@@ -198,6 +198,8 @@
       {%- endif -%}
 
       <a href="{{ filtered_variant.url | default: product.url | within: collection }}" class="product-item__title text--strong link">{{ product.title }}</a>
+<div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
+
 
       {%- if settings.product_price_position == 'before_title' -%}
         {{ vendor }}
