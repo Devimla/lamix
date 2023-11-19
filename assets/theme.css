@@ -9311,7 +9311,7 @@ select::-ms-expand {
 .product-item__label-list > .product-label {
   display: block;
   margin-bottom: 5px;
-  border-radius: 0 30px 30px 0;
+  border-radius: 10px 30px 30px 0;
 }
 
 .product-item__info {
