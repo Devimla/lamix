@@ -2681,7 +2681,7 @@ img.lazyload[data-sizes=auto] {
 
 .card__separator {
   width: calc(100% + var(--mobile-container-gutter));
-  margin: 0px 0;
+  margin: 2px 0;
   border: none;
   border-top: 1px solid var(--border-color);
 }
@@ -8439,7 +8439,7 @@ select::-ms-expand {
 }
 
 .product-meta__label-list {
-  margin-bottom: 17px;
+  margin-bottom: 10px;
   font-size: 0;
 }
 
