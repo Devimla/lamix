@@ -2681,7 +2681,7 @@ img.lazyload[data-sizes=auto] {
 
 .card__separator {
   width: calc(100% + var(--mobile-container-gutter));
-  margin: 2px 0;
+  margin: 0px 0;
   border: none;
   border-top: 1px solid var(--border-color);
 }
