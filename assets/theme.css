@@ -8201,7 +8201,7 @@ select::-ms-expand {
  */
 .product-gallery {
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 
 .product-gallery__carousel-wrapper {
