@@ -313,7 +313,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "show_announcement": true,
+          "show_announcement": false,
           "background": "#d30404",
           "text_color": "#ffffff",
           "text": "Envío gratis a todo el país + 20% de descuento en tu primera compra",
