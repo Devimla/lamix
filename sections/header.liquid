@@ -1,4 +1,17 @@
-<div class="barra-de-anuncio">
+{%- capture section_settings -%}
+{
+  "navigationLayout": {{ section.settings.desktop_navigation_layout | json }},
+  "desktopOpenTrigger": {{ section.settings.desktop_navigation_open_trigger | json }},
+  "useStickyHeader": {{ section.settings.enable_sticky_header | json }}
+}
+{%- endcapture -%}
+
+{%- assign navigation_menu_handle = section.settings.navigation_menu | default: 'main-menu' -%}
+{%- assign navigation_menu = linklists[navigation_menu_handle] -%}
+
+<section data-section-id="{{ section.id }}" data-section-type="header" data-section-settings='{{ section_settings }}'>
+  <header class="header header--{{ section.settings.desktop_navigation_layout }} {% unless section.settings.show_condensed_search %}header--search-expanded{% endunless %}" role="banner">
+  <div class="barra-de-anuncio">
       <div class="container">
         <div class="barra-de-anuncio__inner"><div class="barra-de-anuncio__inner">
             <p class="barra-de-anuncio__content barra-de-anuncio__content--left">              
@@ -48,10 +61,6 @@
     margin-top: -5px;
     padding-bottom: 2px;
 }
-.barra-de-anuncio__inner {
-    max-width: 100%; /* ou um valor específico em pixels */
-    margin: 0 auto; /* centraliza a barra horizontalmente */
-}
   .barra-de-anuncio__content {
     display: block;
     padding: 4px 0;
@@ -68,23 +77,6 @@
     display: none!important;
 }}
 </style>
-
-
-
-
-{%- capture section_settings -%}
-{
-  "navigationLayout": {{ section.settings.desktop_navigation_layout | json }},
-  "desktopOpenTrigger": {{ section.settings.desktop_navigation_open_trigger | json }},
-  "useStickyHeader": {{ section.settings.enable_sticky_header | json }}
-}
-{%- endcapture -%}
-
-{%- assign navigation_menu_handle = section.settings.navigation_menu | default: 'main-menu' -%}
-{%- assign navigation_menu = linklists[navigation_menu_handle] -%}
-
-<section data-section-id="{{ section.id }}" data-section-type="header" data-section-settings='{{ section_settings }}'>
-  <header class="header header--{{ section.settings.desktop_navigation_layout }} {% unless section.settings.show_condensed_search %}header--search-expanded{% endunless %}" role="banner">
     <div class="container">
       <div class="header__inner">
         {%- comment -%}
