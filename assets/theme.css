@@ -8868,6 +8868,7 @@ select::-ms-expand {
 .product-label--on-sale {
   background: var(--product-on-sale-accent);
   color: var(--product-on-sale-color);
+  border-radius: 20px;
 }
 
 .product-label--custom1 {
