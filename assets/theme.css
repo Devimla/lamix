@@ -5665,7 +5665,6 @@ select::-ms-expand {
     visibility: hidden;
     position: absolute; /* We move it outside of the document for easier positioning for other elements */
     padding: 0 20px 0 20px;
-    border-radius: 50px;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -5802,7 +5801,7 @@ select::-ms-expand {
   height: 100%;
   width: 100%;
   padding: 0 15px 1px 15px;
-  border: none;
+  border-radius: 50px;
   background: transparent;
   line-height: normal;
   color: var(--heading-color);
