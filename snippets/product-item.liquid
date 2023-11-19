@@ -156,7 +156,9 @@
             </span>
           {%- endif -%}
         </div>
-      
+      {%- if settings.installments_on_card_enable -%}
+     <p class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></p>
+    {% endif %} 
 
         {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
           <div class="product-item__price-info">
@@ -356,3 +358,60 @@
     {%- endif -%}
   </div>
 </div>
+
+<style>
+  
+/* ~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~ */
+
+
+.installments-cards {
+   font-size:13px!important;
+   margin-top: 2px!important;
+   color: var(--text-installment-color);
+}
+
+.installment-numbers-cards {
+    margin-top: 3px!important;
+    font-size: 14px!important;
+    color: var(--rate-installment-color)!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+ }
+          
+.installment-price-cards {
+    margin-top: 3px!important;
+    font-size: 14px!important;
+    color: var(--rate-installment-color);
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+ }
+
+
+@media screen and (max-width: 640px) { 
+
+/* ~+~+~+~+~+~+~+ Mobile ~+~+~+~+~+~+~+~ */
+  
+.installments-cards {
+   font-size:13px!important;
+   margin-top: 2px!important;
+   color: var(--text-installment-color);
+}
+
+.installment-numbers-cards {
+    margin-top: 3px!important;
+    font-size: 14px!important;
+    color: var(--rate-installment-color)!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+ }
+          
+.installment-price-cards {
+    margin-top: 3px!important;
+    font-size: 14px!important;
+    color: var(--rate-installment-color);
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+ }
+}
+
+</style>

@@ -41,6 +41,8 @@
     --text-font-bolder-weight: {{ text_font_bolder_weight }};
     --text-link-decoration   : {% if settings.underline_links %}underline{% else %}normal{% endif %};
 
+    --rate-installment-color : {{ settings.rate_installment_color }};
+    --text-installment-color : {{ settings.text_installment_color }};
     --text-color               : {{ settings.text_color }};
     --text-color-rgb           : {{ settings.text_color | color_extract: 'red' }}, {{ settings.text_color | color_extract: 'green' }}, {{ settings.text_color | color_extract: 'blue' }};
     --heading-color            : {{ settings.heading_color }};

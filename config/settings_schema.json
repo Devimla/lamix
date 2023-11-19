@@ -8,6 +8,53 @@
     "theme_support_url": "https://support.maestrooo.com/article/203-contact-us"
   },
   {
+    "name": "Parcelamento",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "installments_on_card_enable",
+        "label": "Ativar Parcelamento nos Cards...",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Parcelamento nos Cards"
+      },
+      {
+        "type": "text",
+        "id": "first_text",
+        "info": "Use uma frase curta.",
+        "label": "Texto",
+        "default": "ou em"
+      },
+      {
+        "type": "text",
+        "id": "installment_numbers",
+        "label": "Número de Parcelas",
+        "default": "12x"
+      },
+      {
+        "type": "text",
+        "id": "interest_rates",
+        "label": "Taxa de Juros",
+        "info": "Confira as taxas em seu gateway de pagamento.",
+        "default": "2161"
+      },
+      {
+        "type": "color",
+        "id": "rate_installment_color",
+        "label": "Parcelas e Preço",
+        "default": "#838383"
+      },
+      {
+        "type": "color",
+        "id": "text_installment_color",
+        "label": "Texto do Parcelamento",
+        "default": "#e1e3e4"
+      }
+    ]
+  },
+  {
     "name": "Colors",
     "settings": [
       {
