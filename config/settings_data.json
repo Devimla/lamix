@@ -255,12 +255,21 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
           "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
           "default_view_layout": "grid",
           "show_quick_buy": "list",
           "show_quick_view": "list",
           "quick_links": "",
-          "filter_type": "tag"
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "tag",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": ""
         }
       },
       "recently-viewed-products": {
@@ -443,6 +452,7 @@
             "type": "collection",
             "settings": {
               "collection": "salud-y-belleza",
+              "image": "shopify:\/\/shop_images\/1_orig.jpg",
               "link": ""
             }
           },
