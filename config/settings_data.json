@@ -437,7 +437,7 @@
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11": {
         "type": "featured-collection",
         "settings": {
-          "collection": "frontpage",
+          "collection": "los-mas-vendidos",
           "title": "Los más vendidos",
           "products_count": 12,
           "layout": "vertical",
