@@ -456,13 +456,6 @@
               "link": ""
             }
           },
-          "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "mix-mascota",
-              "link": ""
-            }
-          },
           "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-3": {
             "type": "collection",
             "settings": {
@@ -470,12 +463,19 @@
               "image": "shopify:\/\/shop_images\/1_orig_9.webp",
               "link": ""
             }
+          },
+          "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "mix-mascota",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-1",
-          "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-2",
-          "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-3"
+          "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-3",
+          "50acde30-dd9a-4989-9ebb-f7f79e4fb877-collection-2"
         ],
         "settings": {
           "title": "Colecciones",
