@@ -467,6 +467,7 @@
             "type": "collection",
             "settings": {
               "collection": "ninos",
+              "image": "shopify:\/\/shop_images\/1_orig_9.webp",
               "link": ""
             }
           }
