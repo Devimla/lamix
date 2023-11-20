@@ -468,6 +468,7 @@
             "type": "collection",
             "settings": {
               "collection": "mix-mascota",
+              "image": "shopify:\/\/shop_images\/1_orig_7.webp",
               "link": ""
             }
           }
