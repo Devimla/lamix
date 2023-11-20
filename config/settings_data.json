@@ -160,26 +160,10 @@
               "button_text": "Button",
               "link": ""
             }
-          },
-          "slide-1": {
-            "type": "image",
-            "settings": {
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ffffff",
-              "title": "Tell your story",
-              "content": "Tell your story",
-              "content_position": "bottomLeft",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
-              "button_text": "Button",
-              "link": ""
-            }
           }
         },
         "block_order": [
-          "slide-0",
-          "slide-1"
+          "slide-0"
         ],
         "settings": {
           "edge_to_edge": true,
