@@ -12616,8 +12616,10 @@ select::-ms-expand {
   margin: 0 auto;
   padding: 15px;
   z-index: 4;
-  border-radius: 3px;
-  background: var(--secondary-background);
+  color: white;
+  text-decoration: solid;
+  border-radius: 10px;
+  background: #d30404;
   box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
