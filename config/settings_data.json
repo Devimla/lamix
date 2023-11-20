@@ -147,6 +147,7 @@
           "slide-0": {
             "type": "image",
             "settings": {
+              "mobile_image": "shopify:\/\/shop_images\/17004479390864077334377371771314.jpg",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -484,6 +485,15 @@
           "link": "shopify:\/\/collections",
           "round_images": true,
           "show_collection_title": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
         }
       }
     },
