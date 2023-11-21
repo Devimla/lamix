@@ -2471,12 +2471,15 @@ img.lazyload[data-sizes=auto] {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
   border-radius: 50px;
-  width: 100%;
 }
-
+@media only screen and (max-width: 600px) {
+  .button--primary {
+    width: 70%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
+  }
+}
 .button--primary:hover {
   background: rgba(var(--primary-button-background-rgb), 0.8);
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .button--secondary {
