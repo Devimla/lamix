@@ -8697,8 +8697,12 @@ select::-ms-expand {
   font-size: var(--base-text-font-size) !important;
   cursor: pointer;
   transition: background 0.25s ease-in-out, color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-  
 }
+@media only screen and (max-width: 600px) 
+  .shopify-payment-button__button--unbranded {
+    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
+    margin: 0 auto;
+  }
 
 .shopify-payment-button__button--unbranded:hover {
   background: rgba(var(--secondary-button-background-rgb), 0.8) !important;
