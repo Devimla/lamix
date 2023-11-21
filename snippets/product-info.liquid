@@ -269,9 +269,10 @@
       {%- else -%}
         <input type="hidden" name="id" data-sku="{{ selected_variant.sku }}" value="{{ selected_variant.id }}">
       {%- endunless -%}
-      <div class="product-meta__label-list"><span class="product-label product-label--on-sale">Ahorrar <span><span class="money">$0.08</span></span></span></div>
+      
       <div class="product-form__info-list">
         <div class="product-form__info-item">
+        <span class="product-label product-label--on-sale">Ahorrar <span><span class="money">$0.08</span></span></span>
           <span class="product-form__info-title text--strong">{{ 'product.form.price' | t }}:</span>
 
           <div class="product-form__info-content" role="region" aria-live="polite">
