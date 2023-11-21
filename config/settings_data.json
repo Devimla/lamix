@@ -390,7 +390,7 @@
         "type": "static-recently-viewed-products",
         "settings": {
           "show_section": true,
-          "title": "Recently viewed",
+          "title": "Visto recientemente",
           "show_quick_buy": true
         }
       },
