@@ -8870,7 +8870,7 @@ select::-ms-expand {
   display: inline-block;
   padding: 4px 10px;
   color: #ffffff;
-  border-radius: 3px;
+  border-radius: 50px;
   font-weight: var(--text-font-bolder-weight);
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
   line-height: 1;
