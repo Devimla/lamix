@@ -4627,7 +4627,6 @@ img.lazyload[data-sizes=auto] {
 
 .form__floating-label {
   position: absolute;
-  left: 50px;
   top: 0;
   line-height: 48px; /* allows to center the field */
   font-size: 1rem;
