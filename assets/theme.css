@@ -2471,6 +2471,7 @@ img.lazyload[data-sizes=auto] {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
   border-radius: 50px;
+  width: 50%;
 }
 
 .button--primary:hover {
@@ -8576,7 +8577,7 @@ select::-ms-expand {
   display: table;
   width: 100%;
   margin: -22px 0 3px 0;
-  border-spacing: 0 1px;
+  border-spacing: 0 3px;
 }
 
 .product-form__info-item {
