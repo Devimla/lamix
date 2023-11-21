@@ -8575,7 +8575,7 @@ select::-ms-expand {
 .product-form__info-list {
   display: table;
   width: 100%;
-  margin: -22px 0 6px 0;
+  margin: -22px 0 0px 0;
   border-spacing: 0 10px;
 }
 
