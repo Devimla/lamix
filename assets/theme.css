@@ -8703,7 +8703,7 @@ select::-ms-expand {
     width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
     margin: 0 auto;
   }
-
+}
 .shopify-payment-button__button--unbranded:hover {
   background: rgba(var(--secondary-button-background-rgb), 0.8) !important;
 }
