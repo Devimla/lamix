@@ -73,8 +73,6 @@
           {%- else -%}
             {%- capture savings -%}<span>{{ selected_variant.compare_at_price | minus: selected_variant.price | money }}</span>{%- endcapture -%}
           {%- endif -%}
-
-         
         {%- endif -%}
       {%- endcapture -%}
 
