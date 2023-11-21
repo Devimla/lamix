@@ -277,7 +277,7 @@
           <div class="product-form__info-content" role="region" aria-live="polite">
             <div class="price-list">
               {%- if selected_variant.compare_at_price > selected_variant.price -%}
-                <span class="product-label product-label--on-sale">Ahorrar <span><span class="money">$0.08</span></span></span>
+                <div class="product-meta__label-list"><span class="product-label product-label--on-sale">Ahorrar <span><span class="money">$0.08</span></span></span></div>
                 <span class="price price--highlight">
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
                   {{- selected_variant.price | money -}}
