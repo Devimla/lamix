@@ -140,7 +140,7 @@
     },
     "newsletter": {
       "success": "¡ Te has registrado a la newsletter !",
-      "input": "*   Tu email",
+      "input": "Tu email",
       "submit": "Suscribirse"
     }
   },
