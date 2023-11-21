@@ -300,7 +300,7 @@
         "type": "product-recommendations",
         "settings": {
           "show_product_recommendations": true,
-          "heading": "You may also like",
+          "heading": "También te puede interesar",
           "show_quick_buy": false
         }
       },
