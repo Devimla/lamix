@@ -398,8 +398,8 @@
         {%- else -%}
           <a href="mailto:{{ shop.email }}" class="button button--primary">{{ 'product.form.contact_us' | t }}</a>
         {%- endif -%}
+              {% render 'botao-pegajoso' %}
       </div>
-      {% render 'botao-pegajoso' %}
     {%- endform -%}
 
     {%- comment -%}The availability container will be added automatically if there is store pickup available{%- endcomment -%}
