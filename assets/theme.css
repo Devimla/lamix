@@ -2471,7 +2471,7 @@ img.lazyload[data-sizes=auto] {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
   border-radius: 50px;
-  width: 50%;
+  width: 100%;
 }
 
 .button--primary:hover {
