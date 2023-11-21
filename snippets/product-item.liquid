@@ -157,7 +157,7 @@
           {%- endif -%}
         </div>
       {%- if settings.installments_on_card_enable -%}
-     
+     <p class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></p>
      <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
     {% endif %} 
 
