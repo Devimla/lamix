@@ -8450,7 +8450,7 @@ select::-ms-expand {
 }
 
 .product-meta__label-list {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-size: 0;
 }
 
