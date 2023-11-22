@@ -8734,6 +8734,10 @@ select::-ms-expand {
 .shopify-payment-button__more-options[aria-hidden=true] {
   display: none;
 }
+.shopify-payment-button__button{
+  margin: 0 auto;
+  width: 80% !important;
+}
 
 /**
  * --------------------------------------------------------------------
