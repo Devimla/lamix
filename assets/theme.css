@@ -8653,7 +8653,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 640px) {
   .product-form__payment-container .shopify-payment-button {
-    margin-top: 16px;
+    margin-top: 13px;
   }
 }
 
