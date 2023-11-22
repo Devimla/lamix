@@ -8718,12 +8718,7 @@ select::-ms-expand {
   overflow: hidden;
   min-height: 48px;
 }
-@media only screen and (max-width: 641px){
-  .shopify-payment-button__button {
-    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-    margin: 0 auto;
-  }
-}
+
 .shopify-payment-button__more-options {
   margin-top: 8px;
   color: var(--link-color);
