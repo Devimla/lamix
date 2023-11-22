@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Adicione o código para carregar o script da CDN aqui
         var script = document.createElement('script');
-        script.src = 'https://cdn.shopify.com/shopifycloud/checkout-web/assets/860.esm.es.8c8a83acd46edc2883a7.js' + randomVersion;
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' + randomVersion;
         document.head.appendChild(script);
     }, 5000);  // 5000 milissegundos = 5 segundos
 });
