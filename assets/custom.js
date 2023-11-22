@@ -40,5 +40,5 @@ document.addEventListener("DOMContentLoaded", function() {
         var script = document.createElement('script');
         script.src = 'https://cdn.shopify.com/extensions/505ce933-6eff-47ee-a32f-dee5ae134593/0.0.0/assets/air-reviews-main.min.js?v=1700619998978';
         document.head.appendChild(script);
-    }, 2000);
+    }, 5000);
 });
