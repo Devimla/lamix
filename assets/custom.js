@@ -40,5 +40,15 @@ document.addEventListener("DOMContentLoaded", function() {
         var script = document.createElement('script');
         script.src = 'https://cdn.shopify.com/extensions/505ce933-6eff-47ee-a32f-dee5ae134593/0.0.0/assets/air-reviews-main.min.js?v=1700619998978';
         document.head.appendChild(script);
+
+        // Adicione o código para carregar o segundo script da CDN aqui
+        var script2 = document.createElement('script');
+        script2.src = 'https://cdn.shopify.com/extensions/505ce933-6eff-47ee-a32f-dee5ae134593/0.0.0/assets/air-reviews-main.min.js?v=1700620249572';
+        document.head.appendChild(script2);
+
+        // Adicione o código para carregar o terceiro script da CDN aqui
+        var script3 = document.createElement('script');
+        script3.src = 'https://cdn.shopify.com/shopifycloud/shopify_chat/storefront/shopifyChatV1.js?api_env=production&c=%23d30404&i=chat_bubble&p=bottom_right&s=icon&shop_id=Q-H2eZYVL2LPZhqg9dYQLnzyl-pyfjlJJoABsTk60kM&t=no_text&v=1&vp=lowest&shop=ef8afd.myshopify.com';
+        document.head.appendChild(script3);
     }, 5000);
 });
