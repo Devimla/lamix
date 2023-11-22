@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", function() {
         var script = document.createElement('script');
         script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' + randomVersion;
         document.head.appendChild(script);
-    }, 5000);  // 5000 milissegundos = 5 segundos
+    }, 10000);  // 5000 milissegundos = 5 segundos
 });
