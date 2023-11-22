@@ -8735,7 +8735,7 @@ select::-ms-expand {
   display: none;
 }
 
-@media only screen and (max-width: 631px){
+@media only screen and (max-width: 600px){
   ..shopify-payment-button__button {
     width: 80% !important; /* Alterando a largura para ocupar 100% da largura do dispositivo */
   }
