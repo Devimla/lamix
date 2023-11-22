@@ -8715,7 +8715,7 @@ select::-ms-expand {
 }
 
 .shopify-payment-button__button--branded {
-  border-radius: 50px;
+  border-radius: 3px;
   overflow: hidden;
   min-height: 48px;
 }
@@ -8735,12 +8735,6 @@ select::-ms-expand {
   display: none;
 }
 
-@media only screen and (max-width: 600px){
-  ..shopify-payment-button__button {
-    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-    margin: 0 auto;
-  }
-}
 /**
  * --------------------------------------------------------------------
  * BLOCK LIST
