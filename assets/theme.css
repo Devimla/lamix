@@ -8739,7 +8739,7 @@ select::-ms-expand {
   border-radius: 50px;
 }
 @media only screen and (max-width: 631px){
-  ..shopify-payment-button__button--branded {
+  ..shopify-payment-button__button {
     width: 80% !important; /* Alterando a largura para ocupar 100% da largura do dispositivo */
   }
 }
