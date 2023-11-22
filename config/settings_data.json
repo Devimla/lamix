@@ -1198,5 +1198,10 @@
         "1542984882560"
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "@media only screen and (max-width: 641px){.shopify-payment-button__button {width: 80%; \/* Alterando a largura para ocupar 100% da largura do dispositivo *\/ margin: 0 auto; }}"
+    ]
   }
 }
