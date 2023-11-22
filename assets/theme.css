@@ -8692,7 +8692,6 @@ select::-ms-expand {
 
 .shopify-payment-button__button--unbranded {
   position: relative;
-
   padding: 0 30px !important;
   line-height: 48px !important;
   border-radius: 50px !important;
