@@ -8656,7 +8656,6 @@ select::-ms-expand {
     margin-top: 13px;
   }
 }
-
 @media screen and (min-width: 641px) {
   .product-form {
     margin-top: -8px; /* for pixel perfect alignment... */
@@ -8689,6 +8688,12 @@ select::-ms-expand {
  * SHOPIFY QUICK PAYMENT
  * --------------------------------------------------------------------
  */
+ @media only screen and (max-width: 641px){
+  .shopify-payment-button__button {
+    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
+    margin: 0 auto;
+  }
+}
 
 .shopify-payment-button__button--unbranded {
   position: relative;
@@ -8718,12 +8723,7 @@ select::-ms-expand {
   overflow: hidden;
   min-height: 48px;
 }
-@media only screen and (max-width: 641px){
-  .shopify-payment-button__button {
-    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-    margin: 0 auto;
-  }
-}
+
 .shopify-payment-button__more-options {
   margin-top: 8px;
   color: var(--link-color);
