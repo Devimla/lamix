@@ -8720,7 +8720,7 @@ select::-ms-expand {
   min-height: 48px;
 }
 @media only screen and (max-width: 600px){
-  .shopify-payment-button__button--branded {
+  .shopify-payment-button__button {
     width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
     margin: 0 auto;
   }
