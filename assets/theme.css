@@ -8715,7 +8715,7 @@ select::-ms-expand {
 }
 
 .shopify-payment-button__button--branded {
-  border-radius: 3px;
+  border-radius: 50px;
   overflow: hidden;
   min-height: 48px;
 }
@@ -8735,9 +8735,6 @@ select::-ms-expand {
   display: none;
 }
 
-.shopify-payment-button__button{
-  border-radius: 50px;
-}
 @media only screen and (max-width: 631px){
   ..shopify-payment-button__button {
     width: 80% !important; /* Alterando a largura para ocupar 100% da largura do dispositivo */
