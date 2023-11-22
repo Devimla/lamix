@@ -8734,12 +8734,15 @@ select::-ms-expand {
 .shopify-payment-button__more-options[aria-hidden=true] {
   display: none;
 }
+
 .shopify-payment-button__button{
-  margin: 0 auto;
-  width: 80% !important;
   border-radius: 50px;
 }
-
+@media only screen and (max-width: 600px){
+  ..shopify-payment-button__button {
+    width: 80% !important; /* Alterando a largura para ocupar 100% da largura do dispositivo */
+  }
+}
 /**
  * --------------------------------------------------------------------
  * BLOCK LIST
