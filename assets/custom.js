@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Adicione o código para carregar o script da CDN aqui
         var script = document.createElement('script');
-        script.src = 'https://cdn.shopify.com/extensions/505ce933-6eff-47ee-a32f-dee5ae134593/0.0.0/assets/air-reviews-main.min.js?v=' + randomVersion;
+        script.src = 'https://cdn.shopify.com/shopifycloud/checkout-web/assets/860.esm.es.8c8a83acd46edc2883a7.js' + randomVersion;
         document.head.appendChild(script);
     }, 5000);  // 5000 milissegundos = 5 segundos
 });
