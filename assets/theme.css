@@ -8688,12 +8688,7 @@ select::-ms-expand {
  * SHOPIFY QUICK PAYMENT
  * --------------------------------------------------------------------
  */
- @media only screen and (max-width: 641px){
-  .shopify-payment-button__button {
-    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-    margin: 0 auto;
-  }
-}
+
 
 .shopify-payment-button__button--unbranded {
   position: relative;
