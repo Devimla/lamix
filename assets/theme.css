@@ -8910,6 +8910,7 @@ select::-ms-expand {
   display: inline-flex;
   align-items: baseline;
   line-height: 1;
+  flex-direction: column-reverse;
 }
 
 .price {
