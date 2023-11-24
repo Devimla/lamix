@@ -115,7 +115,7 @@
   <div class="product-item__info">
     <div class="product-item__info-inner">
       {%- capture price_list -%}
-        <div class="product-item__price-list price-list" style="font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s">
+        <div class="product-item__price-list price-list">
           {%- if product.price < product.compare_at_price -%}
             {%- if product.price_varies -%}
               {%- capture price_min -%}<span>{{ product.price_min | money }}</span>{%- endcapture -%}
