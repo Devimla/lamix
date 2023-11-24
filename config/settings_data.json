@@ -495,8 +495,8 @@
           "text_color": "#ffffff",
           "title": "Featured collection",
           "content": "Tell more about your product, collection...",
-          "button_background": "#ffffff",
-          "button_text_color": "#0774d7",
+          "button_background": "#d30404",
+          "button_text_color": "#ffffff",
           "button_text": "Learn more",
           "button_link": ""
         }
