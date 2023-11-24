@@ -489,7 +489,7 @@
       "97df39d6-4b74-4825-9778-28fe61288976": {
         "type": "collection-with-image",
         "settings": {
-          "collection": "",
+          "collection": "recomendamos-estos-productos",
           "products_count": 12,
           "background": "#0d0d0d",
           "text_color": "#ffffff",
