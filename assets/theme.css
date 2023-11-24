@@ -8939,7 +8939,7 @@ select::-ms-expand {
 .installments-cards {
   font-size:13px!important;
   margin-top: 2px!important;
-  color: var(--text-installment-color);
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
 
 .installment-numbers-cards {
