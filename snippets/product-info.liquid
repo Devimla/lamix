@@ -291,7 +291,16 @@
                 </span>
               {%- endif -%}
             </div>
-            <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
+              {%- capture product_labels -%}
+    {%- if settings.show_discount and product.price < product.compare_at_price -%}
+      {%- if settings.discount_mode == 'percentage' -%}
+        {%- assign savings = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round | append: '%' -%}
+      {%- else -%}
+        {%- capture savings -%}<span>{{ product.compare_at_price | minus: product.price | money }}</span>{%- endcapture -%}
+      {%- endif -%}
+      <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
+    {%- endif -%}
+  {%- endcapture -%}
             <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></br>
             <div class="product-form__price-info" style="display: {% if selected_variant.unit_price_measurement %}block{% else %}none{% endif %}">
               <div class="unit-price-measurement">
