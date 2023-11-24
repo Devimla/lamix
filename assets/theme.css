@@ -8915,7 +8915,7 @@ select::-ms-expand {
 }
 
 .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 28px));
   color: var(--accent-color);
 }
 
