@@ -420,7 +420,7 @@
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11": {
         "type": "featured-collection",
         "custom_css": [
-          "{background-color: #F3F5FF;}"
+          "{background-color: ;}"
         ],
         "settings": {
           "collection": "los-mas-vendidos",
