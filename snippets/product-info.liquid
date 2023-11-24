@@ -284,8 +284,8 @@
                   <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                   {{- selected_variant.compare_at_price | money -}}
                 </span>
-                 <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
               {%- else -%}
+               <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
                 <span class="price">
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
                   {{- selected_variant.price | money -}}
