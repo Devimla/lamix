@@ -8911,6 +8911,7 @@ select::-ms-expand {
   align-items: baseline;
   line-height: 1;
   flex-direction: column-reverse;
+  font-family: "Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s"
 }
 
 .price {
