@@ -23,11 +23,10 @@
       {%- else -%}
         {%- capture savings -%}<span>{{ product.compare_at_price | minus: product.price | money }}</span>{%- endcapture -%}
       {%- endif -%}
-
-      <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
+      
     {%- endif -%}
   {%- endcapture -%}
-
+<br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
   {%- if product_labels != blank -%}
     <div class="product-item__label-list">
       {{- product_labels -}}
