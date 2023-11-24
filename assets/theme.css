@@ -8905,7 +8905,59 @@ select::-ms-expand {
  * ---------
  -----------------------------------------------------------
  */
+  
+/* ~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~ */
 
+
+.installments-cards {
+  font-size:13px!important;
+  margin-top: 2px!important;
+  color: var(--text-installment-color);
+}
+
+.installment-numbers-cards {
+   margin-top: 3px!important;
+   font-size: 14px!important;
+   color: var(--rate-installment-color)!important;
+   font-family: Montserrat, sans-serif;
+   font-weight: 700;
+}
+         
+.installment-price-cards {
+   margin-top: 3px!important;
+   font-size: 14px!important;
+   color: var(--rate-installment-color);
+   font-family: Montserrat, sans-serif;
+   font-weight: 700;
+}
+
+
+@media screen and (max-width: 640px) { 
+
+/* ~+~+~+~+~+~+~+ Mobile ~+~+~+~+~+~+~+~ */
+ 
+.installments-cards {
+  font-size:13px!important;
+  margin-top: 2px!important;
+  color: var(--text-installment-color);
+}
+
+.installment-numbers-cards {
+   margin-top: 3px!important;
+   font-size: 14px!important;
+   color: var(--rate-installment-color)!important;
+   font-family: Montserrat, sans-serif;
+   font-weight: 700;
+}
+         
+.installment-price-cards {
+   margin-top: 3px!important;
+   font-size: 14px!important;
+   color: var(--rate-installment-color);
+   font-family: Montserrat, sans-serif;
+   font-weight: 700;
+}
+}
 .price-list {
   display: inline-flex;
   align-items: baseline;
