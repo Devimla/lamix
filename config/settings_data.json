@@ -321,6 +321,9 @@
       },
       "1542984842027": {
         "type": "newsletter",
+        "custom_css": [
+
+        ],
         "settings": {
           "title": "Boletin informativo",
           "content": "<p>Regístrate y consigue un cupón del 20%<\/p>"
@@ -420,7 +423,7 @@
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11": {
         "type": "featured-collection",
         "custom_css": [
-          "{background-color: ;}"
+
         ],
         "settings": {
           "collection": "los-mas-vendidos",
@@ -482,6 +485,21 @@
           "show_collection_overlay": true,
           "collection_overlay_opacity": 20
         }
+      },
+      "97df39d6-4b74-4825-9778-28fe61288976": {
+        "type": "collection-with-image",
+        "settings": {
+          "collection": "",
+          "products_count": 12,
+          "background": "#0d0d0d",
+          "text_color": "#ffffff",
+          "title": "Featured collection",
+          "content": "Tell more about your product, collection...",
+          "button_background": "#ffffff",
+          "button_text_color": "#0774d7",
+          "button_text": "Learn more",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
@@ -489,7 +507,8 @@
       "50acde30-dd9a-4989-9ebb-f7f79e4fb877",
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11",
       "1542984842027",
-      "a38322c5-0cc0-4368-adb7-d079e17c82fd"
+      "a38322c5-0cc0-4368-adb7-d079e17c82fd",
+      "97df39d6-4b74-4825-9778-28fe61288976"
     ],
     "blocks": {
       "776302416715791028": {
