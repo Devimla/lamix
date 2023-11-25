@@ -847,7 +847,7 @@ th {
   border: 1px solid var(--border-color);
   height: 32px;
   width: 32px;
-  background: var(--secondary-background);
+  background: #d30404;
   border-radius: 100%;
 }
 
