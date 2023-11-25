@@ -9561,6 +9561,7 @@ select::-ms-expand {
 .product-item--horizontal,
 .product-item--list {
   display: flex;
+  flex-direction: column;
 }
 
 .product-item--horizontal .product-item__info,
