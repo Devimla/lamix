@@ -8590,7 +8590,7 @@ select::-ms-expand {
   margin: -22px 0 3px 0;
   border-spacing: 0 4px;
 }
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 640px) {
   .product-form__info-list {
     margin: -50px 0 3px;
   }
