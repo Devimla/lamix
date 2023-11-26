@@ -8618,7 +8618,7 @@ select::-ms-expand {
 }
 @media only screen and (max-width: 600px) {
   .product-form__info-content {
-    padding-top: 10px;
+    padding-top: 100px;
   }
   }
 
