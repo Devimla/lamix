@@ -8616,11 +8616,6 @@ select::-ms-expand {
   width: 100%;
   padding-top: 35px;
 }
-@media only screen and (max-width: 600px) {
-  .product-form__info-content {
-    padding-top: 0px;
-  }
-  }
 
 .product-form__price-info {
   margin-top: 5px;
