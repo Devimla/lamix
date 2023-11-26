@@ -7,7 +7,7 @@
     "theme_documentation_url": "http:\/\/support.maestrooo.com\/",
     "theme_support_url": "https:\/\/support.maestrooo.com\/article\/203-contact-us"
   },
-{
+  {
     "name": "Pop-up | EasyCoding",
     "settings": [
       {
@@ -17,24 +17,24 @@
         "default": true
       },
       {
-      "type": "image_picker",
-      "id": "popup_image",
-      "label": "Imagem do popup"
+        "type": "image_picker",
+        "id": "popup_image",
+        "label": "Imagem do popup"
       },
       {
-          "type": "url",
-          "id": "img_popup",
-          "label": "Insira o link de destino"
+        "type": "url",
+        "id": "img_popup",
+        "label": "Insira o link de destino"
       },
       {
-      "type": "range",
-      "id": "cookie_time",
-      "label": "Tempo do cookie em minutos",
-      "min": 1,
-      "max": 60,
-      "step": 1,
-      "default": 1
-    }
+        "type": "range",
+        "id": "cookie_time",
+        "label": "Tempo do cookie em minutos",
+        "min": 1,
+        "max": 60,
+        "step": 1,
+        "default": 1
+      }
     ]
   },
   {
