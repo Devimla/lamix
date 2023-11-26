@@ -13609,5 +13609,5 @@ select::-ms-expand {
 
 @media only screen and (max-width: 600px)
   .AirReviews-Widget.AirReviews-Widget--Stars {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
