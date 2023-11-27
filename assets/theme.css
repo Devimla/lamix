@@ -8614,7 +8614,6 @@ select::-ms-expand {
 .product-form__info-content {
   display: table-cell;
   width: 100%;
-  padding-top: 26px;
 }
 
 .product-form__price-info {
