@@ -8621,6 +8621,9 @@ select::-ms-expand {
   margin-top: 5px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
 }
+.AirReviews-Widget.AirReviews-Widget--Stars{
+  margin-bottom: 40px;
+}
 
 .product-form__price-info + .product-form__price-info {
   margin-top: 0;
