@@ -342,24 +342,10 @@
               "show_newsletter": true,
               "apparition_delay": 3
             }
-          },
-          "0ec96f29-99e0-4a5f-a5d8-f401a85ce43c": {
-            "type": "exit",
-            "settings": {
-              "show_only_for_visitors": true,
-              "show_only_once": true,
-              "title": "Obtén 15% de descuento",
-              "subheading": "en tu próximo pedido + ofertas exclusivas",
-              "show_newsletter": true,
-              "button_text": "Obtén mi 15% de descuento",
-              "success_message": "¡Recibirás pronto un correo electrónico con tu código de descuento!",
-              "close_message": "No gracias."
-            }
           }
         },
         "block_order": [
-          "dbc0182d-3acd-4756-a6e2-7eb8eced7c17",
-          "0ec96f29-99e0-4a5f-a5d8-f401a85ce43c"
+          "dbc0182d-3acd-4756-a6e2-7eb8eced7c17"
         ],
         "settings": {
         }
