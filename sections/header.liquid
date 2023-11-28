@@ -67,6 +67,36 @@
 .mobhide {
     display: none!important;
 }}
+ @-moz-keyframes bouncing-text {
+  0% {
+   -moz-transform: translateX(60%);
+  }
+  100% {
+   -moz-transform: translateX(-60%);
+  }
+  }
+  
+  @-webkit-keyframes bouncing-text {
+  0% {
+   -webkit-transform: translateX(60%);
+  }
+  100% {
+   -webkit-transform: translateX(-60%);
+  }
+  }
+  
+  @keyframes bouncing-text {
+  0% {
+   -moz-transform: translateX(60%);
+   -webkit-transform: translateX(60%);
+   transform: translateX(60%);
+  }
+  100% {
+   -moz-transform: translateX(-60%);
+   -webkit-transform: translateX(-60%);
+   transform: translateX(-60%);
+  }
+  }
 </style>
 {%- capture section_settings -%}
 {
