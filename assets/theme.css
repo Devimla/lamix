@@ -5252,6 +5252,8 @@ select::-ms-expand {
 
 .footer .button--primary {
   background-color: var(--footer-accent-color);
+  margin: 0 auto;
+  width: 80%;
 }
 
 .footer .button--primary:hover {
