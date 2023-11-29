@@ -2526,7 +2526,8 @@ img.lazyload[data-sizes=auto] {
 }
 
 .button--full {
-  width: 100%;
+  width: 80%;
+  margin: 1px 0 0 34px;
 }
 
 .button--min-width {
