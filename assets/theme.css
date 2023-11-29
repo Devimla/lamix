@@ -8969,7 +8969,7 @@ select::-ms-expand {
 .price-list {
   display: inline-flex;
   align-items: baseline;
-  line-height: 1;
+  line-height: 0.8;
   flex-direction: column-reverse;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s !important;
 }
