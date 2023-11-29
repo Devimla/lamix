@@ -9450,7 +9450,7 @@ select::-ms-expand {
 }
 
 .product-item .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 18px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
 }
 
 .product-item .price--compare {
