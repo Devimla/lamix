@@ -294,7 +294,7 @@
     {%- if settings.show_discount and product.price < product.compare_at_price -%}
       <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
     {%- endif -%}
-            <span class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></span>
+            <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></br>
             <div class="product-form__price-info" style="display: {% if selected_variant.unit_price_measurement %}block{% else %}none{% endif %}">
               <div class="unit-price-measurement">
                 <span class="unit-price-measurement__price">{{ selected_variant.unit_price | money }}</span>
