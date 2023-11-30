@@ -11720,6 +11720,28 @@ select::-ms-expand {
  * ANNOUNCEMENT BAR
  * --------------------------------------------------------------------
  */
+ .announcement-bar__inner {
+    display: flex;
+    align-items: center;
+  	justify-content: space-around;
+    width: 100%;
+}
+
+.announcement-bar__content {
+    padding: 7px 0;
+}
+.announcement-bar__content {
+    display: block;
+    padding: 4px 0;
+    margin-bottom: 0;
+}
+
+.announcesvg {
+    width: 22px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
 
 .announcement-bar {
   position: relative;
