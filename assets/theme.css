@@ -8937,6 +8937,7 @@ select::-ms-expand {
 .installment-price-cards {
    margin-top: 3px!important;
    font-size: 14px!important;
+   text-decoration: bold;
    color: var(--rate-installment-color);
    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
    font-weight: 700;
@@ -8964,6 +8965,7 @@ select::-ms-expand {
 .installment-price-cards {
    margin-top: 3px!important;
    font-size: 14px!important;
+   text-decoration: bold;
    color: var(--rate-installment-color);
    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
    font-weight: 700;
