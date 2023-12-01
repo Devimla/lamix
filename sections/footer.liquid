@@ -163,12 +163,11 @@
             {%- endform -%}
           {%- endif -%}
           <p class="desktop-only">
-              <a href="https://latienda-mix.com/"><img src="https://i.ibb.co/YQk1DyF/Picsart-23-10-31-19-51-49-565-1.png" style="width: 180px;" title="La Tienda Mix">
+              <a href="https://ef8afd.myshopify.com/"><img src="https://i.ibb.co/YQk1DyF/Picsart-23-10-31-19-51-49-565-1.png" style="width: 180px;" title="La Tienda Mix">
               </a>
           </p>
-{%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}, todos los derechos reservados<br>{{ powered_by_link }}{%- endcapture -%}
-<p class="hidden-pocket">{{ copyright_info | replace: shop.name, '<span style="color: red;">' + shop.name + '</span>' }}</p>
-
+          {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}, todos los derechos reservados<br>{{ powered_by_link }}{%- endcapture -%}
+          <p class="hidden-pocket">{{ copyright_info }}</p>
         </div>
 
         {%- if section.settings.show_social_media -%}
@@ -197,7 +196,7 @@
 
         <div class="footer__aside-item footer__aside-item--copyright hidden-lap-and-up">
                            </p>
-                    <a href="https://latienda-mix.com/"
+                    <a href="https://ef8afd.myshopify.com/"
             ><img src="https://i.ibb.co/YQk1DyF/Picsart-23-10-31-19-51-49-565-1.png" style="width: 150px;" title="La Tienda Mix"></a>
           <p>
           <p>{{ copyright_info }}</p>
