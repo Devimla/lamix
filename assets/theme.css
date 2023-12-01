@@ -5404,7 +5404,7 @@ select::-ms-expand {
 
 .header {
   position: relative;
-  padding: 2px 0;
+  padding: 0px 0;
   background: var(--header-background);
   color: var(--header-text-color);
   transition: margin-bottom 0.25s ease-in-out;
