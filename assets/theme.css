@@ -5800,7 +5800,7 @@ select::-ms-expand {
   display: flex;
   height: 44px;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 15px;
   background: var(--secondary-background);
   color: var(--text-color);
   z-index: 1;
