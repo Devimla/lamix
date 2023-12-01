@@ -8633,7 +8633,9 @@ select::-ms-expand {
 .AirReviews-Widget.AirReviews-Widget--Stars{
   margin-bottom: 5px;
 }
-
+.M3.99595 0L0 3.995L12.9798 17L0 30.005L3.99595 34L21 17L3.99595 0Z {
+  fill: black !important; /* Use !important para garantir que a regra seja aplicada, se necessário */
+}
 .product-form__price-info + .product-form__price-info {
   margin-top: 0;
 }
