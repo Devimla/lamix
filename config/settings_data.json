@@ -372,7 +372,7 @@
           "text-with-icons-2": {
             "type": "item",
             "settings": {
-              "icon": "bi-chat",
+              "icon": "bi-customer-support",
               "title": "¿Necesita atención?",
               "content": "<p>Contamos con un equipo de expertos para atenderle las 24 horas al día, los 7 días a la semana, <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Entrar en contacto\">Haga clic aquí para ponerse en contacto con nosotros.<\/a><\/p>"
             }
