@@ -167,7 +167,8 @@
               </a>
           </p>
           {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}, todos los derechos reservados<br>{{ powered_by_link }}{%- endcapture -%}
-          <p class="hidden-pocket">{{ copyright_info }}</p>
+
+          <p class="hidden-pocket">{{ copyright_info | replace: shop.name, '<span style="color: #d30404;">' + shop.name + '</span>' }}</p>
         </div>
 
         {%- if section.settings.show_social_media -%}
