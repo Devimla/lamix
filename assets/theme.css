@@ -5785,6 +5785,9 @@ select::-ms-expand {
  * SEARCH
  * --------------------------------------------------------------------
  */
+ #shopify-section-97df39d6-4b74-4825-9778-28fe61288976 .button {
+  border-radius: 50px;
+ }
 
 .search-bar {
   position: relative;
