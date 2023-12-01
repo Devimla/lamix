@@ -5433,7 +5433,7 @@ select::-ms-expand {
 .header__logo-image {
   display: block;
   vertical-align: middle;
-  max-height: 130px;
+  max-height: 120px;
 }
 
 .header__mobile-nav {
