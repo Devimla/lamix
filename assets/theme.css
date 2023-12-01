@@ -13647,5 +13647,5 @@ select::-ms-expand {
 /* link de hospedagem da fonte do Mercado Livre. */
 
 .AirReviews-Carousel .AirReviews-Carousel__Nav button {
-  background: #d30404;
+  background: #d30404 !important;
 }
