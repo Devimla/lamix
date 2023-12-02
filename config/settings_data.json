@@ -330,37 +330,6 @@
       },
       "popups": {
         "type": "popups",
-        "blocks": {
-          "93dd209c-78a8-4393-8e69-cc94906e0666": {
-            "type": "newsletter",
-            "settings": {
-              "show_only_on_index": true,
-              "show_only_for_visitors": true,
-              "show_only_once": true,
-              "title": "Popup",
-              "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
-              "show_newsletter": true,
-              "apparition_delay": 5
-            }
-          },
-          "6f4960af-79ca-497b-988d-f752b1b5d0de": {
-            "type": "exit",
-            "settings": {
-              "show_only_for_visitors": true,
-              "show_only_once": true,
-              "title": "Get 15% off",
-              "subheading": "on your next order + exclusive offers",
-              "show_newsletter": true,
-              "button_text": "Get my 15% off",
-              "success_message": "You will receive soon an email containing your discount code!",
-              "close_message": "No thanks, I'd rather pay more"
-            }
-          }
-        },
-        "block_order": [
-          "93dd209c-78a8-4393-8e69-cc94906e0666",
-          "6f4960af-79ca-497b-988d-f752b1b5d0de"
-        ],
         "settings": {
         }
       },
