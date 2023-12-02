@@ -556,6 +556,24 @@
         "settings": {
           "air_reviews_json_ld": "{\n    \"@context\": \"http:\/\/schema.org\",\n    \"@type\": \"Product\",\n    \"name\": {{ product.title | json }},\n    \"aggregateRating\": {\n      \"@type\": \"AggregateRating\",\n      \"ratingValue\": {{  product.metafields.reviews.rating.value.rating |  json }},\n      \"reviewCount\": {{ product.metafields.reviews.rating_count |  json }}\n    }\n}"
         }
+      },
+      "13848332165166128053": {
+        "type": "shopify:\/\/apps\/avada-email-marketing-sms\/blocks\/app-embed-tracking\/3c307d0f-4ec6-4f80-ba42-05314248b065",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16692695681423181552": {
+        "type": "shopify:\/\/apps\/avada-email-marketing-sms\/blocks\/app-embed-push\/3c307d0f-4ec6-4f80-ba42-05314248b065",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14190008716408616819": {
+        "type": "shopify:\/\/apps\/avada-email-marketing-sms\/blocks\/app-embed-popup\/3c307d0f-4ec6-4f80-ba42-05314248b065",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
