@@ -330,6 +330,23 @@
       },
       "popups": {
         "type": "popups",
+        "blocks": {
+          "e549ff71-4fef-4354-946c-7a5629fa383e": {
+            "type": "newsletter",
+            "settings": {
+              "show_only_on_index": true,
+              "show_only_for_visitors": true,
+              "show_only_once": true,
+              "title": "15%OFF",
+              "content": "<p>Inscríbete en nuestro boletín y recibe un 15% de descuento, además de enterarte de novedades y promociones.<\/p>",
+              "show_newsletter": true,
+              "apparition_delay": 4
+            }
+          }
+        },
+        "block_order": [
+          "e549ff71-4fef-4354-946c-7a5629fa383e"
+        ],
         "settings": {
         }
       },
