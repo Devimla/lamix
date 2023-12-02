@@ -330,23 +330,6 @@
       },
       "popups": {
         "type": "popups",
-        "blocks": {
-          "dbc0182d-3acd-4756-a6e2-7eb8eced7c17": {
-            "type": "newsletter",
-            "settings": {
-              "show_only_on_index": false,
-              "show_only_for_visitors": true,
-              "show_only_once": true,
-              "title": "Inscríbete en nuestro boletín.",
-              "content": "<p>Gana un cupón de descuento exclusivo al suscribirte; lo recibirás por correo electrónico.<\/p>",
-              "show_newsletter": true,
-              "apparition_delay": 3
-            }
-          }
-        },
-        "block_order": [
-          "dbc0182d-3acd-4756-a6e2-7eb8eced7c17"
-        ],
         "settings": {
         }
       },
