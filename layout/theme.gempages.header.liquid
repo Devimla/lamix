@@ -165,15 +165,15 @@
     </main>
 
     {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}
-      {% section 'static-newsletter' %}
+      
     {%- endif -%}
 
-    {% section 'text-with-icons' %}
-    {% section 'footer' %}
+    
+    
 
     <ul hidden>
       <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
     </ul>
-    {% render 'popup_home' %}
+    
   </body>
 </html>

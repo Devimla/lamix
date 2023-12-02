@@ -147,33 +147,7 @@
   {% render 'gp-head' %}
 </head>
 
-  <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
-    <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
-    <span class="loading-bar"></span>
-
-    {% section 'announcement-bar' %}
-
-    {%- unless request.page_type == 'cart' -%}
-      {%- comment -%}As required by Shopify rules, popup must be removed on cart page to remove distraction{%- endcomment -%}
-      {% section 'popups' %}
-    {%- endunless -%}
-
-    {% section 'header' %}
-
-    <main id="main" role="main">
+  <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport"><main id="main" role="main">
       {{ content_for_layout }}
-    </main>
-
-    {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}
-      {% section 'static-newsletter' %}
-    {%- endif -%}
-
-    {% section 'text-with-icons' %}
-    {% section 'footer' %}
-
-    <ul hidden>
-      <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
-    </ul>
-    {% render 'popup_home' %}
-  </body>
+    </main></body>
 </html>
