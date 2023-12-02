@@ -338,7 +338,7 @@
               "show_only_for_visitors": true,
               "show_only_once": true,
               "title": "15%OFF",
-              "content": "<p>Inscríbete en nuestro boletín y recibe un 15% de descuento, además de enterarte de novedades y promociones.<\/p>",
+              "content": "<h6>Inscríbete en nuestro boletín y recibe un 15% de descuento, además de enterarte de novedades y promociones.<\/h6><p><em>Si no recibes el correo electrónico, revisa la carpeta de correo no deseado.<\/em><\/p>",
               "show_newsletter": true,
               "apparition_delay": 4
             }
