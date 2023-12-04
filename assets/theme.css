@@ -2945,8 +2945,9 @@ img.lazyload[data-sizes=auto] {
 }
 
 .mini-cart__price-list > .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 18px));
   font-weight: var(--text-font-bolder-weight);
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
 
 .mini-cart__price-info {
