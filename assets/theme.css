@@ -2952,7 +2952,7 @@ img.lazyload[data-sizes=auto] {
 
 .mini-cart__price-info {
   margin-top: -2px;
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
 }
 
 .mini-cart__discount-list {
