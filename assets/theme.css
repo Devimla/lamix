@@ -2943,9 +2943,7 @@ img.lazyload[data-sizes=auto] {
   line-height: 1.5;
   margin: 6px 0;
 }
-span.buckscc-money{
-  font-size: 24px !important;
-}
+
 .mini-cart__price-list > .price {
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
   font-weight: var(--text-font-bolder-weight);
