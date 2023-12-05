@@ -2833,6 +2833,7 @@ img.lazyload[data-sizes=auto] {
   position: absolute;
   width: 100vw;
   height: ;
+  border-bottom: #d30404;
   left: 0;
   top: 100%;
   max-height: 0;
