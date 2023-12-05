@@ -2832,7 +2832,7 @@ img.lazyload[data-sizes=auto] {
 .mini-cart {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: ;
   left: 0;
   top: 100%;
   max-height: 0;
