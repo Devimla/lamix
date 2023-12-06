@@ -2832,8 +2832,7 @@ img.lazyload[data-sizes=auto] {
 .mini-cart {
   position: absolute;
   width: 100vw;
-  height: ;
-  border-bottom: 2px solid #d30404;
+  height: 100vh;
   left: 0;
   top: 100%;
   max-height: 0;
@@ -2946,14 +2945,13 @@ img.lazyload[data-sizes=auto] {
 }
 
 .mini-cart__price-list > .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
   font-weight: var(--text-font-bolder-weight);
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
+
 .mini-cart__price-info {
   margin-top: -2px;
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
 }
 
 .mini-cart__discount-list {
@@ -2998,8 +2996,6 @@ img.lazyload[data-sizes=auto] {
   justify-content: space-between;
   color: var(--heading-color);
   font-weight: var(--text-font-bolder-weight);
-  font-size: 24px;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
 
 .mini-cart__recap-price-line--highlight {

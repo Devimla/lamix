@@ -65,13 +65,13 @@
     "social_snapchat": "",
     "social_fancy": "",
     "favicon": "shopify:\/\/shop_images\/Picsart_23-10-31_20-02-02-290_17f84cb0-e5a1-4d32-8e1e-c9750d23e628.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Picsart_23-12-01_18-46-38-989_f853dba5-3dfa-424b-be31-3bb51824d157.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Picsart_23-10-31_19-51-49-565_1_284573ad-4495-4aff-99e4-9ac85789bfb4.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
-    "checkout_body_background_color": "#f3f5ff",
+    "checkout_body_background_color": "#e1e1e2",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
-    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_accent_color": "#d30404",
@@ -331,21 +331,21 @@
       "popups": {
         "type": "popups",
         "blocks": {
-          "e549ff71-4fef-4354-946c-7a5629fa383e": {
+          "dbc0182d-3acd-4756-a6e2-7eb8eced7c17": {
             "type": "newsletter",
             "settings": {
-              "show_only_on_index": true,
+              "show_only_on_index": false,
               "show_only_for_visitors": true,
               "show_only_once": true,
-              "title": "15%OFF",
-              "content": "<h6>Inscríbete en nuestro boletín y recibe un 15% de descuento, además de enterarte de novedades y promociones.<\/h6><p><em>Si no recibes el correo electrónico, revisa la carpeta de correo no deseado.<\/em><\/p>",
+              "title": "Inscríbete en nuestro boletín.",
+              "content": "<p>Gana un cupón de descuento exclusivo al suscribirte; lo recibirás por correo electrónico.<\/p>",
               "show_newsletter": true,
-              "apparition_delay": 4
+              "apparition_delay": 3
             }
           }
         },
         "block_order": [
-          "e549ff71-4fef-4354-946c-7a5629fa383e"
+          "dbc0182d-3acd-4756-a6e2-7eb8eced7c17"
         ],
         "settings": {
         }

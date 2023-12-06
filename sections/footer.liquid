@@ -166,7 +166,7 @@
               <a href="https://latienda-mix.com/"><img src="https://i.ibb.co/nMRypLM/Picsart-23-12-01-18-46-38-989.png" style="width: 180px;" title="La Tienda Mix">
               </a>
           </p>
-          {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} <span style="color: #D30404;"> {{ shop.name }}</span>, todos los derechos reservados.<br>{%- endcapture -%}
+          {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}, todos los derechos reservados<br>{{ powered_by_link }}{%- endcapture -%}
           <p class="hidden-pocket">{{ copyright_info }}</p>
         </div>
 
