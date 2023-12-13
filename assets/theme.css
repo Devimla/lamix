@@ -359,7 +359,7 @@ th {
   top: calc(50% - 25px);
   border-radius: 100%;
   visibility: visible;
-  background: black;
+  background: var(--flickity-arrow-color);
   opacity: 0;
   transition: all 0.2s ease-in-out;
   transform: scale(0.7);
@@ -847,8 +847,7 @@ th {
   border: 1px solid var(--border-color);
   height: 32px;
   width: 32px;
-  background: #d30404;
-  color: black;
+  background: var(--secondary-background);
   border-radius: 100%;
 }
 
@@ -2471,23 +2470,15 @@ img.lazyload[data-sizes=auto] {
 .button--primary {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
-  border-radius: 50px;
 }
-@media only screen and (max-width: 600px) {
-  .button--primary {
-    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-    margin: 0 auto;
-  }
-}
+
 .button--primary:hover {
   background: rgba(var(--primary-button-background-rgb), 0.8);
-  border-radius: 50px;
 }
 
 .button--secondary {
   background: var(--secondary-button-background);
   color: var(--secondary-button-text-color);
-  border-radius: 50px;
 }
 
 .button--secondary:hover {
@@ -2526,8 +2517,7 @@ img.lazyload[data-sizes=auto] {
 }
 
 .button--full {
-  width: 80%;
-  margin: 1px 0 0 34px;
+  width: 100%;
 }
 
 .button--min-width {
@@ -2688,7 +2678,7 @@ img.lazyload[data-sizes=auto] {
 
 .card__separator {
   width: calc(100% + var(--mobile-container-gutter));
-  margin: 2px 0;
+  margin: 20px 0;
   border: none;
   border-top: 1px solid var(--border-color);
 }
@@ -2751,8 +2741,9 @@ img.lazyload[data-sizes=auto] {
 
 @media screen and (min-width: 641px) {
   .card {
-    border-radius: 15px;
-    box-shadow: 0 0 10px -3spx #000000c4;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
   }
 
   .card__header {
@@ -2832,8 +2823,7 @@ img.lazyload[data-sizes=auto] {
 .mini-cart {
   position: absolute;
   width: 100vw;
-  height: ;
-  border-bottom: 2px solid #d30404;
+  height: 100vh;
   left: 0;
   top: 100%;
   max-height: 0;
@@ -2946,14 +2936,13 @@ img.lazyload[data-sizes=auto] {
 }
 
 .mini-cart__price-list > .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
   font-weight: var(--text-font-bolder-weight);
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
+
 .mini-cart__price-info {
   margin-top: -2px;
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
 }
 
 .mini-cart__discount-list {
@@ -2998,8 +2987,6 @@ img.lazyload[data-sizes=auto] {
   justify-content: space-between;
   color: var(--heading-color);
   font-weight: var(--text-font-bolder-weight);
-  font-size: 24px;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
 
 .mini-cart__recap-price-line--highlight {
@@ -4040,7 +4027,7 @@ img.lazyload[data-sizes=auto] {
   }
 
   .product-list--scrollable .product-item {
-    width: 26%;
+    width: 36%;
   }
 }
 
@@ -4131,6 +4118,7 @@ img.lazyload[data-sizes=auto] {
     content: "";
     width: 100%;
     height: calc(100% + 0px); /* This solves an issue on Safari, where 100% does not always work - likely a pixel rounding issue - */
+    border: 1px solid var(--border-color);
     z-index: 1;
     pointer-events: none;
     border-radius: 3px;
@@ -4522,10 +4510,9 @@ img.lazyload[data-sizes=auto] {
 .form__field {
   display: block;
   padding: 12px 12px;
-  border-radius: 50px;
-  margin: 0 auto;
+  border-radius: 2px;
   border: 1px solid var(--form-border-color);
-  width: 80%;
+  width: 100%;
   line-height: normal;
   height: 48px;
   color: var(--heading-color);
@@ -4634,7 +4621,7 @@ img.lazyload[data-sizes=auto] {
 
 .form__floating-label {
   position: absolute;
-  left: 55px;
+  left: 13px;
   top: 0;
   line-height: 48px; /* allows to center the field */
   font-size: 1rem;
@@ -4643,11 +4630,6 @@ img.lazyload[data-sizes=auto] {
   transform-origin: left top;
   transition: transform 0.2s ease-in-out;
   pointer-events: none;
-}
-@media only screen and (max-width: 600px) {
-  .form__floating-label {
-    left: 50px;
-  }
 }
 
 .form__field:focus + .form__floating-label,
@@ -5256,8 +5238,6 @@ select::-ms-expand {
 
 .footer .button--primary {
   background-color: var(--footer-accent-color);
-  margin: 0 auto;
-  width: 80%;
 }
 
 .footer .button--primary:hover {
@@ -5408,7 +5388,7 @@ select::-ms-expand {
 
 .header {
   position: relative;
-  padding: 0px 0;
+  padding: 13px 0;
   background: var(--header-background);
   color: var(--header-text-color);
   transition: margin-bottom 0.25s ease-in-out;
@@ -5437,7 +5417,7 @@ select::-ms-expand {
 .header__logo-image {
   display: block;
   vertical-align: middle;
-  max-height: 120px;
+  max-height: 130px;
 }
 
 .header__mobile-nav {
@@ -5789,9 +5769,6 @@ select::-ms-expand {
  * SEARCH
  * --------------------------------------------------------------------
  */
- #shopify-section-97df39d6-4b74-4825-9778-28fe61288976 .button {
-  border-radius: 5px;
- }
 
 .search-bar {
   position: relative;
@@ -5807,7 +5784,7 @@ select::-ms-expand {
   display: flex;
   height: 44px;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 3px;
   background: var(--secondary-background);
   color: var(--text-color);
   z-index: 1;
@@ -5895,7 +5872,7 @@ select::-ms-expand {
   height: 100%;
   color: var(--secondary-background);
   background: var(--header-accent-color);
-  border-radius: 0 15px 15px 0;
+  border-radius: 0 3px 3px 0;
 }
 
 .search-bar__submit svg {
@@ -6431,8 +6408,8 @@ select::-ms-expand {
   box-shadow: 2px 0 0 0 var(--secondary-background);
 }
 .plyr.plyr--full-ui.plyr--video .plyr__progress input[type=range]::-webkit-slider-runnable-track {
-  background-image: linear-gradient(to right, currentColor 0, rgba(var(--text-color-rgb) 0.6)) 0;
-  background-image: linear-gradient(to right, currentColor var(--value, 0), rgba(var(--text-color-rgb) 0.6)) var(--value, 0);
+  background-image: linear-gradient(to right, currentColor 0, rgba(var(--text-color-rgb) 0.6)) 0);
+  background-image: linear-gradient(to right, currentColor var(--value, 0), rgba(var(--text-color-rgb) 0.6)) var(--value, 0));
 }
 .plyr.plyr--full-ui.plyr--video .plyr__progress input[type=range]::-moz-range-track {
   background-color: rgba(var(--text-color-rgb) 0.6);
@@ -8223,7 +8200,7 @@ select::-ms-expand {
  */
 .product-gallery {
   position: relative;
-  margin-bottom: 2px;
+  margin-bottom: 12px;
 }
 
 .product-gallery__carousel-wrapper {
@@ -8300,7 +8277,7 @@ select::-ms-expand {
 
 .product-gallery__carousel--zoomable ~ .product-gallery__zoom-notice {
   display: block;
-  margin: 12px 0 -20px 0;
+  margin: 12px 0 6px 0;
   width: 100%;
   text-align: center;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
@@ -8452,7 +8429,7 @@ select::-ms-expand {
 }
 
 .product-meta__title {
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 
 /* When within a modal, we have to add an extra margin to prevent the title to overlap the close button */
@@ -8461,7 +8438,7 @@ select::-ms-expand {
 }
 
 .product-meta__label-list {
-  margin-bottom: 5px;
+  margin-bottom: 17px;
   font-size: 0;
 }
 
@@ -8581,7 +8558,7 @@ select::-ms-expand {
 }
 
 .product-form__option {
-  margin-bottom: 43px;
+  margin-bottom: 23px;
 }
 
 .product-form__option-name {
@@ -8597,14 +8574,10 @@ select::-ms-expand {
 .product-form__info-list {
   display: table;
   width: 100%;
-  margin: -38px 0 3px 0 !important;
-  border-spacing: 0 4px;
+  margin: -22px 0 6px 0;
+  border-spacing: 0 22px;
 }
-@media only screen and (min-width: 640px) {
-  .product-form__info-list {
-    margin: -50px 0 3px !important;
-  }
-}
+
 .product-form__info-item {
   display: table-row;
 }
@@ -8624,25 +8597,13 @@ select::-ms-expand {
 .product-form__info-content {
   display: table-cell;
   width: 100%;
-  margin-top: 26px;
 }
 
 .product-form__price-info {
   margin-top: 5px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
 }
-.AirReviews-Carousel .AirReviews-Carousel__Nav button {
-  background: #d30404 !important;
-}
-.AirReviews-Widget.AirReviews-Widget--Stars{
-  margin-bottom: 5px;
-}
-.M3.99595 0L0 3.995L12.9798 17L0 30.005L3.99595 34L21 17L3.99595 0Z {
-  fill: black !important; /* Use !important para garantir que a regra seja aplicada, se necessário */
-}
-.AirReviews-Button path {
-  fill: black !important; /* Use !important para garantir que a regra seja aplicada, se necessário */
-}
+
 .product-form__price-info + .product-form__price-info {
   margin-top: 0;
 }
@@ -8680,9 +8641,10 @@ select::-ms-expand {
 
 @media screen and (max-width: 640px) {
   .product-form__payment-container .shopify-payment-button {
-    margin-top: 13px;
+    margin-top: 16px;
   }
 }
+
 @media screen and (min-width: 641px) {
   .product-form {
     margin-top: -8px; /* for pixel perfect alignment... */
@@ -8715,18 +8677,13 @@ select::-ms-expand {
  * SHOPIFY QUICK PAYMENT
  * --------------------------------------------------------------------
  */
- @media only screen and (max-width: 641px){
-  .shopify-payment-button__button {
-    width: 80% !important; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-    margin: 0 auto !important;
-  }
-}
 
 .shopify-payment-button__button--unbranded {
   position: relative;
+  display: inline-block;
   padding: 0 30px !important;
   line-height: 48px !important;
-  border-radius: 50px !important;
+  border-radius: 2px !important;
   text-align: center;
   background: var(--secondary-button-background) !important;
   color: var(--secondary-button-text-color) !important;
@@ -8734,19 +8691,14 @@ select::-ms-expand {
   font-size: var(--base-text-font-size) !important;
   cursor: pointer;
   transition: background 0.25s ease-in-out, color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-  margin: 0 auto;
 }
-@media only screen and (max-width: 600px){
-  .shopify-payment-button__button--unbranded {
-    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
-  }
-}
+
 .shopify-payment-button__button--unbranded:hover {
   background: rgba(var(--secondary-button-background-rgb), 0.8) !important;
 }
 
 .shopify-payment-button__button--branded {
-  border-radius: 50px;
+  border-radius: 3px;
   overflow: hidden;
   min-height: 48px;
 }
@@ -8901,7 +8853,7 @@ select::-ms-expand {
   display: inline-block;
   padding: 4px 10px;
   color: #ffffff;
-  border-radius: 50px;
+  border-radius: 3px;
   font-weight: var(--text-font-bolder-weight);
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
   line-height: 1;
@@ -8932,70 +8884,15 @@ select::-ms-expand {
  * ---------
  -----------------------------------------------------------
  */
-  
-/* ~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~ */
 
-
-.installments-cards {
-  font-size:13px!important;
-  margin-top: 2px!important;
-}
-
-.installment-numbers-cards {
-   margin-top: 3px!important;
-   font-size: 14px!important;
-   color: var(--rate-installment-color)!important;
-   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-   font-weight: 700;
-}
-         
-.installment-price-cards {
-   margin-top: 3px!important;
-   font-size: 14px!important;
-   text-decoration: bold;
-   color: var(--rate-installment-color);
-   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-   font-weight: 700;
-}
-
-
-@media screen and (max-width: 640px) { 
-
-/* ~+~+~+~+~+~+~+ Mobile ~+~+~+~+~+~+~+~ */
- 
-.installments-cards {
-  font-size:13px!important;
-  margin-top: 2px!important;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-}
-
-.installment-numbers-cards {
-   margin-top: 3px!important;
-   font-size: 14px!important;
-   color: var(--rate-installment-color)!important;
-   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-   font-weight: 700;
-}
-         
-.installment-price-cards {
-   margin-top: 3px!important;
-   font-size: 14px!important;
-   text-decoration: bold;
-   color: var(--rate-installment-color);
-   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-   font-weight: 700;
-}
-}
 .price-list {
   display: inline-flex;
   align-items: baseline;
-  line-height: 1.0;
-  flex-direction: column-reverse;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s !important;
+  line-height: 1;
 }
 
 .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 28px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
   color: var(--accent-color);
 }
 
@@ -9364,17 +9261,14 @@ select::-ms-expand {
  * --------------------------------------------------------------------
  */
 
- .product-item {
+.product-item {
   position: relative;
   padding: 20px;
   min-width: 0;
   flex-shrink: 0;
   background: var(--secondary-background);
   white-space: normal;
-  transform: scale(.95);
-  border-radius: 20px!important;
-  box-shadow: 0 0 10px -4px #000000c4;
-  }
+}
 
 .product-item::after {
   content: "";
@@ -9412,7 +9306,7 @@ select::-ms-expand {
 .product-item__label-list > .product-label {
   display: block;
   margin-bottom: 5px;
-  border-radius: 10px 30px 30px 0;
+  border-radius: 0 3px 3px 0;
 }
 
 .product-item__info {
@@ -9470,7 +9364,7 @@ select::-ms-expand {
 }
 
 .product-item .price {
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 28px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 18px));
 }
 
 .product-item .price--compare {
@@ -9531,7 +9425,7 @@ select::-ms-expand {
 
   .product-item--vertical .price:not(.price--compare),
   .product-item--list .price:not(.price--compare) {
-    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 20px));
   }
 }
 
@@ -9590,7 +9484,6 @@ select::-ms-expand {
 .product-item--horizontal,
 .product-item--list {
   display: flex;
-  flex-direction: column;
 }
 
 .product-item--horizontal .product-item__info,
@@ -11735,28 +11628,6 @@ select::-ms-expand {
  * ANNOUNCEMENT BAR
  * --------------------------------------------------------------------
  */
- .announcement-bar__inner {
-    display: flex;
-    align-items: center;
-  	justify-content: space-around;
-    width: 100%;
-}
-
-.announcement-bar__content {
-    padding: 7px 0;
-}
-.announcement-bar__content {
-    display: block;
-    padding: 4px 0;
-    margin-bottom: 0;
-}
-
-.announcesvg {
-    width: 22px;
-    vertical-align: middle;
-    display: inline-block;
-    margin-right: 5px;
-}
 
 .announcement-bar {
   position: relative;
@@ -12740,11 +12611,8 @@ select::-ms-expand {
   margin: 0 auto;
   padding: 15px;
   z-index: 4;
-  color: white;
-  text-decoration: solid;
-  border-color: red;
-  border-radius: 10px;
-  background: #333333;
+  border-radius: 3px;
+  background: var(--secondary-background);
   box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -13641,19 +13509,3 @@ select::-ms-expand {
     min-width: 0;
   }
 }
-/* Estilos para dispositivos desktop */
-.desktop-only {
-  display: block; /* Exibe o elemento normalmente em dispositivos desktop */
-}
-
-/* Estilos para dispositivos mobile */
-@media only screen and (max-width: 600px) {
-  .desktop-only {
-    display: none; /* Oculta o elemento em dispositivos com largura de tela menor que 600 pixels (ajuste conforme necessário) */
-  }
-}
-/* link de hospedagem da fonte do Mercado Livre. */
-@font-face {font-family:'Proxima Nova';font-weight:300;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf) format("truetype")}
-@font-face{font-family:'Proxima Nova';font-weight:400;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")}
-@font-face{font-family:'Proxima Nova';font-weight:600;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")}
-/* link de hospedagem da fonte do Mercado Livre. */
