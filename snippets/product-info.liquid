@@ -47,8 +47,6 @@
           <a href="{{ product.url }}">{{ product.title }}</a>
         </h3>
       {%- endif -%}
-<div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
-
 
       {%- capture product_labels -%}
         {%- for tag in product.tags -%}
@@ -73,6 +71,8 @@
           {%- else -%}
             {%- capture savings -%}<span>{{ selected_variant.compare_at_price | minus: selected_variant.price | money }}</span>{%- endcapture -%}
           {%- endif -%}
+
+          <span class="product-label product-label--on-sale" {% unless selected_variant.price < selected_variant.compare_at_price %}style="display: none"{% endunless %}>{{ 'collection.product.discount_html' | t: savings: savings }}</span>
         {%- endif -%}
       {%- endcapture -%}
 
@@ -107,7 +107,17 @@
         <a href="{% if template.name != 'product' or template == 'product.quick-view' %}{{ product.url | within: collection }}{% endif %}#product-reviews" class="product-meta__reviews-badge link" data-offset="30">
           <span class="shopify-product-reviews-badge" data-id="{{ product.id }}">
             {%- comment -%}Display a placeholder, to allocate space{%- endcomment -%}
+            <div class="spr-badge" style="opacity: 0">
+              <span class="spr-starrating spr-badge-starrating">
+                <i class="spr-icon spr-icon-star-empty"></i>
+                <i class="spr-icon spr-icon-star-empty"></i>
+                <i class="spr-icon spr-icon-star-empty"></i>
+                <i class="spr-icon spr-icon-star-empty"></i>
+                <i class="spr-icon spr-icon-star-empty"></i>
+              </span>
 
+              <span class="spr-badge-caption">filler</span>
+            </div>
           </span>
         </a>
       {%- endif -%}
@@ -119,6 +129,7 @@
       {%- endif -%}
     </div>
 
+    <hr class="card__separator">
 
     {%- if request.page_type == 'index' and section.settings.show_description and product.description != blank and section.settings.description_below_add_to_cart == false -%}
       <div class="product-meta__description rte">
@@ -266,7 +277,7 @@
       {%- else -%}
         <input type="hidden" name="id" data-sku="{{ selected_variant.sku }}" value="{{ selected_variant.id }}">
       {%- endunless -%}
-      
+
       <div class="product-form__info-list">
         <div class="product-form__info-item">
           <span class="product-form__info-title text--strong">{{ 'product.form.price' | t }}:</span>
@@ -274,11 +285,11 @@
           <div class="product-form__info-content" role="region" aria-live="polite">
             <div class="price-list">
               {%- if selected_variant.compare_at_price > selected_variant.price -%}
-                
                 <span class="price price--highlight">
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
                   {{- selected_variant.price | money -}}
                 </span>
+
                 <span class="price price--compare">
                   <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                   {{- selected_variant.compare_at_price | money -}}
@@ -291,10 +302,6 @@
               {%- endif -%}
             </div>
 
-    {%- if settings.show_discount and product.price < product.compare_at_price -%}
-      <br class="product-meta__label-list"><span class="product-label product-label--on-sale">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
-    {%- endif -%}
-            <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></br>
             <div class="product-form__price-info" style="display: {% if selected_variant.unit_price_measurement %}block{% else %}none{% endif %}">
               <div class="unit-price-measurement">
                 <span class="unit-price-measurement__price">{{ selected_variant.unit_price | money }}</span>
@@ -399,7 +406,6 @@
         {%- else -%}
           <a href="mailto:{{ shop.email }}" class="button button--primary">{{ 'product.form.contact_us' | t }}</a>
         {%- endif -%}
-        
       </div>
     {%- endform -%}
 
