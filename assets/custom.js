@@ -33,15 +33,3 @@
  *   bubbles: true
  * }));
  */
-document.addEventListener("DOMContentLoaded", function() {
-    // Atrasa a execução por 5 segundos (ajuste conforme necessário)
-    setTimeout(function() {
-        // Gere um número aleatório para evitar o cache
-        var randomVersion = new Date().getTime();
-
-        // Adicione o código para carregar o script da CDN aqui
-        var script = document.createElement('script');
-        script.src = 'https://productreviews.shopifycdn.com' + randomVersion;
-        document.head.appendChild(script);
-    }, 10000);  // 5000 milissegundos = 5 segundos
-});
