@@ -298,7 +298,7 @@
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
-          "show_product_recommendations": true,
+          "show_product_recommendations": false,
           "heading": "También te puede interesar",
           "show_quick_buy": false
         }
