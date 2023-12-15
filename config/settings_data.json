@@ -289,7 +289,7 @@
           "show_reviews_badge": false,
           "trust_title": "Pago y Seguridad",
           "show_payment_icons": true,
-          "custom_security_badge_width": 200,
+          "custom_security_badge_width": 180,
           "show_shipping_estimator": false,
           "shipping_estimator_default_country": "",
           "show_refunds_policy": true
