@@ -33,7 +33,7 @@ body {
 }
 
 .jdgm-widget *{
-  padding: 50px !important;
+  margin: 0px 0px 10px !important;
 }
 /**
  * HTML5 display definitions
