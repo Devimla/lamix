@@ -32,7 +32,15 @@ body {
   display: none !important;
 }
 
+.jdgm-widget *{
+  margin: 0px 0px 10px !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+  border-radius: 20px !important;
+}
+.jdgm-write-rev-link {
 
+}
 /**
  * HTML5 display definitions
  */
