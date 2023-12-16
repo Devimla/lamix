@@ -48,7 +48,7 @@ body {
 }
 .jdgm-gallery-title {
   font-size: 25px !important;
-  color: #007bff !important;
+  text-decoration: bold;
 }
 /**
  * HTML5 display definitions
