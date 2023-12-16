@@ -66,15 +66,22 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container1 {
-    animation: none;
-  }
-  .barra-de-anuncio__inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .container1 {
+        animation: none;
+        transform: none; /* Resetar a transformação */
+    }
+    
+    .barra-de-anuncio__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .barra-de-anuncio__content {
+        text-align: center; /* Centralizar o texto */
+    }
 }
+
 
 /* Definição das animações */
 @keyframes bouncing-text-small {
