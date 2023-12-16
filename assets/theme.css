@@ -8631,8 +8631,9 @@ select::-ms-expand {
   margin-top: 5px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
 }
+/* cor botão carroceu air review*/
 .AirReviews-Carousel .AirReviews-Carousel__Nav button {
-  background: #d30404 !important;
+  background: #007bff !important;
 }
 .AirReviews-Widget.AirReviews-Widget--Stars{
   margin-bottom: 5px;
