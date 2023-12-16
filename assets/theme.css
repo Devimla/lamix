@@ -39,7 +39,7 @@ body {
   display: block !important;
   width: 80% !important;
   margin: 0 auto !important;
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
 /**
  * HTML5 display definitions
