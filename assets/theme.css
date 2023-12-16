@@ -32,7 +32,34 @@ body {
   display: none !important;
 }
 
-
+.jdgm-widget *{
+  margin: 0px 0px 2px !important;
+}
+.jdgm-write-rev-link {
+  width: 80% !important;
+  margin: 0 auto !important;
+  border-radius: 20px !important;
+}
+.jdgm-histogram__bar, .jdgm-histogram__bar-content {
+  border-radius: 10px !important;
+}
+.jdgm-write-rev-link, .jdgm-ask-question-btn, .jdgm-widget input.jdgm-review-search, .jdgm-subtab__name, .jdgm-widget .jdgm-btn.jdgm-btn, .jdgm-chip {
+  border-radius: 20px !important;
+}
+.jdgm-gallery-title {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+.jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown, .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown-arrow {
+  font-weight: bold;
+  font-size: 17px;
+}
+.jdgm-row-actions {
+  align-items: center !important;
+}
+.jdgm-carousel-title {
+  font-size: 14px !important;
+}
 /**
  * HTML5 display definitions
  */
