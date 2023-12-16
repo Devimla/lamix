@@ -48,7 +48,10 @@ body {
 }
 .jdgm-gallery-title {
   font-size: 25px !important;
-  text-decoration: bold !important;
+  font-weight: bold;
+}
+.jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown, .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown-arrow {
+  font-weight: bold;
 }
 /**
  * HTML5 display definitions
