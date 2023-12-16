@@ -53,6 +53,8 @@ body {
 .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown, .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown-arrow {
   font-weight: bold;
 }
+.jdgm-sort-dropdown {
+  padding: 10px 20px 10px 100px !important;}
 /**
  * HTML5 display definitions
  */
