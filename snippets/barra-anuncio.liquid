@@ -34,7 +34,7 @@
   color: #ffffff;
   font-size: 13px;
   text-align: center;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
   background: linear-gradient(to right, black, #007bff);
   background-size: 100% 100%;
   color: #ffffff;
@@ -65,25 +65,32 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-    .container1 {
-        animation: none;
-        transform: none; /* Resetar a transformação */
-    }
-    
-    .barra-de-anuncio__inner {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .barra-de-anuncio__content {
-        text-align: center; /* Centralizar o texto */
-    }
+/* Aplicar a animação para telas maiores (PC) */
+@media only screen and (min-width: 601px) {
+  .container1 {
+    animation: bouncing-text-large 3s linear infinite alternate; /* Ajuste a duração conforme necessário */
+  }
 }
 
+/* Desativar animação para telas menores (Celular) */
+@media only screen and (max-width: 600px) {
+  .container1 {
+    animation: none;
+    transform: none; /* Resetar a transformação */
+  }
+  
+  .barra-de-anuncio__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-/* Definição das animações */
+  .barra-de-anuncio__content {
+    text-align: center; /* Centralizar o texto */
+  }
+}
+
+/* Definição da animação para telas menores (Celular) */
 @keyframes bouncing-text-small {
   0% {
     transform: translateX(20%);
@@ -123,4 +130,5 @@
     display: none !important;
   }
 }
+
 </style>
