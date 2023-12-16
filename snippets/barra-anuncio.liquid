@@ -1,7 +1,7 @@
 <div class="barra-de-anuncio">
       <div class="container1">
         <div class="barra-de-anuncio__inner"><div class="barra-de-anuncio__inner">
-            <p class="barra-de-anuncio__content barra-de-anuncio__content--left">              
+            <p class="barra-de-anuncio__content barra-de-anuncio__content--left small">              
               <svg class="announcesvg" viewBox="0 0 23 24" role="presentation">
       <g stroke-width="2" fill="none" fill-rule="evenodd">
         <path d="M6.5 3.25l12 6" stroke="white"></path>
@@ -52,18 +52,18 @@
 }
 
 /* Animação padrão para tela maior (PC) */
-.container1 {
-    -moz-animation: bouncing-text-large 1s linear infinite alternate;
-    -webkit-animation: bouncing-text-large 1s linear infinite alternate;
+.container1.large {
+    -moz-animation: bouncing-text-large 30s linear infinite alternate;
+    -webkit-animation: bouncing-text-large 30s linear infinite alternate;
     animation: bouncing-text-large 30s linear infinite;
 }
 
 /* Animação diferente para tela menor (Celular) */
 @media only screen and (max-width: 600px) {
-    .container1 {
+    .container1.small {
         -moz-animation: bouncing-text-small 1s linear infinite alternate;
         -webkit-animation: bouncing-text-small 1s linear infinite alternate;
-        animation: bouncing-text-small 10s linear infinite;
+        animation: bouncing-text-small 1s linear infinite;
     }
 }
 
@@ -74,8 +74,8 @@
 
 @keyframes bouncing-text-small {
     /* Animação diferente para tela menor (Celular) */
-
 }
+
   .barra-de-anuncio__inner {
     display: flex;
     align-items: center;
