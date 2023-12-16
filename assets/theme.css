@@ -47,7 +47,7 @@ body {
   border-radius: 20px !important;
 }
 .jdgm-gallery-title {
-  font-size: 25px;
+  font-size: 25px !important;
 }
 /**
  * HTML5 display definitions
