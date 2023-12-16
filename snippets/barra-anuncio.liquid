@@ -1,5 +1,5 @@
 <div class="barra-de-anuncio">
-    <div class="container1"> <!-- Adicione a classe "large" para dispositivos maiores -->
+    <div class="container1"> <!-- Remova a classe "large" do contêiner principal -->
         <div class="barra-de-anuncio__inner">
             <p class="barra-de-anuncio__content barra-de-anuncio__content--left small">              
                 <!-- Seu conteúdo aqui -->
@@ -38,21 +38,6 @@
     }
 
     /* Animação padrão para tela maior (PC) */
-    .container1.large {
-        animation: bouncing-text-large 30s linear infinite alternate;
-    }
-
-    /* Animação diferente para tela menor (Celular) */
-    @media only screen and (max-width: 600px) {
-        .container1.large {
-            animation: none; /* Desativa a animação para dispositivos menores */
-        }
-        .container1.small {
-            animation: bouncing-text-small 1s linear infinite alternate;
-        }
-    }
-
-    /* Definição das animações */
     @keyframes bouncing-text-large {
         0% {
             transform: translateX(60%);
@@ -62,6 +47,14 @@
         }
     }
 
+    /* Animação diferente para tela menor (Celular) */
+    @media only screen and (max-width: 600px) {
+        .container1 {
+            animation: bouncing-text-small 1s linear infinite alternate;
+        }
+    }
+
+    /* Definição das animações */
     @keyframes bouncing-text-small {
         0% {
             transform: translateX(60%);
