@@ -430,27 +430,25 @@
   </header>
   {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
 
-  <!-- INICIO CODIGO - BARRA DEGRADE --> 
+<!-- INICIO CODIGO - BARRA DEGRADE -->
 <div class="container-fluid color-line" style="
-margin: 0px 0px 0px; display: block!important;
-background: linear-gradient(to right, 
-  
-/* Inicio alteração da Cor do Degrade */
-rgba(0,0,0) 29% rgba(0,0,0,1) 31%, rgba(0,123,255,1) 80%;
-/* Fim alteração da Cor do Degrade */
-  
-  );
-height: 5px;
-width: 100%;
-background-image: linear-gradient(to right, 
-  
-/* Inicio alteração da Cor do Degrade */
-rgba(0,0,0) 29% rgba(0,0,0,1) 31%, rgba(0,123,255,1) 80%;
-/* Fim alteração da Cor do Degrade */
-
-);
+    margin: 0px 0px 0px; 
+    display: block!important;
+    background: linear-gradient(to right, 
+        rgba(0,0,0,1) 29%, 
+        #007BFF 60%, 
+        #007BFF 87%
+    );
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(to right, 
+        rgba(0,0,0,1) 29%, 
+        #007BFF 60%, 
+        #007BFF 87%
+    );
 "></div>
-<!-- FIM CODIGO - BARRA DEGRADE --> 
+<!-- FIM CODIGO - BARRA DEGRADE -->
+
 
     <nav class="nav-bar">
       <div class="nav-bar__inner">
