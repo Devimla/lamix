@@ -46,6 +46,9 @@ body {
 .jdgm-write-rev-link, .jdgm-ask-question-btn, .jdgm-widget input.jdgm-review-search, .jdgm-subtab__name, .jdgm-widget .jdgm-btn.jdgm-btn, .jdgm-chip {
   border-radius: 20px !important;
 }
+.jdgm-gallery-title {
+  font-size: 10px;
+}
 /**
  * HTML5 display definitions
  */
