@@ -35,8 +35,7 @@ body {
 .jdgm-widget *{
   margin: 0px 0px 10px !important;
 }
-.jdgm-write-rev-link, .jdgm-ask-question-btn {
-  background-color: black !important;
+.jdgm-write-rev-link {
   width: 80% !important;
   margin: 0 auto !important;
   border-radius: 20px !important;
