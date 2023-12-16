@@ -8953,6 +8953,7 @@ select::-ms-expand {
    margin-top: 3px!important;
    font-size: 14px!important;
    text-decoration: bold;
+   color: #D30404;
    color: var(--rate-installment-color);
    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
    font-weight: 700;
