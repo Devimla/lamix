@@ -12223,6 +12223,10 @@ select::-ms-expand {
   display: flex;
   flex-wrap: nowrap;
   margin: -4px;
+  align-content: stretch;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .payment-list__item {
