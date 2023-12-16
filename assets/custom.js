@@ -44,4 +44,4 @@ document.addEventListener("DOMContentLoaded", function() {
         script.src = 'https://productreviews.shopifycdn.com' + randomVersion;
         document.head.appendChild(script);
     }, 10000);  // 5000 milissegundos = 5 segundos
-});
+);
