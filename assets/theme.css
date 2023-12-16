@@ -33,11 +33,9 @@ body {
 }
 
 .jdgm-widget *{
-  margin: 0px 0px 10px !important;
+  margin: 0px 0px 5px !important;
 }
 .jdgm-write-rev-link {
-  width: 80% !important;
-  margin: 0 auto !important;
   border-radius: 20px !important;
 }
 /**
