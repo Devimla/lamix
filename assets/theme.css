@@ -54,13 +54,7 @@ body {
   font-weight: bold;
 }
 .jdgm-row-actions {
-  padding: 8px 0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: /* adicione uma largura máxima se necessário */;
+  margin: 0 auto !important;
 }
 /**
  * HTML5 display definitions
