@@ -39,26 +39,42 @@
     background-size: 170% 60%; /* Ajuste a largura conforme necessário */
     color: #ffffff;
 }
-  .container1 {
+.container1 {
     max-width: 1480px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-      -moz-transform: translateX(50%);
-  -webkit-transform: translateX(50%);
-  transform: translateX(50%);
-  -moz-animation: bouncing-text 1s linear infinite alternate;
-  -webkit-animation: bouncing-text 1s linear infinite alternate;
-  animation: bouncing-text 30s linear infinite ;  /*TEMPO DA ANIMAÇÃO 30 SEGUNDOS */
-  padding-top: 1px;
-  padding-bottom: 1px;
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
-@media only screen and (min-width: 600px) {
+
+/* Animação padrão para tela maior (PC) */
+.container1 {
+    -moz-animation: bouncing-text-large 1s linear infinite alternate;
+    -webkit-animation: bouncing-text-large 1s linear infinite alternate;
+    animation: bouncing-text-large 30s linear infinite;
+}
+
+/* Animação diferente para tela menor (Celular) */
+@media only screen and (max-width: 600px) {
     .container1 {
-  -moz-animation: bouncing-text 1s linear infinite alternate;
-  -webkit-animation: bouncing-text 1s linear infinite alternate;
-  animation: bouncing-text 0s linear infinite ;  /*TEMPO DA ANIMAÇÃO 30 SEGUNDOS */
+        -moz-animation: bouncing-text-small 1s linear infinite alternate;
+        -webkit-animation: bouncing-text-small 1s linear infinite alternate;
+        animation: bouncing-text-small 30s linear infinite;
+    }
 }
+
+/* Definição das animações */
+@keyframes bouncing-text-large {
+    /* Animação para tela maior (PC) */
+}
+
+@keyframes bouncing-text-small {
+    /* Animação diferente para tela menor (Celular) */
+
 }
   .barra-de-anuncio__inner {
     display: flex;
