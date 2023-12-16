@@ -36,6 +36,7 @@ body {
   margin: 0px 0px 5px !important;
 }
 .jdgm-write-rev-link {
+  margin: 0 auto !important;
   border-radius: 20px !important;
 }
 /**
