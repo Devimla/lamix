@@ -37,7 +37,7 @@ body {
 }
 .jdgm-write-rev-link, .jdgm-ask-question-btn {
   width: 80% !important;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 /**
  * HTML5 display definitions
