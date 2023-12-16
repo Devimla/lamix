@@ -55,6 +55,7 @@ body {
 }
 .jdgm-row-actions {
   margin: 0 auto !important;
+  align-content: space-around;
 }
 /**
  * HTML5 display definitions
