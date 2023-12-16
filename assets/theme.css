@@ -35,6 +35,9 @@ body {
 .jdgm-widget *{
   margin: 0px 0px 10px !important;
 }
+.jdgm-write-rev-link, .jdgm-ask-question-btn {
+  width: 80% !important;
+}
 /**
  * HTML5 display definitions
  */
