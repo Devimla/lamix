@@ -511,7 +511,7 @@
           "text_color": "#ffffff",
           "title": "Recomendamos estos productos.",
           "content": "Descubre una lista especial de productos que recomendamos para cualquier cliente. \n¡Estos no pueden faltar en tu carrito!",
-          "button_background": "#d30404",
+          "button_background": "#007bff",
           "button_text_color": "#ffffff",
           "button_text": "Ver todo",
           "button_link": ""
