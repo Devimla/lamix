@@ -386,7 +386,7 @@
 
           <div class="product-form__info-content" role="region" aria-live="polite">
             <div class="price-list">
-             <p class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></p>
+             <span class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></span>
               {%- if selected_variant.compare_at_price > selected_variant.price -%}
                 <span class="price price--highlight">
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
