@@ -433,7 +433,7 @@
         "type": "recently-viewed-products",
         "settings": {
           "title": "Visto recientemente",
-          "show_quick_buy": true
+          "show_quick_buy": false
         }
       },
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11": {
