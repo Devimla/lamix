@@ -16,79 +16,86 @@
 
 <style>
     .barra-de-anuncio {
-        color: #ffffff;
-        font-size: 13px;
-        text-align: center;
-        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-        background: linear-gradient(to right, black, #007bff);
-        background-size: 170% 60%;
-        color: #ffffff;
-    }
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  background: linear-gradient(to right, black, #007bff);
+  background-size: 100% 100%;
+  color: #ffffff;
+}
 
-    .container1 {
-        max-width: 1480px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        -moz-transform: translateX(50%);
-        -webkit-transform: translateX(50%);
-        transform: translateX(50%);
-        padding-top: 1px;
-        padding-bottom: 1px;
-    }
+.container1 {
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 
-    /* Animação padrão para tela maior (PC) */
-    @keyframes bouncing-text-large {
-        0% {
-            transform: translateX(60%);
-        }
-        100% {
-            transform: translateX(-60%);
-        }
-    }
+/* Animação padrão para tela maior (PC) */
+@keyframes bouncing-text-large {
+  0% {
+    transform: translateX(20%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
 
-    /* Animação diferente para tela menor (Celular) */
-    @media only screen and (max-width: 600px) {
-        .container1 {
-            animation: bouncing-text-small 1s linear infinite alternate;
-        }
-    }
+/* Animação diferente para tela menor (Celular) */
+@media only screen and (max-width: 600px) {
+  .container1 {
+    animation: bouncing-text-small 1s linear infinite alternate;
+  }
+}
 
-    /* Definição das animações */
-    @keyframes bouncing-text-small {
-        0% {
-            transform: translateX(60%);
-        }
-        100% {
-            transform: translateX(-60%);
-        }
-    }
+/* Definição das animações */
+@keyframes bouncing-text-small {
+  0% {
+    transform: translateX(20%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
 
-    .barra-de-anuncio__inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        margin-top: -2px;
-        padding-bottom: 2px;
-    }
+.barra-de-anuncio__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: -2px;
+  padding-bottom: 2px;
+}
 
-    .barra-de-anuncio__content {
-        display: block;
-        padding: 5px 0;
-        margin-bottom: -5px;
-    }
+.barra-de-anuncio__content {
+  display: block;
+  padding: 5px 0;
+  margin-bottom: -5px;
+}
 
-    .announcesvg {
-        width: 22px;
-        vertical-align: middle;
-        display: inline-block;
-        margin-right: 10px;
-    }
+.announcesvg {
+  width: 22px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 10px;
+}
 
-    @media only screen and (max-width: 999px) {
-        .mobhide {
-            display: none !important;
-        }
-    }
+@media only screen and (max-width: 999px) {
+  .mobhide {
+    display: none !important;
+  }
+}
+
 </style>
