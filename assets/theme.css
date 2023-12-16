@@ -54,8 +54,7 @@ body {
   font-weight: bold;
 }
 .jdgm-row-actions {
-  margin: 0 auto !important;
-  align-content: space-around;
+  align-items: center !important;
 }
 /**
  * HTML5 display definitions
