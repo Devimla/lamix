@@ -425,9 +425,8 @@
                   {{- selected_variant.unit_price_measurement.reference_unit -}}
                 </span>
               </div>
-              <p class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></p>
             </div>
-
+<span class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span></span>
             {%- if section.settings.show_taxes_included -%}
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <p class="product-form__price-info">
