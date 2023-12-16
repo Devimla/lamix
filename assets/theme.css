@@ -52,6 +52,7 @@ body {
 }
 .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown, .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown-arrow {
   font-weight: bold;
+  font-size: 17px;
 }
 .jdgm-row-actions {
   align-items: center !important;
