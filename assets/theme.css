@@ -9514,7 +9514,7 @@ select::-ms-expand {
 
 .product-item__title {
   margin-bottom: 12px;
-  line-height: 1.1 !important; /* Ajuste o valor conforme necessário */
+  line-height: 1.2 !important; /* Ajuste o valor conforme necessário */
 }
 
 .product-item__title + .product-item__vendor {
