@@ -5950,7 +5950,7 @@ select::-ms-expand {
 
 .search-bar__submit {
   flex: none;
-  width: 50px;
+  width: 8px;
   height: 100%;
   color: var(--secondary-background);
   background: var(--header-accent-color);
