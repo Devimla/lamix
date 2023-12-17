@@ -74,6 +74,9 @@ body {
 .jdgm-carousel-wrapper .jdgm-carousel-item__review {
   height: calc(60% - 4em) !important;
 }
+.jdgm-carousel-item__reviewer-name {
+  color: #007bff;
+}
 /**
  * HTML5 display definitions
  */
