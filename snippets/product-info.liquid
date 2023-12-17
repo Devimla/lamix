@@ -396,11 +396,6 @@
                   <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                   {{- selected_variant.compare_at_price | money -}}
                 </span>
-                            {%- if product_labels != blank -%}
-              <div class="product-meta__label-list">
-               {{- product_labels -}}
-              </div>
-            {%- endif -%}
               {%- else -%}
                 <span class="price">
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
