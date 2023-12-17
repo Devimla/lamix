@@ -2550,6 +2550,7 @@ img.lazyload[data-sizes=auto] {
 
 .button--secondary:hover {
   background: rgba(var(--secondary-button-background-rgb), 0.8);
+  border-radius: 8px;
 }
 
 .button--ternary {
