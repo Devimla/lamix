@@ -5902,7 +5902,7 @@ select::-ms-expand {
 }
 
 .search-bar__input::placeholder {
-  color: #F6c125;;
+  color: var(--text-color);
   opacity: 1;
 }
 
