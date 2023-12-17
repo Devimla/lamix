@@ -2850,7 +2850,7 @@ img.lazyload[data-sizes=auto] {
   }
 
   .card__section--tight {
-    padding: 5px 25px;
+    padding: 20px 25px;
   }
 
   .card__section--tight .card__separator {
@@ -11598,7 +11598,7 @@ select::-ms-expand {
 
   .scroller--mobile-only > .scroller__inner {
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: -10px;
     overflow: visible;
   }
 }
