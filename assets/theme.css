@@ -8806,7 +8806,7 @@ select::-ms-expand {
 }
 
 .shopify-payment-button__button--branded {
-  border-radius: 50px;
+  border-radius: 8px;
   overflow: hidden;
   min-height: 48px;
 }
