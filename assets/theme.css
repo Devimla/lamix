@@ -76,6 +76,7 @@ body {
 }
 .jdgm-carousel-item__reviewer-name {
   color: #007bff;
+  font-size: 14px !important; 
 }
 .jdgm-carousel-item__timestamp {
   color: #D30404;
