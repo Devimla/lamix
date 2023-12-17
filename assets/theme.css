@@ -13739,7 +13739,7 @@ select::-ms-expand {
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
   padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 5px;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
