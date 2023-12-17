@@ -13734,3 +13734,6 @@ select::-ms-expand {
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin-left: 20px;
 }
+.aviso-usd-carrito {
+  margin-left: 0px;
+}
