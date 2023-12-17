@@ -5887,7 +5887,7 @@ select::-ms-expand {
   border: none;
   background: transparent;
   line-height: normal;
-  color: var(--heading-color);
+  color: #F6c125;
   -webkit-appearance: none;
 }
 
