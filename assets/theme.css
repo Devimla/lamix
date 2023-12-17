@@ -5711,7 +5711,7 @@ select::-ms-expand {
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
   font-weight: var(--text-font-bolder-weight);
   text-align: center;
-  background: var(--header-accent-color);
+  background: #f6c125;
   color: var(--secondary-background);
   border-radius: 1.75em;
   transition: transform 0.35s ease-in-out;
