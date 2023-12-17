@@ -13744,3 +13744,6 @@ select::-ms-expand {
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
 }
+.img-footer{
+  width: 150px;
+}
