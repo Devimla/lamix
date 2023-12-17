@@ -9598,7 +9598,7 @@ select::-ms-expand {
 
   .product-item--vertical .price:not(.price--compare),
   .product-item--list .price:not(.price--compare) {
-    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 24px));
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 17px));
   }
 }
 
