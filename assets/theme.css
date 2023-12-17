@@ -5316,7 +5316,7 @@ select::-ms-expand {
 }
 
 .footer .button--primary {
-  background-color: var(--footer-accent-color);
+  background-color: #f6c125;
   margin: 0 auto;
   width: 80%;
 }
@@ -5955,7 +5955,7 @@ select::-ms-expand {
   width: 50px;
   height: 100%;
   color: var(--secondary-background);
-  background: var(--header-accent-color);
+  background: #f6c125;
   border-radius: 0 8px 8px 0;
 }
 
