@@ -13746,6 +13746,6 @@ select::-ms-expand {
 }
 .img-footer{
   display: block; /* Garante que a imagem é exibida como bloco */
-  width: 18px;    /* Define a largura da imagem */
+  width: 180px;    /* Define a largura da imagem */
   height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
 }
