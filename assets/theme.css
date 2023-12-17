@@ -2529,7 +2529,7 @@ img.lazyload[data-sizes=auto] {
 .button--primary {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
   .button--primary {
@@ -2539,7 +2539,7 @@ img.lazyload[data-sizes=auto] {
 }
 .button--primary:hover {
   background: rgba(var(--primary-button-background-rgb), 0.8);
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .button--secondary {
