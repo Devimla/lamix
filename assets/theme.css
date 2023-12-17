@@ -9593,12 +9593,12 @@ select::-ms-expand {
 
 @media screen and (min-width: 641px) {
   .product-item__title {
-    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
   }
 
   .product-item--vertical .price:not(.price--compare),
   .product-item--list .price:not(.price--compare) {
-    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 17px));
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 16px));
   }
 }
 
