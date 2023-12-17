@@ -2995,7 +2995,7 @@ img.lazyload[data-sizes=auto] {
   display: block;
   margin-bottom: 4px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
-  line-height: 1.5;
+  line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
 }
 
 .mini-cart__property-list {
