@@ -5954,7 +5954,7 @@ select::-ms-expand {
   height: 100%;
   color: var(--secondary-background);
   background: var(--header-accent-color);
-  border-radius: 0 8px 0px 0;
+  border-radius: 0 8px 8px 0;
 }
 
 .search-bar__submit svg {
