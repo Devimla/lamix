@@ -5870,7 +5870,7 @@ select::-ms-expand {
   align-items: center;
   border-radius: 8px;
   background: var(--secondary-background);
-  color: var(--text-color);
+  color: black;
   z-index: 1;
 }
 
