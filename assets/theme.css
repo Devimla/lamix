@@ -13732,7 +13732,7 @@ select::-ms-expand {
   font-size: 13px;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
-
+  margin-left: 20px;
 }
 .aviso-usd-carrito {
   color: #000;
