@@ -5950,11 +5950,11 @@ select::-ms-expand {
 
 .search-bar__submit {
   flex: none;
-  width: 8px;
+  width: 50px;
   height: 100%;
   color: var(--secondary-background);
   background: var(--header-accent-color);
-  border-radius: 0 15px 15px 0;
+  border-radius: 0 8px 0px 0;
 }
 
 .search-bar__submit svg {
