@@ -8510,7 +8510,7 @@ select::-ms-expand {
 }
 
 .product-meta__title {
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 /* When within a modal, we have to add an extra margin to prevent the title to overlap the close button */
