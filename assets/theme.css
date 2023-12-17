@@ -71,6 +71,9 @@ body {
   width: auto;
   margin: 0 auto;
 }
+.jdgm-carousel-wrapper .jdgm-carousel-item__review {
+  height: calc(55% - 4em);
+}
 /**
  * HTML5 display definitions
  */
