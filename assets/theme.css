@@ -13728,7 +13728,8 @@ select::-ms-expand {
 .aviso-usd {
   color: #007bff;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
+  padding-left: 10px; /* Ajuste o espaçamento à esquerda conforme necessário */
   font-size: 11px; 
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-  line-height: 0.80 !important; /* Ajuste o valor conforme necessário */
+  line-height: 0.90 !important; /* Ajuste o valor conforme necessário */
 }
