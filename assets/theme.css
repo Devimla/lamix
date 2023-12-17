@@ -31,7 +31,10 @@ body {
 [hidden] {
   display: none !important;
 }
-
+._1x41w3p1 ._1fragemfi ._1fragemec ._1x41w3p5 {
+  background-color: black !important;
+  color: red !important;
+}
 .jdgm-widget *{
   margin: 0px 0px 2px !important;
 }
@@ -13753,8 +13756,4 @@ select::-ms-expand {
   p.desktop-only {
     width: 240px;
   }
-}
-._1x41w3p1 ._1fragemfi ._1fragemec ._1x41w3p5 {
-  background-color: black;
-  color: red;
 }
