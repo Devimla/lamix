@@ -60,6 +60,7 @@ body {
 .jdgm-carousel-title {
   font-size: 20px !important;
   color: #007bff;
+  font-weight: bold;
 }
 /**
  * HTML5 display definitions
