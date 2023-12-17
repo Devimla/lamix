@@ -191,7 +191,7 @@
       "list": "Mostrar productos como lista"
     },
     "product": {
-      "from_price_html": "ahora: {{price_min}}",
+      "from_price_html": "<span style=\"font-size: 12px;\">Ahora: {{price_min}}</span>",
       "add_to_cart": "Añadir al carrito",
       "pre_order": "Reservar",
       "quick_view": "Vista rápida",
