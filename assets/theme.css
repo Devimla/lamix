@@ -65,6 +65,12 @@ body {
 .jdgm-carousel-item__product {
   display: inline-block !important;
 }
+.jdgm-carousel-item__product-image {
+  display: inline !important;
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
 /**
  * HTML5 display definitions
  */
