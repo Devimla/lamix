@@ -5955,7 +5955,7 @@ select::-ms-expand {
   width: 50px;
   height: 100%;
   color: var(--secondary-background);
-  background: #f6c125;
+  background: #007bff;
   border-radius: 0 8px 8px 0;
 }
 
