@@ -31,9 +31,6 @@ body {
 [hidden] {
   display: none !important;
 }
-._1fragemgt {
-  color: red !important;
-}
 .jdgm-widget *{
   margin: 0px 0px 2px !important;
 }
