@@ -87,7 +87,8 @@ body {
   border-bottom: 2px solid rgba(103, 114, 121, 0.5); /* 2px é a largura da borda, você pode ajustar conforme necessário */
 }
 .jdgm-rev__author, .jdgm-rev__icon:before {
-  font-weight: bold; 
+  font-weight: bold;
+  font-size: 12px;
   }
 /**
  * HTML5 display definitions
