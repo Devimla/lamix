@@ -13726,8 +13726,8 @@ select::-ms-expand {
 @font-face{font-family:'Proxima Nova';font-weight:600;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")}
 /* link de hospedagem da fonte do Mercado Livre. */
 .aviso-usd {
-  color: #ff4800; 
+  color: #007bff; 
   font-size: 11px; 
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-  line-height: 0.9; /* Ajuste o valor conforme necessário */
+  line-height: 1.1; /* Ajuste o valor conforme necessário */
 }
