@@ -5886,6 +5886,7 @@ select::-ms-expand {
   padding: 0 15px 1px 15px;
   border: none;
   background: transparent;
+  background-color: #f6c125;
   line-height: normal;
   color: #F6c125;
   -webkit-appearance: none;
