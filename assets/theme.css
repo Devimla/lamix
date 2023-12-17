@@ -89,6 +89,9 @@ body {
   font-weight: bold;
   font-size: 13px;
   }
+.jdgm-prev-badge__stars {
+  margin: 3px;
+}
 /**
  * HTML5 display definitions
  */
