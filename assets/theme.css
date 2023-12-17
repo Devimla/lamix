@@ -13749,3 +13749,8 @@ select::-ms-expand {
   width: 170px;    /* Define a largura da imagem */
   height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
 }
+@media only screen and (min-width: 600px) {
+  p.desktop-only {
+    width: 240px;
+  }
+}
