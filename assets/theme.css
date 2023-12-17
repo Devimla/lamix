@@ -84,7 +84,7 @@ body {
 }
 .jdgm-carousel-title-and-link {
   margin-bottom: 24px;
-  border-bottom: 2px solid #677279; /* 2px é a largura da borda, você pode ajustar conforme necessário */
+  border-bottom: 2px solid rgba(103, 114, 121, 0.5); /* 2px é a largura da borda, você pode ajustar conforme necessário */
 }
 /**
  * HTML5 display definitions
