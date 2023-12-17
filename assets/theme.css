@@ -8786,7 +8786,7 @@ select::-ms-expand {
   position: relative;
   padding: 0 30px !important;
   line-height: 48px !important;
-  border-radius: 50px !important;
+  border-radius: 8px !important;
   text-align: center;
   background: var(--secondary-button-background) !important;
   color: var(--secondary-button-text-color) !important;
