@@ -391,10 +391,10 @@
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
                   {{- selected_variant.price | money -}}
                   {%- if product_labels != blank -%}
-<div class="product-meta__label-list">
-  {{- product_labels -}}
-</div>
-{%- endif -%}
+                  <div class="product-meta__label-list">
+                    {{- product_labels -}}
+                  </div>
+                {%- endif -%}
                 </span>
 
                 <span class="price price--compare">
