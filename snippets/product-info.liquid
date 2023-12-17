@@ -75,7 +75,7 @@
           <span class="product-label product-label--on-sale" {% unless selected_variant.price < selected_variant.compare_at_price %}style="display: none"{% endunless %}>{{ 'collection.product.discount_html' | t: savings: savings }}</span>
         {%- endif -%}
       {%- endcapture -%}
-      
+
       {%- if section.settings.show_vendor or section.settings.show_sku -%}
         <div class="product-meta__reference">
           {%- if section.settings.show_vendor -%}
@@ -136,8 +136,6 @@
         </div>
       {%- endif -%}
     </div>
-
-    <hr class="card__separator">
 
     {%- if request.page_type == 'index'
       and section.settings.show_description
