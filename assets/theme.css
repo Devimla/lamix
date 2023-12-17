@@ -62,8 +62,9 @@ body {
   color: #007bff;
   font-weight: bold;
 }
-.jdgm-carousel-item__product-image {
-  display: inline !important;}
+.jdgm-carousel-item__product {
+  display: inline-block !important;
+}
 /**
  * HTML5 display definitions
  */
