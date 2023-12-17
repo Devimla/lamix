@@ -13733,6 +13733,7 @@ select::-ms-expand {
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin: 0px 0px 0px 21px
+  border-radius: 50px;
 }
 .aviso-usd-carrito {
   color: #000;
@@ -13741,4 +13742,5 @@ select::-ms-expand {
   font-size: 13px;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
+  border-radius: 50px;
 }
