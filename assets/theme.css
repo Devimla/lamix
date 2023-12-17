@@ -77,6 +77,9 @@ body {
 .jdgm-carousel-item__reviewer-name {
   color: #007bff;
 }
+.jdgm-carousel-item__timestamp {
+  color: #D30404;
+}
 /**
  * HTML5 display definitions
  */
