@@ -13745,5 +13745,6 @@ select::-ms-expand {
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
 }
 .img-footer{
-  width: 250px;
+  width: 180px;
+  height: 100%;
 }
