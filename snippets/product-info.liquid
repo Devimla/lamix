@@ -76,10 +76,6 @@
         {%- endif -%}
       {%- endcapture -%}
 
-      {%- if product_labels != blank -%}
-        <div class="product-meta__label-list">
-          {{- product_labels -}}
-        </div>
       {%- endif -%}
 
       {%- if section.settings.show_vendor or section.settings.show_sku -%}
