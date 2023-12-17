@@ -5892,17 +5892,17 @@ select::-ms-expand {
 }
 
 .search-bar__input::-moz-placeholder {
-  color: #F6c125;;
+  color: var(--text-color);
   opacity: 1;
 }
 
 .search-bar__input:-ms-input-placeholder {
-  color: #F6c125;;
+  color: var(--text-color);
   opacity: 1;
 }
 
 .search-bar__input::placeholder {
-  color: var(--text-color);
+  color: #F6c125;;
   opacity: 1;
 }
 
