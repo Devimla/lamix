@@ -5870,7 +5870,7 @@ select::-ms-expand {
   align-items: center;
   border-radius: 8px;
   background: var(--secondary-background);
-  color: black;
+  color: var(--text-color);
   z-index: 1;
 }
 
@@ -5892,12 +5892,12 @@ select::-ms-expand {
 }
 
 .search-bar__input::-moz-placeholder {
-  color: var(--text-color);
+  color: #F6c125;;
   opacity: 1;
 }
 
 .search-bar__input:-ms-input-placeholder {
-  color: var(--text-color);
+  color: #F6c125;;
   opacity: 1;
 }
 
