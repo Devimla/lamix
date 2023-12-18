@@ -11417,7 +11417,7 @@ select::-ms-expand {
   word-break: break-all;
   word-break: break-word;
   background: #f6c125;
-  color: var(--heading-color);
+  color: #ffffff;
   text-align: left;
 }
 
