@@ -1292,7 +1292,7 @@ body:not(.is-tabbing) textarea:focus {
 
 .visually-hidden {
   position: absolute !important;
-  overflow: hidden;
+  overflow: visible;
   clip: rect(0 0 0 0);
   height: 1px;
   width: 1px;
