@@ -118,8 +118,8 @@
         <div class="product-item__price-list price-list">
           {%- if product.price < product.compare_at_price -%}
             {%- if product.price_varies -%}
-              {%- capture price_min -%}<span>kkkk{{ product.price_min | money }}</span>{%- endcapture -%}
-              {%- capture price_max -%}<span>{{ product.price_max | money }}</span>{%- endcapture -%}
+              {%- capture price_min -%}<span>{{ product.price_min | money }}</span>{%- endcapture -%}
+              {%- capture price_max -%}<span>kkk{{ product.price_max | money }}</span>{%- endcapture -%}
               <span class="price price--highlight">
                 <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
                 {{- 'collection.product.from_price_html' | t: price_min: price_min, price_max: price_max -}}
