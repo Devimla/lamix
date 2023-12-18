@@ -389,10 +389,11 @@
                 {%- endif -%}
                 </span>
 
-                Antes:<span class="price price--compare">
+                <span class="price price--compare">
                   <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                  {{- selected_variant.compare_at_price | money -}}
                 </span>
+              Antes:
               {%- else -%}
                 <span class="price">
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
