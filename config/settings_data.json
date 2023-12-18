@@ -1,6 +1,6 @@
 {
   "current": {
-    "popup_home": true,
+    "popup_home": false,
     "first_text": "en hasta",
     "interest_rates": "1.0000",
     "rate_installment_color": "#010608",
