@@ -136,7 +136,7 @@
               </span>
               
               <span class="price price--compare">
-                <span class="visually-hidden">kkkk{{ 'product.general.regular_price' | t }}</span>
+                <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {{- product.compare_at_price | money -}}
               </span>
             {%- endif -%}
@@ -146,12 +146,12 @@
             {%- capture price_max -%}<span>{{ product.price_max | money }}</span>{%- endcapture -%}
 
             <span class="price">
-              <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
+              <span class="visually-hidden">kkkkk{{ 'product.general.sale_price' | t }}</span>
               {{- 'collection.product.from_price_html' | t: price_min: price_min, price_max: price_max -}}
             </span>
           {%- else -%}
             <span class="price">
-              <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
+              <span class="visually-hidden">kkkkk{{ 'product.general.sale_price' | t }}</span>
               {{- product.price | money -}}
             </span>
           {%- endif -%}
