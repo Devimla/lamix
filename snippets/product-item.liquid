@@ -146,17 +146,17 @@
             {%- capture price_max -%}<span>{{ product.price_max | money }}</span>{%- endcapture -%}
 
             <span class="price">
-              <span class="visually-hidden">kkkkk{{ 'product.general.sale_price' | t }}</span>
+              <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
               {{- 'collection.product.from_price_html' | t: price_min: price_min, price_max: price_max -}}
             </span>
           {%- else -%}
             <span class="price">
-              <span class="visually-hidden">kkkkk{{ 'product.general.sale_price' | t }}</span>
+              <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
               {{- product.price | money -}}
             </span>
           {%- endif -%}
         </div>
-      {%- if settings.installments_on_card_enable -%}
+      {%- if settings.installment_on_card_enable -%}
      <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span>
     {% endif %} 
 
