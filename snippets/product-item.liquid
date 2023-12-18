@@ -125,8 +125,8 @@
                 {{- 'collection.product.from_price_html' | t: price_min: price_min, price_max: price_max -}}
               </span>
 
-              Antes<span class="price price--compare">
-                <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+              <span class="price price--compare">
+                Antes: <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {{- product.compare_at_price_min | money -}}
               </span>
             {%- else -%}
