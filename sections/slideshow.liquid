@@ -50,13 +50,13 @@
 
               {%- if block.settings.mobile_image -%}
                 {%- capture supported_sizes -%}{%- render 'image-size', sizes: '600,700,800,900,1000,1100,1200', image: block.settings.mobile_image -%}{%- endcapture -%}
-                {%- assign image_url = block.settings.mobile_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                {%- assign image_url = block.settings.mobile_image | img_url: 'https://i.ibb.co/BzFVCTV/Picsart-23-12-17-02-50-00-551-4.webp' | replace: '_1x1.', '_{width}x.' -%}
 
                 <div class="aspect-ratio hidden-tablet-and-up" style="padding-bottom: {{ 100.0 | divided_by: block.settings.mobile_image.aspect_ratio }}%">
                   <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.mobile_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
 
                   <noscript>
-                    <img src="{{ block.settings.mobile_image | img_url: '800x' }}" alt="{{ block.settings.mobile_image.alt | escape }}">
+                    <img src="{{ block.settings.mobile_image | img_url: 'https://i.ibb.co/BzFVCTV/Picsart-23-12-17-02-50-00-551-4.webp' }}" alt="{{ block.settings.mobile_image.alt | escape }}">
                   </noscript>
                 </div>
               {%- endif -%}
