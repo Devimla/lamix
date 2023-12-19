@@ -147,6 +147,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/20231120_140415_0000.webp",
+              "mobile_image": "shopify:\/\/shop_images\/20231218_205140_0000.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
