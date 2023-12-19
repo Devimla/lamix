@@ -16,10 +16,10 @@
       {%- for block in section.blocks -%}
         {%- if block.settings.mobile_image -%}
           {%- capture mobile_size -%}{{ block.settings.mobile_image.width | at_most: 600 }}x{{ block.settings.mobile_image.height | at_most: 800 }}{%- endcapture -%}
-          {%- capture bgset -%}{{ block.settings.mobile_image | img_url: mobile_size, crop: 'center' }} [--phone] | {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 800w, {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 1000w, {{ block.settings.image | img_url: '1200x' }} 1200w, {{ block.settings.image | img_url: '1400x' }} 1400w, {{ block.settings.image | img_url: '1600x' }} 1600w, {{ block.settings.image | img_url: '1800x' }} 1800w{%- endcapture -%}
+          {%- capture bgset -%}{{ block.settings.mobile_image | img_url: mobile_size, crop: 'center' }} [--phone] | {{ block.settings.image | img_url: '800x' }} 800w, {{ block.settings.image | img_url: '1000x' }} 1000w, {{ block.settings.image | img_url: '1200x' }} 1200w, {{ block.settings.image | img_url: '1400x' }} 1400w, {{ block.settings.image | img_url: '1600x' }} 1600w, {{ block.settings.image | img_url: '1800x' }} 1800w{%- endcapture -%}
         {%- else -%}
           {%- capture mobile_size -%}{{ block.settings.image.width | at_most: 600 }}x{{ block.settings.image.height | at_most: 800 }}{%- endcapture -%}
-          {%- capture bgset -%}{{ block.settings.image | img_url: mobile_size, crop: 'center' }} [--phone] | {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 800w, {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 1000w, {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 1200w, {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 1400w, {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 1600w, {{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }} 1800w{%- endcapture -%}
+          {%- capture bgset -%}{{ block.settings.image | img_url: mobile_size, crop: 'center' }} [--phone] | {{ block.settings.image | img_url: '800x' }} 800w, {{ block.settings.image | img_url: '1000x' }} 1000w, {{ block.settings.image | img_url: '1200x' }} 1200w, {{ block.settings.image | img_url: '1400x' }} 1400w, {{ block.settings.image | img_url: '1600x' }} 1600w, {{ block.settings.image | img_url: '1800x' }} 1800w{%- endcapture -%}
         {%- endif -%}
 
         {%- capture slide_inner -%}
@@ -38,25 +38,25 @@
 
             {%- if block.settings.image and section.settings.section_size == 'preserve_ratio' -%}
               {%- capture supported_sizes -%}{%- render 'image-size', sizes: '800,900,1000,1100,1200,1300,1400,1600,1800,2000,2200', image: block.settings.image -%}{%- endcapture -%}
-              {%- assign image_url = block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' | replace: '_1x1.', '_{width}x.' -%}
+              {%- assign image_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
               <div class="aspect-ratio {% if block.settings.mobile_image %}hidden-phone{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%">
                 <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
 
                 <noscript>
-                  <img src="{{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }}" alt="{{ block.settings.image.alt | escape }}">
+                  <img src="{{ block.settings.image | img_url: '1200x' }}" alt="{{ block.settings.image.alt | escape }}">
                 </noscript>
               </div>
 
               {%- if block.settings.mobile_image -%}
                 {%- capture supported_sizes -%}{%- render 'image-size', sizes: '600,700,800,900,1000,1100,1200', image: block.settings.mobile_image -%}{%- endcapture -%}
-                {%- assign image_url = block.settings.mobile_image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' | replace: '_1x1.', '_{width}x.' -%}
+                {%- assign image_url = block.settings.mobile_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
                 <div class="aspect-ratio hidden-tablet-and-up" style="padding-bottom: {{ 100.0 | divided_by: block.settings.mobile_image.aspect_ratio }}%">
                   <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.mobile_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
 
                   <noscript>
-                    <img src="{{ block.settings.mobile_image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }}" alt="{{ block.settings.mobile_image.alt | escape }}">
+                    <img src="{{ block.settings.mobile_image | img_url: '800x' }}" alt="{{ block.settings.mobile_image.alt | escape }}">
                   </noscript>
                 </div>
               {%- endif -%}
@@ -111,7 +111,7 @@
             <noscript>
               <style>
                 #block-{{ block.id }} .slideshow__slide-inner {
-                  background-image: url({{ block.settings.image | img_url: 'https://i.ibb.co/8xHtzvM/Picsart-23-12-17-02-50-00-551-4.png' }})
+                  background-image: url({{ block.settings.image | img_url: '1400x' }})
                 }
               </style>
             </noscript>
