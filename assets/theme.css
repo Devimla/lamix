@@ -387,7 +387,7 @@ th {
   width: 6px;
   height: 6px;
   margin: 0 5px;
-  background: rgba(var(--text-color-rgb), 0.8);
+  background: red, 0.8;
   border-radius: 100%;
   cursor: pointer;
   transform: scale(1);
