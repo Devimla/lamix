@@ -6316,8 +6316,9 @@ select::-ms-expand {
 @media screen and (min-width: 1280px) {
   .search-bar__filter {
     position: relative;
-    display: block;
+    display: ;
     height: 100%;
+    background: floralwhite;
   }
 
   .search-bar__filter select {
@@ -6328,6 +6329,7 @@ select::-ms-expand {
     left: 0;
     top: 0;
     -webkit-appearance: none;
+    background: floralwhite;
   }
 }
 .map {
