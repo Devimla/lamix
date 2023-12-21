@@ -4131,7 +4131,7 @@ img.lazyload[data-sizes=auto] {
     content: "";
     width: 100%;
     height: calc(100% + 0px); /* This solves an issue on Safari, where 100% does not always work - likely a pixel rounding issue - */
-    border: 1px solid var(--border-color);
+    border: 1px solid transparent;
     z-index: 1;
     pointer-events: none;
     border-radius: 3px;
