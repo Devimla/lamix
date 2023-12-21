@@ -563,8 +563,8 @@
           "page-faq-template-5": {
             "type": "question",
             "settings": {
-              "title": "Can I return my product?",
-              "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just email us directly and we’ll take you through the process.<\/p>"
+              "title": "¿Puedo devolver mi producto?",
+              "answer": "<p>Nuestro objetivo siempre es asegurarnos de que a nuestros clientes les encanten nuestros productos, pero si necesita devolver un pedido, estaremos encantados de ayudarle. Simplemente envíenos un correo electrónico directamente y lo guiaremos a través del proceso. Haga <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">clic aquí<\/a> y lea nuestras reglas de cambio de devolución.<\/p>"
             }
           },
           "page-faq-template-6": {
