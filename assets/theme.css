@@ -2533,11 +2533,7 @@ img.lazyload[data-sizes=auto] {
   color: var(--primary-button-text-color);
   border-radius: 10px;
 }
-.button--new {
-  background:   #f6c125;
-  color: #fff;
-  border-radius: 10px;
-}
+
 @media only screen and (max-width: 600px) {
   .button--primary {
     width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
@@ -2548,7 +2544,17 @@ img.lazyload[data-sizes=auto] {
   background: rgba(var(--primary-button-background-rgb), 0.8);
   border-radius: 8px;
 }
-
+.button--new {
+  background:   #f6c125;
+  color: #fff;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .button--new {
+    width: 80%; /* Alterando a largura para ocupar 100% da largura do dispositivo */
+    margin: 0 auto;
+  }
+}
 .button--secondary {
   background: var(--secondary-button-background);
   color: var(--secondary-button-text-color);
