@@ -5899,7 +5899,7 @@ select::-ms-expand {
   width: 100%;
   padding: 0 15px 1px 15px;
   border: none;
-  background: transparent;
+  background: floralwhite;
   line-height: normal;
   -webkit-appearance: none;
 }
