@@ -523,6 +523,97 @@
           "show_newsletter_signup": true,
           "newsletter_text": "<p>A short sentence describing what someone will receive by subscribing.<\/p>"
         }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Envío"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "¿Desde dónde se envían los productos?",
+              "answer": "<p>Nuestros productos son seleccionados cuidadosamente de proveedores confiables con sede en China, un país reconocido por su próspera producción industrial.<\/p><p>Es importante destacar que este enfoque nos permite mantener una amplia variedad de productos en nuestro catálogo, asegurando que encuentres exactamente lo que buscas. Los productos son enviados directamente desde nuestros proveedores a la dirección que proporcionaste durante el proceso de compra.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "¿Cuánto tiempo tardará en llegar mi pedido?",
+              "answer": "<p>Comenzaremos a organizar el proceso una vez confirmado el pago, lo cual puede llevar de 1 a 3 días hábiles. Después de eso, los productos de nuestra tienda son enviados por nuestros proveedores a la dirección que proporcionaste durante la compra en nuestra tienda al momento de completar el pedido.<br\/>El plazo de entrega varía entre 10 y 45 días hábiles después de que el pedido ha sido enviado por los Correos.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "¿Qué transportistas de envío utilizáis?",
+              "answer": "<p>Utilizamos todos los principales transportistas y socios de mensajería locales. Se le pedirá que seleccione un método de entrega durante el proceso de pago.<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Product"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "¿Puedo devolver mi producto?",
+              "answer": "<p>Nuestro objetivo siempre es asegurarnos de que a nuestros clientes les encanten nuestros productos, pero si necesita devolver un pedido, estaremos encantados de ayudarle. Simplemente envíenos un correo electrónico directamente y lo guiaremos a través del proceso. Haga <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">clic aquí<\/a> y lea nuestras reglas de cambio de devolución.<\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "¿Puedo personalizar mi producto?",
+              "answer": "<p>Depende del creador y del producto. Todas las opciones se describen en la página del producto, así que busque opciones de personalización allí.<\/p>"
+            }
+          },
+          "b9bbcc3f-c64c-4844-95de-42e67322e2eb": {
+            "type": "question",
+            "settings": {
+              "title": "¿Los productos tienen garantía?",
+              "answer": "<p>Sí, todos nuestros productos cuentan con garantía contra defectos de fabricación. La garantía tiene una duración de 30 días a partir de la fecha de recepción del producto. Si identifica algún defecto durante este período, comuníquese con nosotros de inmediato, proporcionando detalles y, si es posible, imágenes del problema. Estaremos listos para resolver la situación y garantizar su satisfacción.<\/p><p>Tenga en cuenta que la garantía no cubre daños causados por uso indebido, accidentes, modificación del producto o desgaste normal. Conozca todas las políticas de garantía haciendo <a href=\"\/pages\/garantia-de-productos\" target=\"_blank\" title=\"Garantía de Productos\">clic aquí.<\/a> Si tiene alguna pregunta específica sobre la garantía de un producto en particular, no dude en ponerse en contacto con nosotros haciendo <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Entrar en contacto\">clic aquí.<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-6",
+          "b9bbcc3f-c64c-4844-95de-42e67322e2eb"
+        ],
+        "settings": {
+          "show_contact_info": true,
+          "contact_info_heading": "Tengo otra pregunta",
+          "contact_info_text": "<p>Si aún no hemos respondido a tu pregunta, puedes ponerte en contacto con nosotros a continuación y nos pondremos en contacto contigo lo antes posible.<\/p>",
+          "contact_1_icon": "bi-chat",
+          "contact_1_heading": "Atención al cliente",
+          "contact_1_text": "<p>Haz clic en el botón azul en la esquina inferior derecha para ponerte en contacto con nuestro equipo.<\/p>",
+          "contact_2_icon": "bi-email",
+          "contact_2_heading": "Envíanos un correo electrónico.",
+          "contact_2_text": "<p>También puedes elegir enviarnos un correo electrónico y te responderemos lo más rápido posible. <\/p><p>email@latienda-mix.com<\/p>"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": true,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+          "subtext": "100% free, Unsubscribe any time!",
+          "background": "#1e2d7d",
+          "text": "#ffffff"
+        }
       }
     },
     "content_for_index": [
