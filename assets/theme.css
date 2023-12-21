@@ -5947,7 +5947,6 @@ select::-ms-expand {
 
 .search-bar__filter {
   display: none;
-  border-left: 1px solid var(--header-border-color);
 }
 
 .search-bar__filter-label {
