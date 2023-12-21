@@ -116,11 +116,18 @@
             "settings": {
               "menu": "footer"
             }
+          },
+          "5b490e9e-1325-4f30-a7a6-bcda0767d996": {
+            "type": "links",
+            "settings": {
+              "menu": "footer-1"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "5b490e9e-1325-4f30-a7a6-bcda0767d996"
         ],
         "settings": {
           "show_social_media": true,
