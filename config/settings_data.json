@@ -544,7 +544,7 @@
             "type": "question",
             "settings": {
               "title": "¿Cuánto tiempo tardará en llegar mi pedido?",
-              "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+              "answer": "<p>Comenzaremos a organizar el proceso una vez confirmado el pago, lo cual puede llevar de 1 a 3 días hábiles. Después de eso, los productos de nuestra tienda son enviados por nuestros proveedores a la dirección que proporcionaste durante la compra en nuestra tienda al momento de completar el pedido.<br\/>El plazo de entrega varía entre 10 y 45 días hábiles después de que el pedido ha sido enviado por los Correos.<\/p>"
             }
           },
           "page-faq-template-3": {
