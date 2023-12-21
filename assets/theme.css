@@ -6317,6 +6317,7 @@ select::-ms-expand {
   .search-bar__filter {
     position: relative;
     display: contents;
+    background: floralwhite;
     height: 100%;
 
   }
