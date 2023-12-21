@@ -534,13 +534,6 @@
           "show_newsletter_signup": true,
           "newsletter_text": "<p>A short sentence describing what someone will receive by subscribing.<\/p>"
         }
-      },
-      "3b2f3e59-3952-49a7-b6f9-546114ea8496": {
-        "type": "custom-html",
-        "settings": {
-          "title": "",
-          "html": "<div id=\"shopify-section-static-newsletter\" class=\"shopify-section shopify-section--isolated\">\n<section class=\"section section--isolated section--tight section--text-centered\" data-section-id=\"static-newsletter\" data-section-type=\"newsletter\">\n    <div class=\"container container--giga-narrow\">\n<h2 class=\"heading h3\">Subscribe to our newsletter<\/h2>\n<div class=\"rte\">\n          <p>A short sentence describing what someone will receive by subscribing<\/p>\n        <\/div>\n<div class=\"newsletter\">\n<form method=\"post\" action=\"\/contact#newsletter-static-newsletter\" id=\"newsletter-static-newsletter\" accept-charset=\"UTF-8\" class=\"form newsletter__form\">\n<input type=\"hidden\" name=\"form_type\" value=\"customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\"><input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter\">\n\n            <div class=\"form__input-row\">\n              <div class=\"form__input-wrapper form__input-wrapper--labelled\">\n                <input type=\"email\" id=\"newsletter[contact][email]\" name=\"contact[email]\" class=\"form__field form__field--text form__field--borderless\" required=\"\">\n                <label for=\"newsletter[contact][email]\" class=\"form__floating-label\">Tu email<\/label>\n              <\/div>\n\n              <button type=\"submit\" class=\"form__submit button button--primary\">Suscribirse<\/button>\n            <\/div>\n<\/form>\n<p class=\"newsletter__text\">100% free, Unsubscribe any time!<\/p>\n<\/div>\n    <\/div>\n  <\/section>\n\n  <style>\n    #shopify-section-static-newsletter {\n      background: #1e2d7d;\n      color: #ffffff;\n    }\n  <\/style>\n<\/div>"
-        }
       }
     },
     "content_for_index": [
@@ -549,8 +542,7 @@
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11",
       "97df39d6-4b74-4825-9778-28fe61288976",
       "1542984842027",
-      "a38322c5-0cc0-4368-adb7-d079e17c82fd",
-      "3b2f3e59-3952-49a7-b6f9-546114ea8496"
+      "a38322c5-0cc0-4368-adb7-d079e17c82fd"
     ],
     "blocks": {
       "776302416715791028": {
