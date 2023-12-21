@@ -4063,6 +4063,7 @@ img.lazyload[data-sizes=auto] {
 
 .product-list--scrollable {
   flex-wrap: nowrap;
+  background: transparent;
 }
 
 .product-list--collection::before {
