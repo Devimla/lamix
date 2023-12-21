@@ -2529,9 +2529,9 @@ img.lazyload[data-sizes=auto] {
 }
 
 .button--primary {
-  background: #f6c125;
+  background: var(--primary-button-background);
   color: var(--primary-button-text-color);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
   .button--primary {
