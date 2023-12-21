@@ -4353,7 +4353,7 @@ img.lazyload[data-sizes=auto] {
     position: absolute;
     height: 100%;
     width: 1px;
-    background: var(--secondary-background);
+    background: transparent;
     right: 0;
   }
 }
