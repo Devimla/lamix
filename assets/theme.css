@@ -5906,7 +5906,7 @@ select::-ms-expand {
 
 .search-bar__input::-moz-placeholder {
   color: var(--text-color);
-  opacity: 1;
+  opacity: 100%;
 }
 
 .search-bar__input:-ms-input-placeholder {
