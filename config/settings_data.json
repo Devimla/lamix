@@ -116,19 +116,11 @@
             "settings": {
               "menu": "footer"
             }
-          },
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Boletin informativo",
-              "subheading": "<p>Regístrate y consigue un cupón del 20%<\/p>"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "footer-1"
         ],
         "settings": {
           "show_social_media": true,
