@@ -5954,6 +5954,7 @@ select::-ms-expand {
   height: 44px;
   padding: 0 30px 0 25px;
   line-height: 43px; /* The -1px allows to account for rounding errors */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Adiciona borda transparente */
 }
 
 .search-bar__filter-label svg {
