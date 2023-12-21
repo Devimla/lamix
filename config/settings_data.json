@@ -88,7 +88,7 @@
           "logo_max_width": 190,
           "mobile_logo_max_width": 120,
           "show_locale_selector": false,
-          "show_currency_selector": true,
+          "show_currency_selector": false,
           "navigation_menu": "main-menu",
           "desktop_navigation_layout": "inline",
           "desktop_navigation_open_trigger": "hover",
@@ -553,18 +553,6 @@
       },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "12723626199553905971": {
-        "type": "shopify:\/\/apps\/puco-sections-blocks\/blocks\/app-embed-stylesheet\/f1ea0cb9-0193-44b7-bab7-d0fd6bec6cbf",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7046932070715527255": {
-        "type": "shopify:\/\/apps\/puco-sections-blocks\/blocks\/app-embed-javascript\/f1ea0cb9-0193-44b7-bab7-d0fd6bec6cbf",
         "disabled": false,
         "settings": {
         }
