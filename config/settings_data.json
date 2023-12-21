@@ -570,8 +570,8 @@
           "page-faq-template-6": {
             "type": "question",
             "settings": {
-              "title": "Can I get my product personalized?",
-              "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.<\/p>"
+              "title": "¿Puedo personalizar mi producto?",
+              "answer": "<p>Depende del creador y del producto. Todas las opciones se describen en la página del producto, así que busque opciones de personalización allí.<\/p>"
             }
           },
           "page-faq-template-7": {
