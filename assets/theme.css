@@ -375,6 +375,7 @@ th {
   list-style: none;
   text-align: center;
   line-height: 0;
+  background: transparent;
 }
 
 .flickity-rtl .flickity-page-dots {
