@@ -4339,6 +4339,7 @@ img.lazyload[data-sizes=auto] {
 
   .featured-collection .product-list {
     margin-bottom: 0;
+    background: transparent;
   }
   .featured-collection .product-list::before {
     display: none;
