@@ -2529,7 +2529,7 @@ img.lazyload[data-sizes=auto] {
 }
 
 .button--primary {
-  background: var(--primary-button-background);
+  background: #f6c125;
   color: var(--primary-button-text-color);
   border-radius: 8px;
 }
