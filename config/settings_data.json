@@ -536,8 +536,8 @@
           "page-faq-template-1": {
             "type": "question",
             "settings": {
-              "title": "¿Hacen envíos al extranjero?",
-              "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+              "title": "¿Desde dónde se envían los productos?",
+              "answer": "<p>Nuestros productos son seleccionados cuidadosamente de proveedores confiables con sede en China, un país reconocido por su próspera producción industrial.<\/p><p>Es importante destacar que este enfoque nos permite mantener una amplia variedad de productos en nuestro catálogo, asegurando que encuentres exactamente lo que buscas. Los productos son enviados directamente desde nuestros proveedores a la dirección que proporcionaste durante el proceso de compra.<\/p>"
             }
           },
           "page-faq-template-2": {
