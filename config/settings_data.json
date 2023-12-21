@@ -550,8 +550,8 @@
           "page-faq-template-3": {
             "type": "question",
             "settings": {
-              "title": "What shipping carriers do you use?",
-              "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
+              "title": "¿Qué transportistas de envío utilizáis?",
+              "answer": "<p>Utilizamos todos los principales transportistas y socios de mensajería locales. Se le pedirá que seleccione un método de entrega durante el proceso de pago.<\/p>"
             }
           },
           "page-faq-template-4": {
