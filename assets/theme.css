@@ -2938,7 +2938,7 @@ img.lazyload[data-sizes=auto] {
 }
 
 .mini-cart__alert-wrapper {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .mini-cart .alert {
