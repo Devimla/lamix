@@ -38,7 +38,7 @@
     "text_font": "din_next_n4",
     "underline_links": true,
     "animation_image_zoom": true,
-    "search_mode": "product,article",
+    "search_mode": "product",
     "show_vendor": false,
     "show_secondary_image": true,
     "show_discount": true,
