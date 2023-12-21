@@ -319,16 +319,6 @@
           "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
         }
       },
-      "1542984842027": {
-        "type": "newsletter",
-        "custom_css": [
-
-        ],
-        "settings": {
-          "title": "Boletin informativo",
-          "content": "<p>Regístrate y consigue un cupón del 20%<\/p>"
-        }
-      },
       "popups": {
         "type": "popups",
         "blocks": {
@@ -541,7 +531,6 @@
       "50acde30-dd9a-4989-9ebb-f7f79e4fb877",
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11",
       "97df39d6-4b74-4825-9778-28fe61288976",
-      "1542984842027",
       "a38322c5-0cc0-4368-adb7-d079e17c82fd"
     ],
     "blocks": {
