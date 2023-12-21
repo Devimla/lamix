@@ -593,7 +593,7 @@
           "contact_1_text": "<p>Haz clic en el botón azul en la esquina inferior derecha para ponerte en contacto con nuestro equipo.<\/p>",
           "contact_2_icon": "bi-email",
           "contact_2_heading": "Envíanos un correo electrónico.",
-          "contact_2_text": "<p>También puedes elegir enviarnos un correo electrónico y te responderemos lo más rápido posible. email@latienda-mix.com<\/p>"
+          "contact_2_text": "<p>También puedes elegir enviarnos un correo electrónico y te responderemos lo más rápido posible. <\/p><p>email@latienda-mix.com<\/p>"
         }
       },
       "static-newsletter": {
