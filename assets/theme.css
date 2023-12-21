@@ -6318,7 +6318,7 @@ select::-ms-expand {
     position: relative;
     display: ;
     height: 100%;
-    background: floralwhite;
+
   }
 
   .search-bar__filter select {
@@ -6328,7 +6328,8 @@ select::-ms-expand {
     height: 100%;
     left: 0;
     top: 0;
-    -webkit-appearance: none;
+    -webkit-appearance: none;    
+    background: floralwhite;
   }
 }
 .map {
