@@ -573,6 +573,13 @@
               "title": "¿Puedo personalizar mi producto?",
               "answer": "<p>Depende del creador y del producto. Todas las opciones se describen en la página del producto, así que busque opciones de personalización allí.<\/p>"
             }
+          },
+          "b9bbcc3f-c64c-4844-95de-42e67322e2eb": {
+            "type": "question",
+            "settings": {
+              "title": "¿Los productos tienen garantía?",
+              "answer": "<p>Sí, todos nuestros productos cuentan con garantía contra defectos de fabricación. La garantía tiene una duración de 30 días a partir de la fecha de recepción del producto. Si identifica algún defecto durante este período, comuníquese con nosotros de inmediato, proporcionando detalles y, si es posible, imágenes del problema. Estaremos listos para resolver la situación y garantizar su satisfacción.<\/p><p>Tenga en cuenta que la garantía no cubre daños causados por uso indebido, accidentes, modificación del producto o desgaste normal. Conozca todas las políticas de garantía haciendo <a href=\"\/pages\/garantia-de-productos\" target=\"_blank\" title=\"Garantía de Productos\">clic aquí.<\/a> Si tiene alguna pregunta específica sobre la garantía de un producto en particular, no dude en ponerse en contacto con nosotros haciendo <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Entrar en contacto\">clic aquí.<\/a><\/p>"
+            }
           }
         },
         "block_order": [
@@ -582,7 +589,8 @@
           "page-faq-template-3",
           "page-faq-template-4",
           "page-faq-template-5",
-          "page-faq-template-6"
+          "page-faq-template-6",
+          "b9bbcc3f-c64c-4844-95de-42e67322e2eb"
         ],
         "settings": {
           "show_contact_info": true,
