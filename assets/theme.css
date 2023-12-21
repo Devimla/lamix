@@ -4120,7 +4120,7 @@ img.lazyload[data-sizes=auto] {
 
 @media screen and (min-width: 641px) {
   .product-list {
-    background: var(--secondary-background);
+    background: transparent;
     border-radius: 3px;
     border: none;
   }
