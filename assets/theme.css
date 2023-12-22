@@ -2543,8 +2543,7 @@ img.lazyload[data-sizes=auto] {
   }
 }
 .button--primary:hover {
-  background: #f6c125, 0.8;
-  border-radius: 8px;
+  background: #f6c125;
 }
 .button--new {
   background:   #f6c125;
