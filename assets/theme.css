@@ -10625,6 +10625,9 @@ select::-ms-expand {
 
 .section__title {
   margin-bottom: 0;
+  border-bottom: 2px solid #f6c125;; /* Espessura da linha e cor */
+  padding-bottom: 10px; /* Espaçamento entre o texto e a linha (ajuste conforme necessário) */
+  display: inline-block; /* Garante que a linha se estenda apenas até a largura do texto */
 }
 
 .section__action-link {
