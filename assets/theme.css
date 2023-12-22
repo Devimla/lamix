@@ -97,6 +97,10 @@ body {
 .jdgm-prev-badge__stars {
   margin: 3px;
 }
+.jdgm-rev__icon {
+  width: 60px
+  height: 60px;
+}
 /**
  * HTML5 display definitions
  */
