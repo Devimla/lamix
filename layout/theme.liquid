@@ -140,7 +140,9 @@
     {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}
       {% section 'static-newsletter' %}
     {%- endif -%}
-
+{% if collection.handle == 'your-collection-handle' %}
+    {% include 'product-grid' %}
+  {% endif %}
     {% section 'text-with-icons' %}
     {% section 'footer' %}
 
