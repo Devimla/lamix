@@ -5870,6 +5870,9 @@ select::-ms-expand {
  #shopify-section-97df39d6-4b74-4825-9778-28fe61288976 .button {
   border-radius: 5px;
  }
+ #shopify-section-97df39d6-4b74-4825-9778-28fe61288976 .button:hover {
+  background: #f6c125;
+ }
 
 .search-bar {
   position: relative;
