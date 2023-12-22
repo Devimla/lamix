@@ -5506,7 +5506,7 @@ select::-ms-expand {
 .header__logo {
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 0;
+  margin-bottom: 3px;
 }
 
 .header__logo-image {
