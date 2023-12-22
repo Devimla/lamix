@@ -5597,7 +5597,7 @@ select::-ms-expand {
     display: flex;
     align-items: center;
     min-height: 64px;
-    margin-bottom: 5px
+
   }
 
   .header > .container {
