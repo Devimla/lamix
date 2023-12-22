@@ -133,7 +133,7 @@
 
     {% section 'header' %}
 {% if collection.handle == 'your-collection-handle' %}
-    {% include 'product-grid' %}
+    {% render 'product-grid' %}
   {% endif %}
     <main id="main" role="main">
       {{ content_for_layout }}
