@@ -6317,7 +6317,7 @@ select::-ms-expand {
 @media screen and (min-width: 1280px) {
   .search-bar__filter {
     position: relative;
-    display: contents;
+    display: block;
     background: floralwhite;
     height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.5);
