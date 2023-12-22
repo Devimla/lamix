@@ -2544,6 +2544,7 @@ img.lazyload[data-sizes=auto] {
 }
 .button--primary:hover {
   background: #f6c125;
+  border-radius: 10px;
 }
 .button--new {
   background:   #f6c125;
