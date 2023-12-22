@@ -32,8 +32,8 @@ body {
   display: none !important;
 }
 .img-descricao img {
-  width: 30%;
-  height: 30%;
+  width: 20px;
+
   object-fit: cover;
   border-color: 2px red solid;
 }
