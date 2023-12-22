@@ -8533,7 +8533,7 @@ select::-ms-expand {
 }
 
 .product-meta__title {
-  margin-top: 10px;
+  margin-top: 15px;
   line-height: 1.1 !important; /* Ajuste o valor conforme necessário */
 }
 
