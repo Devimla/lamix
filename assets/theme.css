@@ -2543,7 +2543,7 @@ img.lazyload[data-sizes=auto] {
   }
 }
 .button--primary:hover {
-  background: rgba(var(--primary-button-background-rgb), 0.8);
+  background: #f6c125;
   border-radius: 8px;
 }
 .button--new {
