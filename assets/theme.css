@@ -6319,7 +6319,7 @@ select::-ms-expand {
     display: contents;
     background: floralwhite;
     height: 100%;
-
+    border: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   .search-bar__filter select {
