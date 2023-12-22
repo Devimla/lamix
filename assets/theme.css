@@ -35,7 +35,7 @@ body {
   width: 30%;
   height: 30%;
   object-fit: cover;
-  border-color: red solid;
+  border-color: 2px red solid;
 }
 .jdgm-widget *{
   margin: 0px 0px 7px !important;
