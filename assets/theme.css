@@ -6329,7 +6329,8 @@ select::-ms-expand {
     height: 100%;
     left: 0;
     top: 0;
-    -webkit-appearance: none;    
+    -webkit-appearance: none;  
+    border: 1px solid rgba(255, 255, 255, 0.5); 
   }
 }
 .map {
