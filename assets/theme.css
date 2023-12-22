@@ -421,7 +421,7 @@ th {
   top: calc(50% - 25px);
   border-radius: 100%;
   visibility: visible;
-  background: black;
+  background: #007bff;
   opacity: 0;
   transition: all 0.2s ease-in-out;
   transform: scale(0.7);
