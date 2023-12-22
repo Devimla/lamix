@@ -428,7 +428,7 @@ th {
   z-index: 1;
 }
 .flickity-prev-next-button:hover {
-  background: var(--accent-color);
+  background: #f6c125;
 }
 .flickity-prev-next-button svg {
   position: relative;
