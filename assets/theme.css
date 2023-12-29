@@ -13765,37 +13765,14 @@ select::-ms-expand {
 @font-face{font-family:'Proxima Nova';font-weight:400;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")}
 @font-face{font-family:'Proxima Nova';font-weight:600;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")}
 /* link de hospedagem da fonte do Mercado Livre. */
-.aviso-usd {
-  color: #000;
-  border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
+/* Ajuste a largura e a cor da linha conforme necessário */
   padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
   font-size: 13px;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin: 0px 0px 0px 21px
 }
-  .product-item {
-  transition: all 0.3s ease; /* Adiciona uma transição suave para todas as propriedades */
-}
-
-.product-item:hover {
-  transform: scale(0.9); /* Pode ajustar conforme necessário */
-  width: 70%; /* Ajuste a largura conforme necessário */
-  height: 70%; /* Ajuste a altura conforme necessário */
-}
-
-.product-item.title {
-  cursor: pointer;} 
-}
-  color: #000;
-  border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
-  padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
-
   
-  display: block; /* Garante que a imagem é exibida como bloco */
-  width: 170px;    /* Define a largura da imagem */
-  height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
-}
 @media only screen and (min-width: 
 600px) {
   p.desktop-only {
