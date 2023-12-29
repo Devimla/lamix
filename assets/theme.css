@@ -13774,22 +13774,20 @@ select::-ms-expand {
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin: 0px 0px 0px 21px
 }
+  .product-item:hover {
+  transform: scale(1.1); /* Ajuste o valor conforme necessário para o aumento desejado */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.product-item.title {
+  cursor: pointer;
+}
 .aviso-usd-carrito {
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
   padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
 
-  product-item:hover {
-margin-top: -6px; 
-margin-bottom: 6px;} 
-product-item. title{
-cursor: pointer;} 
-  font-size: 14px;
-  margin-top: 5px;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-  line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
-}
-.img-footer{
+  
   display: block; /* Garante que a imagem é exibida como bloco */
   width: 170px;    /* Define a largura da imagem */
   height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
