@@ -13785,7 +13785,12 @@ select::-ms-expand {
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin: 0px 0px 0px 21px
 }
-  
+@media only screen and (min-width: 
+600px) {
+  p.desktop-only {
+    width: 240px;
+  }
+}
 @media only screen and (min-width: 
 600px) {
   p.desktop-only {
