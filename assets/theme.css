@@ -13780,12 +13780,12 @@ select::-ms-expand {
 
 .product-item:hover {
   transform: scale(0.9); /* Pode ajustar conforme necessário */
-  width: 40%; /* Ajuste a largura conforme necessário */
-  height: 40%; /* Ajuste a altura conforme necessário */
+  width: 70%; /* Ajuste a largura conforme necessário */
+  height: 70%; /* Ajuste a altura conforme necessário */
 }
 
 .product-item.title {
-  cursor: pointer;
+  cursor: pointer;} 
 }
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
