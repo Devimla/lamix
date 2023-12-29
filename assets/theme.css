@@ -13778,6 +13778,12 @@ select::-ms-expand {
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
   padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
+
+  product-item:hover {
+margin-top: -6px; 
+margin-bottom: 6px;} 
+product-item. title{
+cursor: pointer;} 
   font-size: 14px;
   margin-top: 5px;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
@@ -13788,7 +13794,8 @@ select::-ms-expand {
   width: 170px;    /* Define a largura da imagem */
   height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 
+600px) {
   p.desktop-only {
     width: 240px;
   }
