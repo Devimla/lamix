@@ -13768,7 +13768,7 @@ select::-ms-expand {
 }
 
 .product-item:hover {
-  transform: scale(0.9);!importante /* Pode ajustar conforme necessário */
+  transform: scale(1.0);!importante /* Pode ajustar conforme necessário */
   width: 50%; !important /* Ajuste a largura conforme necessário */
   height: 50%; !important /* Ajuste a altura conforme necessário */
 }
