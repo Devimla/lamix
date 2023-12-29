@@ -13774,15 +13774,19 @@ select::-ms-expand {
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin: 0px 0px 0px 21px
 }
-  .product-item:hover {
-  transform: scale(1.0); /* Ajuste o valor conforme necessário para o aumento desejado */
-  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  .product-item {
+  transition: all 0.3s ease; /* Adiciona uma transição suave para todas as propriedades */
+}
+
+.product-item:hover {
+  transform: scale(0.9); /* Pode ajustar conforme necessário */
+  width: 90%; /* Ajuste a largura conforme necessário */
+  height: 90%; /* Ajuste a altura conforme necessário */
 }
 
 .product-item.title {
   cursor: pointer;
 }
-.aviso-usd-carrito {
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
   padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
