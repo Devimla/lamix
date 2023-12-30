@@ -10621,7 +10621,9 @@ select::-ms-expand {
   padding: 10px 0;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s !important;
 }
-
+.section--isolated.section--tight p {
+  font-size: 14px;
+}
 .section--text-centered {
   text-align: center;
 }
