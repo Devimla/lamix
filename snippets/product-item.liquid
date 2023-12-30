@@ -197,7 +197,7 @@
         {{ vendor }}
       {%- endif -%}
 
-      <a href="{{ filtered_variant.url | default: product.url | within: collection }}" class="product-item__title text--strong link">{{ product.title |truncate:60}}</a>
+      <a href="{{ filtered_variant.url | default: product.url | within: collection }}" class="product-item__title text--strong link">{{ product.title |truncate:90}}</a>
 
       {%- if settings.product_price_position == 'before_title' -%}
         {{ vendor }}
