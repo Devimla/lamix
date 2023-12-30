@@ -5666,6 +5666,7 @@ select::-ms-expand {
   display: flex;
   align-items: center;
   margin-left: auto;
+  color: #007bff;
 }
 
 .header__action-item {
@@ -13830,53 +13831,4 @@ select::-ms-expand {
   p.desktop-only {
     width: 240px;
   }
-}
-
-:host .ionicon {
-  stroke: currentcolor;
-}
-folha de estilos construída
-.icon-inner, .ionicon, svg {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-folha de estilos de agente de usuário
-svg:not(:root) {
-  overflow-clip-margin: content-box;
-  overflow: hidden;
-}
-<style>
-.hydrated {
-  visibility: inherit;
-}
-<style>
-ion-icon {
-  visibility: hidden;
-}
-*, *:before, *:after {
-  box-sizing: border-box !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-folha de estilos construída
-:host {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  contain: strict;
-  fill: currentcolor;
-  box-sizing: content-box !important;
-}
-.ionic-icon-header {
-  font-size: 28px;
-  display: flex!important;
-  align-items: center;
-  flex-direction: row;
-  color: var(--color-icons-header);
-}
-.header__action-item-link {
-  display: block;
-  font-weight: var(--text-font-bolder-weight);
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 16px));
 }
