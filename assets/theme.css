@@ -9034,8 +9034,6 @@ select::-ms-expand {
 .installments-cards {
   font-size:13px!important;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-  display: inline-flex;
-  align-items: baseline;
 }
 
 .installment-numbers-cards {
@@ -9062,8 +9060,6 @@ select::-ms-expand {
 .installments-cards {
   font-size: 13px!important;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
-  display: inline-flex;
-  align-items: baseline;
 }
 
 .installment-numbers-cards {
