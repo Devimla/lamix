@@ -4084,6 +4084,7 @@ img.lazyload[data-sizes=auto] {
 .product-item--vertical .product-item__info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-item--vertical .product-item__info {
@@ -9463,6 +9464,7 @@ select::-ms-expand {
 
  .product-item {
   position: relative;
+  justify-content: space-between;
   padding: 16px;
   min-width: 0;
   flex-shrink: 0;
