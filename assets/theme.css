@@ -10647,7 +10647,7 @@ select::-ms-expand {
   right: 0;
   background: #f6c125;
   height: 6px;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
 }
 .section__action-link {
