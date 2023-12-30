@@ -438,10 +438,9 @@
                 </p>
               {%- endif -%}
             {%- endif -%}
-            <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span>
           </div>
         </div>
-
+<br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span>
         {%- if section.settings.show_inventory_quantity and product.template_suffix != 'pre-order' -%}
           <div class="product-form__info-item">
             <span class="product-form__info-title text--strong">{{ 'product.form.inventory' | t }}:</span>
