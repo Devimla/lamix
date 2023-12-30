@@ -395,11 +395,10 @@
                 </span>
               {%- else -%}
                 <span class="price">
+                <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span>
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
                   {{- selected_variant.price | money -}}
-
                 </span>
-                <br class="installments-cards">{{settings.first_text}} <span class="installment-numbers-cards">{{settings.installment_numbers}}</span> de <span class="installment-price-cards">{{ product.price | times: settings.interest_rates | divided_by: settings.installment_numbers | round:2 | money }}</span>
               {%- endif -%}
              
             </div>
