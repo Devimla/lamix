@@ -13845,7 +13845,7 @@ select::-ms-expand {
 @media (min-width: 768px) {
   .icon-state .icon-state__primary,
   .icon-state .icon-state__secondary {
-      width: 30px; /* Ajuste o tamanho conforme necessário */
-      height: 30px; /* Ajuste o tamanho conforme necessário */
+      width: 50px; /* Ajuste o tamanho conforme necessário */
+      height: 50px; /* Ajuste o tamanho conforme necessário */
   }
 }
