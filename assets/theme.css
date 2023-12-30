@@ -10636,8 +10636,7 @@ select::-ms-expand {
 }
 
 .section__title {
-  margin-bottom: 0;
-
+  position: relative;
 }
 
 .section__title::after {
