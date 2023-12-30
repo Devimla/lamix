@@ -4093,7 +4093,7 @@ img.lazyload[data-sizes=auto] {
 }
 
 .product-list__column {
-  width: 100%;
+  width: 80%;
 }
 
 @media screen and (max-width: 640px) {
