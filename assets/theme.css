@@ -5666,6 +5666,7 @@ select::-ms-expand {
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-top: 5px;
 }
 
 .header__action-item {
