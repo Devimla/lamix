@@ -409,7 +409,7 @@
               <div class="header__action-item-content">
                 <div class="header__cart-icon icon-state" aria-expanded="false">
                   <span class="icon-state__primary">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    {%- render 'icon', icon: 'cart' -%}
                     <span class="header__cart-count">{{ cart.item_count }}</span>
                   </span>
 
