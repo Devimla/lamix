@@ -10637,17 +10637,20 @@ select::-ms-expand {
 
 .section__title {
   margin-bottom: 0;
+  position: relative;
+  display: flex;
+  align-items: baseline;
 }
-.section__title::after {
+
+.section__title::before {
   content: '';
+  position: absolute;
   bottom: 0;
   left: 0;
-  display: flex;
-  right: 0;
-  background: #f6c125;
-  height: 6px;
   width: fit-content; /* Ajusta dinamicamente à largura do texto */
-  border-radius: 10px;
+  height: 4px;
+  background-color: #f6c125;
+  border-radius: 0 0 5px 5px;
 }
 .section__action-link {
   margin-left: 20px;
