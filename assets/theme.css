@@ -10632,7 +10632,7 @@ select::-ms-expand {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   overflow: hidden;
 }
 
