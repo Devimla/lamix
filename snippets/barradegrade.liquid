@@ -1,22 +1,24 @@
-<div class="container-fluid color-line"></div>
-<style>
-.color-line {
-            margin: 0;
-            padding: 0;
-            display: block !important;
-            background: linear-gradient(to right, 
-                rgba(53, 148, 0, 1) 0%, 
-                rgba(246, 193, 37, 1) 11%, 
-                rgba(0, 123, 255, 1) 49%, 
-                rgba(0, 78, 255, 1)
-            );
-            height: 1px;
-            width: 100%;
-            background-image: linear-gradient(to right, 
-                rgba(53, 148, 0, 1) 0%, 
-                rgba(246, 193, 37, 1) 11%, 
-                rgba(0, 123, 255, 1) 49%, 
-                rgba(0, 78, 255, 1)
-            );
-}
-</style>
+{% if is_desktop %}
+  <style>
+    .color-line {
+      margin: 0;
+      padding: 0;
+      display: block !important;
+      background: linear-gradient(to right, 
+        rgba(53, 148, 0, 1) 0%, 
+        rgba(246, 193, 37, 1) 11%, 
+        rgba(0, 123, 255, 1) 49%, 
+        rgba(0, 78, 255, 1)
+      );
+      height: 1px;
+      width: 100%;
+      background-image: linear-gradient(to right, 
+        rgba(53, 148, 0, 1) 0%, 
+        rgba(246, 193, 37, 1) 11%, 
+        rgba(0, 123, 255, 1) 49%, 
+        rgba(0, 78, 255, 1)
+      );
+    }
+  </style>
+  <div class="container-fluid color-line"></div>
+{% endif %}
