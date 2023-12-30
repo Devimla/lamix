@@ -4093,7 +4093,7 @@ img.lazyload[data-sizes=auto] {
 }
 
 .product-list__column {
-  width: 40%;
+  width: 100%;
 }
 
 @media screen and (max-width: 640px) {
@@ -4104,7 +4104,7 @@ img.lazyload[data-sizes=auto] {
   }
 
   .product-list--scrollable .product-item {
-    width: 60%;
+    width: 58%;
   }
 
   .product-list--collage {
@@ -4112,7 +4112,7 @@ img.lazyload[data-sizes=auto] {
   }
 
   .product-list--collection .product-item--vertical {
-    width: 50%;
+    width: 20%;
   }
 }
 
