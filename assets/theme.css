@@ -11176,14 +11176,13 @@ select::-ms-expand {
 .text-with-icons__content > p {
   margin-bottom: 0;
 }
-
+.shopify-section-text-with-icons > p {
+  font-size: 10px;
+}
 @media screen and (max-width: 640px) {
   .text-with-icons {
     padding-bottom: 15px;
     text-align: center;
-  }
-  .shopify-section-text-with-icons p {
-    font-size: 10px;
   }
   .text-with-icons::after {
     content: "flickity";
