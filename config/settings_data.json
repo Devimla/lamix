@@ -24,7 +24,7 @@
     "header_accent_color": "#007bff",
     "footer_background_color": "#e7e7e7",
     "footer_heading_text_color": "#007bff",
-    "footer_body_text_color": "#ffffff",
+    "footer_body_text_color": "#000000",
     "footer_accent_color": "#ff8400",
     "product_on_sale_accent": "#00aa00",
     "product_in_stock_color": "#008a00",
