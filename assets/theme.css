@@ -5735,7 +5735,7 @@ select::-ms-expand {
   height: 20px;
   min-width: 20px;
   padding: 4px;
-  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 16px));
   font-weight: var(--text-font-bolder-weight);
   text-align: center;
   background: #f6c125;
