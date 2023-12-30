@@ -10643,7 +10643,6 @@ select::-ms-expand {
 }
 .section__title::after {
   content: '';
-  display: flex;
   bottom: 0;
   left: 0;
   right: 0;
