@@ -114,18 +114,18 @@
     </svg>
 
   {%- when 'cart' -%}
-    <svg focusable="false" class="{{ icon_class }}" viewBox="0 0 27 24" role="presentation">
-      <g transform="translate(0 1)" stroke-width="2" stroke="currentColor" fill="none" fill-rule="evenodd">
-        <circle stroke-linecap="square" cx="11" cy="20" r="2"></circle>
-        <circle stroke-linecap="square" cx="22" cy="20" r="2"></circle>
-        <path d="M7.31 5h18.27l-1.44 10H9.78L6.22 0H0"></path>
-      </g>
-    </svg>
-
-  {%- when 'big-cart' -%}
 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" fill="var(--header_icons_color)" class="bi bi-bag-dash-fill" viewBox="0 0 16 16" style="margin-right: 4px;">
                               <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"></path>
                           </svg>
+
+  {%- when 'big-cart' -%}
+    <svg focusable="false" width="81" height="70" viewBox="0 0 81 70">
+      <g transform="translate(0 2)" stroke-width="4" stroke="{{ settings.heading_color }}" fill="none" fill-rule="evenodd">
+        <circle stroke-linecap="square" cx="34" cy="60" r="6"></circle>
+        <circle stroke-linecap="square" cx="67" cy="60" r="6"></circle>
+        <path d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"></path>
+      </g>
+    </svg>
 
   {%- when 'account' -%}
     <svg focusable="false" class="{{ icon_class }}" viewBox="0 0 20 22" role="presentation">
