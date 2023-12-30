@@ -10640,9 +10640,10 @@ select::-ms-expand {
   border-bottom: 4px solid #f6c125; /* Espessura da linha e cor */
   padding-bottom: 2px; /* Espaçamento entre o texto e a linha (ajuste conforme necessário) */
   display: inline-block; /* Garante que a linha se estenda apenas até a largura do texto */
-
+  border-top-left-radius: 5px; /* Curva apenas o canto inferior esquerdo */
+  border-top-right-radius: 5px; /* Curva apenas o canto inferior direito */
   border-bottom-left-radius: 5px; /* Curva apenas o canto inferior esquerdo */
-    border-bottom-right-radius: 5px; /* Curva apenas o canto inferior direito */
+  border-bottom-right-radius: 5px; /* Curva apenas o canto inferior direito */
 }
 
 .section__action-link {
