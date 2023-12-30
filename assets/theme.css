@@ -13837,7 +13837,7 @@ select::-ms-expand {
 @media (min-width: 1280px) {
   /* Estilos específicos para dispositivos com uma largura de tela de pelo menos 768 pixels (exemplo: PCs) */
   .desktop-svg {
-    width: 30px; /* Ajuste o tamanho conforme necessário */
-    height: 30px; /* Ajuste o tamanho conforme necessário */
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
   }
 }
