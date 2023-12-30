@@ -9470,7 +9470,7 @@ select::-ms-expand {
   white-space: normal;
   transform: scale(.95);
   border-radius: 20px!important;
-  box-shadow: 0 0 7px -4px #000000c4;
+  box-shadow: 0 0 6px -4px #000000c4;
   }
 
 .product-item::after {
