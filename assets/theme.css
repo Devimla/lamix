@@ -13784,7 +13784,7 @@ select::-ms-expand {
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
   margin: 0px 0px 0px 21px
-}
+
 @media only screen and (min-width: 
 600px) {
   p.desktop-only {
@@ -13815,12 +13815,6 @@ select::-ms-expand {
   height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
 }
 
-
-
-
-
-
-  
 @media only screen and (min-width: 
 600px) {
   p.desktop-only {
