@@ -11156,11 +11156,11 @@ select::-ms-expand {
 }
 
 .text-with-icons__title {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .text-with-icons__icon-wrapper {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .text-with-icons__icon-wrapper svg {
