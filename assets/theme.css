@@ -11175,7 +11175,7 @@ select::-ms-expand {
 
 .text-with-icons__content > p {
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 640px) {
