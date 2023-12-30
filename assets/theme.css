@@ -11182,7 +11182,7 @@ select::-ms-expand {
     padding-bottom: 15px;
     text-align: center;
   }
-  .text-with p {
+  .shopify-section-text-with-icons p {
     font-size: 10px;
   }
   .text-with-icons::after {
