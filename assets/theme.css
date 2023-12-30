@@ -10651,6 +10651,7 @@ select::-ms-expand {
   height: 4px;
   background-color: #f6c125;
   border-radius: 5px 5px 0 0; /* Curva apenas a parte inferior */
+  box-shadow: 0 4px 0 #f6c125; /* Cria a borda inferior */
   z-index: -1; /* Move o pseudo-elemento para trás do conteúdo */
 }
 .section__action-link {
