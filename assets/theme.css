@@ -10641,6 +10641,8 @@ select::-ms-expand {
   padding-bottom: 2px; /* Espaçamento entre o texto e a linha (ajuste conforme necessário) */
   display: inline-block; /* Garante que a linha se estenda apenas até a largura do texto */
   border-radius: 5px; /* Raio de curvatura das bordas */
+  border-bottom-left-radius: 5px; /* Curva apenas o canto inferior esquerdo */
+    border-bottom-right-radius: 5px; /* Curva apenas o canto inferior direito */
 }
 
 .section__action-link {
