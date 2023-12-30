@@ -11179,7 +11179,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 640px) {
   .text-with-icons {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-align: center;
   }
 
