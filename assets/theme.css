@@ -9463,6 +9463,7 @@ select::-ms-expand {
 
  .product-item {
   position: relative;
+  justify-content: space-between;
   padding: 16px;
   min-width: 0;
   flex-shrink: 0;
