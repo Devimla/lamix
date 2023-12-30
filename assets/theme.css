@@ -10645,12 +10645,13 @@ select::-ms-expand {
 .section__title::before {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -4px; /* Ajuste conforme necessário para a altura da borda */
   left: 0;
-  width: fit-content; /* Ajusta dinamicamente à largura do texto */
+  width: 100%; /* Estende por toda a largura do contêiner */
   height: 4px;
   background-color: #f6c125;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px 5px 0 0; /* Curva apenas a parte inferior */
+  box-shadow: 0 4px 0 #f6c125; /* Cria a borda inferior */
 }
 .section__action-link {
   margin-left: 20px;
