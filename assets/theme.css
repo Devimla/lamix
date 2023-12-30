@@ -10622,7 +10622,7 @@ select::-ms-expand {
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s !important;
 }
 .section--isolated.section--tight p {
-  font-size: 28px;
+  font-size: 14px;
 }
 .section--text-centered {
   text-align: center;
