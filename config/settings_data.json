@@ -423,7 +423,7 @@
         "type": "recently-viewed-products",
         "settings": {
           "title": "Visto recientemente",
-          "show_quick_buy": false
+          "show_quick_buy": true
         }
       },
       "df7fd77a-0fe2-4b9c-9042-fa99584f9b11": {
@@ -437,7 +437,7 @@
           "products_count": 12,
           "layout": "vertical",
           "stack_products": false,
-          "show_quick_buy": false,
+          "show_quick_buy": true,
           "link_title": "Ver todo",
           "link_url": ""
         }
