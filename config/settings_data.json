@@ -10,7 +10,7 @@
     "accent_color": "#007bff",
     "link_color": "#007bff",
     "border_color": "rgba(0,0,0,0)",
-    "background": "#f1f2f9",
+    "background": "#f7f7f7",
     "secondary_background": "#ffffff",
     "error_color": "#ff0000",
     "success_color": "#00aa00",
@@ -642,9 +642,9 @@
         "settings": {
           "button_color": "#006adc",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "\n👋 Hola. Si tienes preguntas, envía un mensaje. Estamos aquí para ayudar."
         }
       }
