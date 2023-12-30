@@ -10645,7 +10645,16 @@ select::-ms-expand {
   border-bottom-left-radius: 5px; /* Curva apenas o canto inferior esquerdo */
   border-bottom-right-radius: 5px; /* Curva apenas o canto inferior direito */
 }
-
+.section__title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #f6c125;
+  border-radius: 0 0 5px 5px; /* Curva apenas a parte inferior */
+}
 .section__action-link {
   margin-left: 20px;
   flex-shrink: 0;
