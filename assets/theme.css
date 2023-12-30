@@ -10650,7 +10650,6 @@ select::-ms-expand {
   height: 6px;
   width: fit-content; /* Ajusta dinamicamente à largura do texto */
   border-radius: 10px;
-  display: inline-block; /* Garante que a linha se estenda apenas até a largura do texto */
 }
 .section__action-link {
   margin-left: 20px;
