@@ -10642,17 +10642,16 @@ select::-ms-expand {
   align-items: baseline;
 }
 
-.section__title::before {
+.section__title::after {
   content: '';
-  position: absolute;
+  display: flex;
   bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  background: #f6c125;
   height: 6px;
-  background-color: #f6c125;
-  border-radius: 5px 5px 0 0; /* Curva apenas a parte inferior */
-  box-shadow: 0 4px 0 #f6c125; /* Cria a borda inferior */
-  z-index: -1; /* Move o pseudo-elemento para trás do conteúdo */
+  width: 90%;
+  border-radius: 10px;
 }
 .section__action-link {
   margin-left: 20px;
