@@ -428,7 +428,9 @@
       </div>
     </div>
   </header>
-{% render 'barradegrade' %}
+{% if is_desktop %}
+  {% render 'barradegrade' %}
+{% endif %}
   {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
     <nav class="nav-bar">
       <div class="nav-bar__inner">
