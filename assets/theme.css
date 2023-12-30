@@ -5992,6 +5992,7 @@ select::-ms-expand {
 .search-bar__submit svg {
   position: relative;
   margin-top: 9px;
+  color: black;
 }
 
 .search-bar__submit .icon--search {
