@@ -9033,6 +9033,9 @@ select::-ms-expand {
 .installments-cards {
   font-size:13px!important;
   margin-top: 2px!important;
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
+  display: inline-flex;
+  align-items: baseline;
 }
 
 .installment-numbers-cards {
@@ -9041,6 +9044,7 @@ select::-ms-expand {
    color: #D30404;
    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
    font-weight: 700;
+   
 }
          
 .installment-price-cards {
@@ -9058,7 +9062,7 @@ select::-ms-expand {
 /* ~+~+~+~+~+~+~+ Mobile ~+~+~+~+~+~+~+~ */
  
 .installments-cards {
-  font-size:13px!important;
+  font-size: 13px!important;
   margin-top: 2px!important;
   font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-s;
 }
