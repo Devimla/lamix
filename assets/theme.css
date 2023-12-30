@@ -10645,7 +10645,6 @@ select::-ms-expand {
 .section__title::before {
   content: '';
   position: absolute;
-  bottom: -4px; /* Ajuste conforme necessário para a altura da borda */
   left: 0;
   width: 100%; /* Estende por toda a largura do contêiner */
   height: 4px;
