@@ -13768,10 +13768,12 @@ select::-ms-expand {
 }
 
 .product-item:hover {
-  transform: scale(0.9); !importante /* Pode ajustar conforme necessário */
-  width: 110%; !importante /* Ajuste a largura conforme necessário */
-  height: 110%; !important /* Ajuste a altura conforme necessário */
-}
+  margin-top: -6px;
+  margin-bottom: 6px;
+  transform: scale(.97);
+  cursor: pointer;
+  }
+
 
 .product-item.title {
   cursor: pointer; !important
