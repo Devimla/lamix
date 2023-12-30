@@ -13841,11 +13841,3 @@ select::-ms-expand {
     height: 50px !important; /* Ajuste o tamanho conforme necessário */
   }
 }
-/* Estilos específicos para telas maiores que 768 pixels (exemplo: PCs) */
-@media (min-width: 768px) {
-  .icon-state .icon-state__primary,
-  .icon-state .icon-state__secondary {
-      width: 50px; /* Ajuste o tamanho conforme necessário */
-      height: 50px; /* Ajuste o tamanho conforme necessário */
-  }
-}
