@@ -10645,12 +10645,13 @@ select::-ms-expand {
 .section__title::before {
   content: '';
   position: absolute;
+  bottom: 0;
   left: 0;
-  width: 100%; /* Estende por toda a largura do contêiner */
+  width: 100%;
   height: 4px;
   background-color: #f6c125;
   border-radius: 5px 5px 0 0; /* Curva apenas a parte inferior */
-  box-shadow: 0 4px 0 #f6c125; /* Cria a borda inferior */
+  z-index: -1; /* Move o pseudo-elemento para trás do conteúdo */
 }
 .section__action-link {
   margin-left: 20px;
