@@ -4088,7 +4088,7 @@ img.lazyload[data-sizes=auto] {
 
 .product-item--vertical .product-item__info {
   justify-content: space-between;
-  flex: 1 0 auto;
+  flex: 0 auto;
 }
 
 .product-list__column {
