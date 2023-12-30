@@ -409,7 +409,9 @@
               <div class="header__action-item-content">
                 <div class="header__cart-icon icon-state" aria-expanded="false">
                   <span class="icon-state__primary">
-                    {%- render 'icon', icon: 'cart' -%}
+
+    {% section 'cartcoco' %}
+
                     <span class="header__cart-count">{{ cart.item_count }}</span>
                   </span>
 
