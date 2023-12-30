@@ -13763,8 +13763,34 @@ select::-ms-expand {
 /* link de hospedagem da fonte do Mercado Livre. */
 @font-face {font-family:'Proxima Nova';font-weight:300;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf) format("truetype")}
 @font-face{font-family:'Proxima Nova';font-weight:400;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")}
+.product-item {
+  transition: all 0.3s ease;!important/* Adiciona uma transição suave para todas as propriedades */
+}
+
+.product-item:hover {
+  transform: scale(0.9); !importante /* Pode ajustar conforme necessário */
+  width: 110%; !importante /* Ajuste a largura conforme necessário */
+  height: 110%; !important /* Ajuste a altura conforme necessário */
+}
+
+.product-item.title {
+  cursor: pointer; !important
+}
 @font-face{font-family:'Proxima Nova';font-weight:600;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")}
 /* link de hospedagem da fonte do Mercado Livre. */
+/* Ajuste a largura e a cor da linha conforme necessário */
+  padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
+  font-size: 13px;
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
+  margin: 0px 0px 0px 21px
+}
+@media only screen and (min-width: 
+600px) {
+  p.desktop-only {
+    width: 240px;
+  }
+}
 .aviso-usd {
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
@@ -13788,7 +13814,15 @@ select::-ms-expand {
   width: 170px;    /* Define a largura da imagem */
   height: auto;   /* Mantém a proporção original da altura (ajustável conforme necessário) */
 }
-@media only screen and (min-width: 600px) {
+
+
+
+
+
+
+  
+@media only screen and (min-width: 
+600px) {
   p.desktop-only {
     width: 240px;
   }
