@@ -10640,7 +10640,7 @@ select::-ms-expand {
 }
 .section__title::after {
   content: '';
-
+  display: flex;
   bottom: 0;
   left: 0;
   right: 0;
@@ -10648,7 +10648,7 @@ select::-ms-expand {
   height: 6px;
   width: 90%;
   border-radius: 10px;
-  display: inline-block; /* Garante que a linha se estenda apenas até a largura do texto */
+
 }
 .section__action-link {
   margin-left: 20px;
