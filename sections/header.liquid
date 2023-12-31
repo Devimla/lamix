@@ -36,27 +36,6 @@
           DESKTOP NAV
           --------------------------------------------------------------------------------------
         {%- endcomment -%}
-  <!-- INICIO CODIGO - BARRA DEGRADE --> 
-<div class="container-fluid color-line" style="
-margin: 0px 0px 0px; display: block!important;
-background: linear-gradient(to right, 
-  
-/* Inicio alteração da Cor do Degrade */
-rgba(255,255,255,1) 0%, rgba(246,193,37,1) 11%, rgba(0,123,255,1) 49%, rgba(0,78,255,1)
-/* Fim alteração da Cor do Degrade */
-  
-  );
-height: 1px;
-width: 100%;
-background-image: linear-gradient(to right, 
-  
-/* Inicio alteração da Cor do Degrade */
-rgba(255,255,255,1) 0%, rgba(246,193,37,1) 11%, rgba(0,123,255,1) 49%, rgba(0,78,255,1)
-/* Fim alteração da Cor do Degrade */
-
-);
-"></div>
-<!-- FIM CODIGO - BARRA DEGRADE --> 
 
         {%- if section.settings.desktop_navigation_layout == 'condensed' and navigation_menu.links.size > 0 -%}
           <nav class="header__desktop-nav hidden-pocket">
@@ -448,8 +427,10 @@ rgba(255,255,255,1) 0%, rgba(246,193,37,1) 11%, rgba(0,123,255,1) 49%, rgba(0,78
         </div>
       </div>
     </div>
+    {% render 'barradegrade' if request.is_desktop %}
   </header>
 {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
+{%- endif -%}
   {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
     <nav class="nav-bar">
       <div class="nav-bar__inner">
