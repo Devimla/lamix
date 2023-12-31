@@ -10658,7 +10658,7 @@ select::-ms-expand {
 }
 .section__action-link {
   margin-left: 20px;
-  font-size: 24px;
+  font-size: 20px;
   flex-shrink: 0;
   font-weight: var(--text-font-bolder-weight);
   color: var(--accent-color);
