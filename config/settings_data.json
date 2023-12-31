@@ -436,8 +436,8 @@
           "title": "Los más vendidos",
           "products_count": 12,
           "layout": "vertical",
-          "stack_products": false,
-          "show_quick_buy": true,
+          "stack_products": true,
+          "show_quick_buy": false,
           "link_title": "Ver todo",
           "link_url": ""
         }
