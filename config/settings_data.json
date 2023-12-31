@@ -265,13 +265,13 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_vendor": true,
+          "show_vendor": false,
           "show_sku": false,
           "show_share_buttons": false,
           "show_taxes_included": true,
           "selector_mode": "block",
           "color_mode": "variant_image",
-          "show_quantity_selector": false,
+          "show_quantity_selector": true,
           "show_payment_button": true,
           "show_pickup_availability": false,
           "image_size": "small",
