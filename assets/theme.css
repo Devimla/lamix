@@ -12799,7 +12799,7 @@ select::-ms-expand {
 
 .quantity-selector--product .quantity-selector__value {
   height: 100%;
-  min-width: 64px;
+  min-width: 50px;
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
   color: var(--heading-color);
