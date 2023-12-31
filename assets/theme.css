@@ -10658,13 +10658,14 @@ select::-ms-expand {
 }
 .section__action-link {
   margin-left: 20px;
+  font-size: 24px;
   flex-shrink: 0;
   font-weight: var(--text-font-bolder-weight);
   color: var(--accent-color);
 }
 
 .section__action-link svg {
-  display: none;
+  display: inline;
 }
 
 /* The header stack is used when we display more info like a countdown timer */
