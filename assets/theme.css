@@ -10663,7 +10663,15 @@ select::-ms-expand {
   font-weight: var(--text-font-bolder-weight);
   color: var(--accent-color);
 }
-
+@media screen and (min-width: 641px) {
+.section__action-link {
+  margin-left: 20px;
+  font-size: 22px;
+  flex-shrink: 0;
+  font-weight: var(--text-font-bolder-weight);
+  color: var(--accent-color);
+}
+}
 .section__action-link svg {
   display: inline;
 }
