@@ -36,6 +36,9 @@ body {
   object-fit: cover;
   border-color: 2px red solid;
 }
+.img-0auto img {
+  margin: 0;
+}
 .jdgm-widget *{
   margin: 0px 0px 7px !important;
 }
