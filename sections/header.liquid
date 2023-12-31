@@ -427,6 +427,7 @@
         </div>
       </div>
     </div>
+      {% render 'barradegrade' %}
   </header>
   {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
       {% render 'barradegrade' if request.is_desktop %}
