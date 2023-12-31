@@ -430,9 +430,9 @@
   </header>
   {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
     <nav class="nav-bar">
+    {% render 'barradegrade' if request.is_desktop %}
       <div class="nav-bar__inner">
         <div class="container">
-        {% render 'barradegrade' if request.is_desktop %}
           <ul class="nav-bar__linklist list--unstyled" data-type="menu" role="list">
             {%- for link in navigation_menu.links -%}
               <li class="nav-bar__item">
