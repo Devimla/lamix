@@ -71,7 +71,7 @@ body {
 }
 .jdgm-carousel-item__product-image {
   display: inline !important;
-  height: 100% !important;
+  height: 150% !important;
   width: auto;
   margin: 0 auto;
 }
