@@ -5368,7 +5368,7 @@ select::-ms-expand {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
-    padding: 19px 0;
+    padding: 5px 0;
   }
 
   .footer__collapsible {
