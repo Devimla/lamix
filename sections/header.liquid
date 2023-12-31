@@ -12,7 +12,6 @@
 
 <section data-section-id="{{ section.id }}" data-section-type="header" data-section-settings='{{ section_settings }}'>
   <header class="header header--{{ section.settings.desktop_navigation_layout }} {% unless section.settings.show_condensed_search %}header--search-expanded{% endunless %}" role="banner">
-      {% render 'barradegrade' if is_desktop %}
     <div class="container">
       <div class="header__inner">
         {%- comment -%}
@@ -37,6 +36,27 @@
           DESKTOP NAV
           --------------------------------------------------------------------------------------
         {%- endcomment -%}
+  <!-- INICIO CODIGO - BARRA DEGRADE --> 
+<div class="container-fluid color-line" style="
+margin: 0px 0px 0px; display: block!important;
+background: linear-gradient(to right, 
+  
+/* Inicio alteração da Cor do Degrade */
+rgba(255,255,255,1) 0%, rgba(246,193,37,1) 11%, rgba(0,123,255,1) 49%, rgba(0,78,255,1)
+/* Fim alteração da Cor do Degrade */
+  
+  );
+height: 1px;
+width: 100%;
+background-image: linear-gradient(to right, 
+  
+/* Inicio alteração da Cor do Degrade */
+rgba(255,255,255,1) 0%, rgba(246,193,37,1) 11%, rgba(0,123,255,1) 49%, rgba(0,78,255,1)
+/* Fim alteração da Cor do Degrade */
+
+);
+"></div>
+<!-- FIM CODIGO - BARRA DEGRADE --> 
 
         {%- if section.settings.desktop_navigation_layout == 'condensed' and navigation_menu.links.size > 0 -%}
           <nav class="header__desktop-nav hidden-pocket">
