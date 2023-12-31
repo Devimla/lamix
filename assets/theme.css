@@ -10667,7 +10667,11 @@ select::-ms-expand {
 .section__action-link svg {
   display: inline;
 }
-
+@media screen and (max-width: 641px) {
+.section__action-link svg {
+  display: none;
+}
+}
 /* The header stack is used when we display more info like a countdown timer */
 .section__header-stack {
   display: flex;
