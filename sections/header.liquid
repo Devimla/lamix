@@ -12,6 +12,7 @@
 
 <section data-section-id="{{ section.id }}" data-section-type="header" data-section-settings='{{ section_settings }}'>
   <header class="header header--{{ section.settings.desktop_navigation_layout }} {% unless section.settings.show_condensed_search %}header--search-expanded{% endunless %}" role="banner">
+      {% render 'barradegrade' if is_desktop %}
     <div class="container">
       <div class="header__inner">
         {%- comment -%}
@@ -428,9 +429,7 @@
       </div>
     </div>
   </header>
-{% if is_desktop %}
-  {% render 'barradegrade' %}
-{% endif %}
+{%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
   {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
     <nav class="nav-bar">
       <div class="nav-bar__inner">
