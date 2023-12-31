@@ -34,7 +34,6 @@ body {
 .img-descricao img {
   width: 100%;
   object-fit: cover;
-  border-color: 2px red solid;
 }
 .img-0auto img {
   margin: 0;
