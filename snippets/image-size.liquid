@@ -25,6 +25,7 @@ something that is displayed on the screen.
 
 {%- if supported_sizes == blank -%}
  {%- assign supported_sizes = image.width -%}
+ {{- image | lazyload: true width: 300 -}}
 {%- endif -%}
 
 {{- supported_sizes | split: ',' | compact | join: ',' | lazyload: true -}}
