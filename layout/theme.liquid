@@ -38,7 +38,7 @@
     {% render 'social-meta-tags' %}
     {% render 'css-variables' %}
 
-    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
+    {{ content_for_header }}
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
@@ -157,5 +157,6 @@
         });
       });
     </script>
-  </body>
+  {{'tiny-img-link-preloader.js' | asset_url | script_tag }}
+</body>
 </html>
