@@ -100,7 +100,7 @@ body {
   margin: 3px;
 }
 .jdgm-rev__icon {
-  width: 60px
+  width: 60px;
   height: 60px;
 }
 /**
@@ -2916,7 +2916,6 @@ img.lazyload[data-sizes=auto] {
 .mini-cart {
   position: absolute;
   width: 100vw;
-  height: ;
   border-bottom: 2px solid #007bff;
   left: 0;
   top: 100%;
@@ -13799,23 +13798,32 @@ select::-ms-expand {
 
 
 .product-item.title {
-  cursor: pointer; !important
+  cursor: pointer !important; 
 }
-@font-face{font-family:'Proxima Nova';font-weight:600;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")}
-/* link de hospedagem da fonte do Mercado Livre. */
-/* Ajuste a largura e a cor da linha conforme necessário */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+  src: url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),
+       url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),
+       url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype");
+}
+body {
   padding-left: 5px; /* Ajuste o espaçamento à esquerda conforme necessário */
   font-size: 13px;
-  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: 'Proxima Nova', -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
-  margin: 0px 0px 0px 21px
-
-@media only screen and (min-width: 
-600px) {
-  p.desktop-only {
-    width: 240px;
-  }
+  margin: 0px 0px 0px 21px;
 }
+
+  @media only screen and (min-width: 600px) {
+    p.desktop-only {
+      width: 240px;
+    }
+  }
+  
+  
 .aviso-usd {
   color: #000;
   border-left: 2px solid #007bff; /* Ajuste a largura e a cor da linha conforme necessário */
@@ -13849,7 +13857,7 @@ select::-ms-expand {
 @media (min-width: 1280px) {
   /* Estilos específicos para dispositivos com uma largura de tela de pelo menos 768 pixels (exemplo: PCs) */
   .desktop-svg {
-    width: 50px; !important;/* Ajuste o tamanho conforme necessário */
+    width: 50px !important;/* Ajuste o tamanho conforme necessário */
     height: 50px !important; /* Ajuste o tamanho conforme necessário */
   }
 }
