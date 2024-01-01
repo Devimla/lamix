@@ -1,0 +1,7 @@
+<div class="container-fluid color-line" style="
+  margin: 0px 0px 0px;
+  display: block!important;
+  height: 5px;
+  width: 100%;
+  border-bottom: 1px solid #ccc; /* Adiciona uma linha cinza de 1 pixel de espessura */
+"></div>

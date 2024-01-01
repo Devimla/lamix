@@ -457,7 +457,7 @@
     </nav>
   {%- endif -%}
 </section>
-
+    {% render 'linhaheader'%}
 <style>
   :root {
     --header-is-sticky: {% if section.settings.enable_sticky_header %}1{% else %}0{% endif %};
