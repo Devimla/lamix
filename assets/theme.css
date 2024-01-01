@@ -5620,6 +5620,7 @@ select::-ms-expand {
      overlap the rest of the content */
   .header--search-expanded {
     margin-bottom: 59px;
+    z-index: 1; /* Ajuste o valor conforme necessário */
   }
 }
 
