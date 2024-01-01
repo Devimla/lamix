@@ -13852,6 +13852,6 @@ select::-ms-expand {
     height: 50px !important; /* Ajuste o tamanho conforme necessário */
   }
 }
-img {
-  width: 300px;
+.container-fluid.color-line {
+  z-index: 0; /* Ajuste o valor conforme necessário */
 }
