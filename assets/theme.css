@@ -233,8 +233,7 @@ input[type=submit] {
   background: none;
   border: none;
   border-radius: 0;
-  -webkit-appearance: none; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-appearance: none;
 }
 
 button,
@@ -246,8 +245,7 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-  -webkit-appearance: button; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  appearance: button; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-appearance: button;
   cursor: pointer;
 }
 
@@ -264,11 +262,9 @@ input::-moz-focus-inner {
 
 input {
   line-height: normal;
-  -moz-appearance: none; /* Prefixo específico do fornecedor para navegadores Mozilla Firefox */
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -moz-appearance: none;
   border-radius: 0;
 }
-
 
 input[type=checkbox],
 input[type=radio] {
@@ -282,11 +278,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=search] {
-  -webkit-appearance: none; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-appearance: none;
   box-sizing: content-box;
 }
-
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
@@ -792,11 +786,10 @@ th {
   overflow: hidden;
   touch-action: none;
   z-index: 1500;
-  -webkit-backface-visibility: hidden; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  backface-visibility: hidden; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-backface-visibility: hidden;
   outline: none;
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
 }
+
 .pswp img {
   max-width: none;
 }
@@ -835,8 +828,7 @@ th {
   background: var(--secondary-background);
   opacity: 0;
   transform: translateZ(0);
-  -webkit-backface-visibility: hidden; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  backface-visibility: hidden; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-backface-visibility: hidden;
   will-change: opacity;
 }
 
@@ -893,10 +885,8 @@ th {
 
 .pswp__container,
 .pswp__zoom-wrap {
-  -webkit-backface-visibility: hidden; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  backface-visibility: hidden; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-backface-visibility: hidden;
 }
-
 
 .pswp__item {
   position: absolute;
@@ -4616,7 +4606,7 @@ img.lazyload[data-sizes=auto] {
  * --------------------------------------------------------------------
  */
 
- .form__field {
+.form__field {
   display: block;
   padding: 12px 12px;
   border-radius: 10px;
@@ -4627,11 +4617,10 @@ img.lazyload[data-sizes=auto] {
   height: 48px;
   color: var(--heading-color);
   background: var(--input-background);
-  -webkit-appearance: none; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-appearance: none;
   resize: none;
   font-size: 1rem;
-  font-size: max(1rem, 16px); /* Para navegadores modernos; definindo um valor mínimo de 16px é necessário para acessibilidade */
+  font-size: max(1rem, 16px); /* for modern browser ; setting a min value of 16px is required for accessibility */
   box-shadow: 0 1px rgba(var(--border-color-rgb), 0.25) inset;
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -4913,13 +4902,12 @@ select::-ms-expand {
 
 .select-wrapper select {
   /* Disable built-in styles */
-  -webkit-appearance: none; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  -moz-appearance: none; /* Prefixo específico do fornecedor para navegadores Mozilla Firefox */
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-appearance: none;
+  -moz-appearance: none;
   display: inline-block;
   color: inherit;
   cursor: pointer;
-  border-radius: 0; /* Remove o fundo azul indesejado no IE quando um valor é selecionado */
+  border-radius: 0; /* Remove the ugly blue background on IE when a value is selected */
 }
 
 .select-wrapper select:focus::-ms-value {
@@ -5078,8 +5066,7 @@ select::-ms-expand {
   background: var(--secondary-background);
   box-shadow: 0 1px rgba(var(--border-color-rgb), 0.4);
   border-radius: 2px;
-  -webkit-appearance: none; /* Prefixo específico do fornecedor para navegadores WebKit, como o Chrome e o Safari */
-  appearance: none; /* Propriedade padrão para compatibilidade com navegadores modernos */
+  -webkit-appearance: none;
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background 0.2s ease-in-out;
 }
 
@@ -5536,7 +5523,7 @@ select::-ms-expand {
 
 .header__logo-image {
   display: block;
-  margin: auto; /* Isso centraliza vertical e horizontalmente */
+  vertical-align: middle;
   max-height: 120px;
 }
 
