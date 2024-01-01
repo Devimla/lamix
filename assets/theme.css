@@ -13852,3 +13852,6 @@ select::-ms-expand {
     height: 50px !important; /* Ajuste o tamanho conforme necessário */
   }
 }
+img {
+  amp-img: true;
+}
