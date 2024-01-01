@@ -38,7 +38,7 @@
     {% render 'social-meta-tags' %}
     {% render 'css-variables' %}
 
-    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
+    {{ content_for_header }}
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
@@ -101,7 +101,7 @@
       <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
     {%- endif -%}
 
-    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+    <script src="{{ 'theme.min.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
     {%- if request.page_type != 'cart' -%}
@@ -148,14 +148,6 @@
     <ul hidden>
       <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
     </ul>
-    <script>
-      // Adicione o código para lazy loading aqui
-      document.addEventListener("DOMContentLoaded", function() {
-        var lazyImages = document.querySelectorAll('img[loading="lazy"]');
-        lazyImages.forEach(function(img) {
-          img.setAttribute('loading', 'lazy');
-        });
-      });
-    </script>
-  </body>
+    
+</body>
 </html>
