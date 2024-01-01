@@ -290,8 +290,8 @@
           "trust_title": "Pago y Seguridad",
           "show_payment_icons": true,
           "custom_security_badge_width": 180,
-          "show_shipping_estimator": false,
-          "shipping_estimator_default_country": "",
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "México",
           "show_refunds_policy": true
         }
       },
@@ -629,12 +629,6 @@
       "a38322c5-0cc0-4368-adb7-d079e17c82fd"
     ],
     "blocks": {
-      "776302416715791028": {
-        "type": "shopify:\/\/apps\/bucks-currency-converter-pro\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
