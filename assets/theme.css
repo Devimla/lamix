@@ -13811,7 +13811,6 @@ select::-ms-expand {
 }
 body {
   font-family: 'Proxima Nova', -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  line-height: 1.0 !important; /* Ajuste o valor conforme necessário */
 }
 
   @media only screen and (min-width: 600px) {
