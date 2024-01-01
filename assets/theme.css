@@ -13853,6 +13853,6 @@ select::-ms-expand {
   }
 }
 img {
-  amp-img: true;
   width: 100%;
+  lazyload: true;
 }
