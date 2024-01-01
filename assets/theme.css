@@ -6354,7 +6354,7 @@ select::-ms-expand {
     -webkit-appearance: none;  
     border: 1px solid rgba(255, 255, 255, 0.5); 
   }
-
+}
 .map {
   padding: 0 20px;
   background: var(--secondary-background);
@@ -13787,7 +13787,7 @@ select::-ms-expand {
 @font-face {font-family:'Proxima Nova';font-weight:300;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf) format("truetype")}
 @font-face{font-family:'Proxima Nova';font-weight:400;font-display:swap;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")}
 .product-item {
-  transition: all 0.3s ease !important;/* Adiciona uma transição suave para todas as propriedades */
+  transition: all 0.3s ease;!important/* Adiciona uma transição suave para todas as propriedades */
 }
 
 .product-item:hover {
@@ -13809,6 +13809,9 @@ select::-ms-expand {
   src: url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),
        url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),
        url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype");
+}
+body {
+  font-family: 'Proxima Nova', -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
   @media only screen and (min-width: 600px) {
