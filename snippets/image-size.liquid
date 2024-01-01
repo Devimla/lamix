@@ -9,13 +9,13 @@ As an output, it will render the supported sizes that can be captured
 {%- assign supported_sizes = '' -%}
 
 {%- for size in desired_sizes -%}
- {%- assign size_as_int = size | times: 1 -%}
+  {%- assign size_as_int = size | times: 1 -%}
 
-{%- if image.width < size_as_int -%}
-  {%- break -%}
- {%- endif -%}
+  {%- if image.width < size_as_int -%}
+    {%- break -%}
+  {%- endif -%}
 
-{%- assign supported_sizes = supported_sizes | append: size | append: ',' -%}
+  {%- assign supported_sizes = supported_sizes | append: size | append: ',' -%}
 {%- endfor -%}
 
 {%- comment -%}
@@ -24,8 +24,7 @@ something that is displayed on the screen.
 {%- endcomment -%}
 
 {%- if supported_sizes == blank -%}
- {%- assign supported_sizes = image.width -%}
- {{- image | lazyload: true width: 300 -}}
+  {%- assign supported_sizes = image.width -%}
 {%- endif -%}
 
-{{- supported_sizes | split: ',' | compact | join: ',' | lazyload: true -}}
+{{- supported_sizes | split: ',' | compact | join: ',' -}}
